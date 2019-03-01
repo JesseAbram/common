@@ -8,7 +8,7 @@
 
 ▸ **assert**<`T`>(test: *`Falsy` \| `T`*, message: *`string` \| `MessageFn`*, code?: *`number`*, data?: *`any`*): `boolean`
 
-*Defined in [assert.ts:28](https://github.com/polkadot-js/common/blob/701b225/packages/util/src/assert.ts#L28)*
+*Defined in [assert.ts:28](https://github.com/polkadot-js/common/blob/179aa84/packages/util/src/assert.ts#L28)*
 
 *__name__*: assert
 
