@@ -17,6 +17,8 @@
   * [Memory](classes/_memory_.memory.md)
 * [&quot;engines/FileTreeDb&quot;](modules/_engines_filetreedb_.md)
   * [FileTreeDb](classes/_engines_filetreedb_.filetreedb.md)
+* [&quot;engines/LmDb&quot;](modules/_engines_lmdb_.md)
+  * [LmDb](classes/_engines_lmdb_.lmdb.md)
 * [&quot;engines/LruDb&quot;](modules/_engines_lrudb_.md)
   * [LruDb](classes/_engines_lrudb_.lrudb.md)
 * [&quot;engines/MemoryDb&quot;](modules/_engines_memorydb_.md)
