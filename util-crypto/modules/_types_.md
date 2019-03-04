@@ -8,7 +8,7 @@
 
 **Ƭ KeypairType**: *`object`*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/1f0674c/packages/util-crypto/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/9a3468d/packages/util-crypto/src/types.ts#L5)*
 
 #### Type declaration
 

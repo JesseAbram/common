@@ -8,7 +8,7 @@
 
 ▸ **hexToBn**(value?: *`string` \| `number` \| `null`*, options?: *[ToBnOptions](../interfaces/_types_.tobnoptions.md) \| `boolean`*): `BN`
 
-*Defined in [hex/toBn.ts:35](https://github.com/polkadot-js/common/blob/1f0674c/packages/util/src/hex/toBn.ts#L35)*
+*Defined in [hex/toBn.ts:35](https://github.com/polkadot-js/common/blob/9a3468d/packages/util/src/hex/toBn.ts#L35)*
 
 *__name__*: hexToBn
 
