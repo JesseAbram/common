@@ -50,7 +50,6 @@
 * [&quot;string/shorten&quot;](modules/_string_shorten_.md)
 * [&quot;string/toU8a&quot;](modules/_string_tou8a_.md)
 * [&quot;string/upperFirst&quot;](modules/_string_upperfirst_.md)
-* [&quot;syncify&quot;](modules/_syncify_.md)
 * [&quot;types&quot;](modules/_types_.md)
   * [ExtErrorInterface](interfaces/_types_.exterrorinterface.md)
   * [ToBnOptions](interfaces/_types_.tobnoptions.md)
