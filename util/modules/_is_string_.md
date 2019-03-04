@@ -8,7 +8,7 @@
 
 ▸ **isString**(value: *`any`*): `boolean`
 
-*Defined in [is/string.ts:19](https://github.com/polkadot-js/common/blob/5bd08ca/packages/util/src/is/string.ts#L19)*
+*Defined in [is/string.ts:19](https://github.com/polkadot-js/common/blob/962e18c/packages/util/src/is/string.ts#L19)*
 
 *__name__*: isString
 

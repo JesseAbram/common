@@ -8,7 +8,7 @@
 
 ▸ **toSeedEntropy**(mnemonic: *`string`*, password?: *`string`*): `Uint8Array`
 
-*Defined in [mnemonic/toSeedEntropy.ts:10](https://github.com/polkadot-js/common/blob/5bd08ca/packages/util-crypto/src/mnemonic/toSeedEntropy.ts#L10)*
+*Defined in [mnemonic/toSeedEntropy.ts:10](https://github.com/polkadot-js/common/blob/962e18c/packages/util-crypto/src/mnemonic/toSeedEntropy.ts#L10)*
 
 **Parameters:**
 
