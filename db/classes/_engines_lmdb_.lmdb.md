@@ -16,7 +16,7 @@
 
 ⊕ **new LmDb**(base: *`string`*, name: *`string`*, options?: *[BaseDbOptions](../modules/_types_.md#basedboptions)*): [LmDb](_engines_lmdb_.lmdb.md)
 
-*Defined in [engines/LmDb.ts:21](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L21)*
+*Defined in [engines/LmDb.ts:21](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L21)*
 
 **Parameters:**
 
@@ -40,7 +40,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[close](../interfaces/_types_.basedb.md#close)*
 
-*Defined in [engines/LmDb.ts:62](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L62)*
+*Defined in [engines/LmDb.ts:62](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L62)*
 
 **Returns:** `void`
 
@@ -53,7 +53,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[del](../interfaces/_types_.basedb.md#del)*
 
-*Defined in [engines/LmDb.ts:119](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L119)*
+*Defined in [engines/LmDb.ts:119](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L119)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[drop](../interfaces/_types_.basedb.md#drop)*
 
-*Defined in [engines/LmDb.ts:75](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L75)*
+*Defined in [engines/LmDb.ts:75](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L75)*
 
 **Returns:** `void`
 
@@ -85,7 +85,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[empty](../interfaces/_types_.basedb.md#empty)*
 
-*Defined in [engines/LmDb.ts:79](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L79)*
+*Defined in [engines/LmDb.ts:79](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L79)*
 
 **Returns:** `void`
 
@@ -98,7 +98,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[get](../interfaces/_types_.basedb.md#get)*
 
-*Defined in [engines/LmDb.ts:123](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L123)*
+*Defined in [engines/LmDb.ts:123](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L123)*
 
 **Parameters:**
 
@@ -117,7 +117,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[maintain](../interfaces/_types_.basedb.md#maintain)*
 
-*Defined in [engines/LmDb.ts:83](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L83)*
+*Defined in [engines/LmDb.ts:83](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L83)*
 
 **Parameters:**
 
@@ -136,7 +136,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[open](../interfaces/_types_.basedb.md#open)*
 
-*Defined in [engines/LmDb.ts:68](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L68)*
+*Defined in [engines/LmDb.ts:68](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L68)*
 
 **Returns:** `void`
 
@@ -149,7 +149,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[put](../interfaces/_types_.basedb.md#put)*
 
-*Defined in [engines/LmDb.ts:143](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L143)*
+*Defined in [engines/LmDb.ts:143](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L143)*
 
 **Parameters:**
 
@@ -169,7 +169,7 @@ ___
 
 *Implementation of [BaseDb](../interfaces/_types_.basedb.md).[rename](../interfaces/_types_.basedb.md#rename)*
 
-*Defined in [engines/LmDb.ts:91](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L91)*
+*Defined in [engines/LmDb.ts:91](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L91)*
 
 **Parameters:**
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **size**(withExistsSync?: *`boolean`*): `number`
 
-*Defined in [engines/LmDb.ts:95](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L95)*
+*Defined in [engines/LmDb.ts:95](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L95)*
 
 **Parameters:**
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **txCommit**(): `void`
 
-*Defined in [engines/LmDb.ts:103](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L103)*
+*Defined in [engines/LmDb.ts:103](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L103)*
 
 **Returns:** `void`
 
@@ -215,7 +215,7 @@ ___
 
 ▸ **txRevert**(): `void`
 
-*Defined in [engines/LmDb.ts:108](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L108)*
+*Defined in [engines/LmDb.ts:108](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L108)*
 
 **Returns:** `void`
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **txStart**(): `void`
 
-*Defined in [engines/LmDb.ts:113](https://github.com/polkadot-js/common/blob/6df8d6b/packages/db/src/engines/LmDb.ts#L113)*
+*Defined in [engines/LmDb.ts:113](https://github.com/polkadot-js/common/blob/c85a727/packages/db/src/engines/LmDb.ts#L113)*
 
 **Returns:** `void`
 
