@@ -8,7 +8,7 @@
 
 ▸ **isUndefined**(value?: *`any`*): `boolean`
 
-*Defined in [is/undefined.ts:19](https://github.com/polkadot-js/common/blob/c85a727/packages/util/src/is/undefined.ts#L19)*
+*Defined in [is/undefined.ts:19](https://github.com/polkadot-js/common/blob/9e9910e/packages/util/src/is/undefined.ts#L19)*
 
 *__name__*: isUndefined
 

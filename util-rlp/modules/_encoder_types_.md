@@ -8,7 +8,7 @@
 
 **Ƭ EncodeFunc**: *`function`*
 
-*Defined in [encoder/types.ts:5](https://github.com/polkadot-js/common/blob/c85a727/packages/util-rlp/src/encoder/types.ts#L5)*
+*Defined in [encoder/types.ts:5](https://github.com/polkadot-js/common/blob/9e9910e/packages/util-rlp/src/encoder/types.ts#L5)*
 
 #### Type declaration
 ▸(input: *`any`*): `Uint8Array`
