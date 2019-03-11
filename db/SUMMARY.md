@@ -23,6 +23,8 @@
   * [LruDb](classes/_engines_lrudb_.lrudb.md)
 * [&quot;engines/MemoryDb&quot;](modules/_engines_memorydb_.md)
   * [MemoryDb](classes/_engines_memorydb_.memorydb.md)
+* [&quot;engines/RocksDb&quot;](modules/_engines_rocksdb_.md)
+  * [Rocks](classes/_engines_rocksdb_.rocks.md)
 * [&quot;engines/TransactionDb&quot;](modules/_engines_transactiondb_.md)
   * [TransactionDb](classes/_engines_transactiondb_.transactiondb.md)
 * [&quot;types&quot;](modules/_types_.md)

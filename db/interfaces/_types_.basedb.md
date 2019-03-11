@@ -12,6 +12,7 @@
 * [LmDb](../classes/_engines_lmdb_.lmdb.md)
 * [LruDb](../classes/_engines_lrudb_.lrudb.md)
 * [MemoryDb](../classes/_engines_memorydb_.memorydb.md)
+* [Rocks](../classes/_engines_rocksdb_.rocks.md)
 
 # Properties
 
@@ -21,7 +22,7 @@
 
 **● txCommit**: *`undefined` \| `function`*
 
-*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L27)*
+*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L27)*
 
 ___
 <a id="txrevert"></a>
@@ -30,7 +31,7 @@ ___
 
 **● txRevert**: *`undefined` \| `function`*
 
-*Defined in [types.ts:28](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L28)*
+*Defined in [types.ts:28](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L28)*
 
 ___
 <a id="txstart"></a>
@@ -39,7 +40,7 @@ ___
 
 **● txStart**: *`undefined` \| `function`*
 
-*Defined in [types.ts:29](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L29)*
+*Defined in [types.ts:29](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L29)*
 
 ___
 
@@ -51,7 +52,7 @@ ___
 
 ▸ **close**(): `void`
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L19)*
 
 **Returns:** `void`
 
@@ -62,7 +63,7 @@ ___
 
 ▸ **del**(key: *`Uint8Array`*): `void`
 
-*Defined in [types.ts:31](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L31)*
+*Defined in [types.ts:31](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L31)*
 
 **Parameters:**
 
@@ -79,7 +80,7 @@ ___
 
 ▸ **drop**(): `void`
 
-*Defined in [types.ts:21](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L21)*
+*Defined in [types.ts:21](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L21)*
 
 **Returns:** `void`
 
@@ -90,7 +91,7 @@ ___
 
 ▸ **empty**(): `void`
 
-*Defined in [types.ts:22](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L22)*
+*Defined in [types.ts:22](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L22)*
 
 **Returns:** `void`
 
@@ -101,7 +102,7 @@ ___
 
 ▸ **get**(key: *`Uint8Array`*): `Uint8Array` \| `null`
 
-*Defined in [types.ts:32](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L32)*
+*Defined in [types.ts:32](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L32)*
 
 **Parameters:**
 
@@ -118,7 +119,7 @@ ___
 
 ▸ **maintain**(fn: *[ProgressCb](../modules/_types_.md#progresscb)*): `void`
 
-*Defined in [types.ts:23](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L23)*
 
 **Parameters:**
 
@@ -135,7 +136,7 @@ ___
 
 ▸ **open**(): `void`
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L20)*
 
 **Returns:** `void`
 
@@ -146,7 +147,7 @@ ___
 
 ▸ **put**(key: *`Uint8Array`*, value: *`Uint8Array`*): `void`
 
-*Defined in [types.ts:33](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L33)*
+*Defined in [types.ts:33](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L33)*
 
 **Parameters:**
 
@@ -164,7 +165,7 @@ ___
 
 ▸ **rename**(base: *`string`*, file: *`string`*): `void`
 
-*Defined in [types.ts:24](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L24)*
 
 **Parameters:**
 
@@ -182,7 +183,7 @@ ___
 
 ▸ **size**(): `number`
 
-*Defined in [types.ts:25](https://github.com/polkadot-js/common/blob/302b70e/packages/db/src/types.ts#L25)*
+*Defined in [types.ts:25](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/db/src/types.ts#L25)*
 
 **Returns:** `number`
 
