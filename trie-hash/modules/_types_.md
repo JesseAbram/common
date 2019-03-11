@@ -8,7 +8,7 @@
 
 **Ƭ TriePair**: *`object`*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/trie-hash/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/fef3e85/packages/trie-hash/src/types.ts#L5)*
 
 #### Type declaration
 

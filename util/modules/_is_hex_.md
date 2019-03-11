@@ -8,7 +8,7 @@
 
 ▸ **isHex**(value: *`any`*, bitLength?: *`number`*, ignoreLength?: *`boolean`*): `boolean`
 
-*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/4ae7e4f/packages/util/src/is/hex.ts#L24)*
+*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/fef3e85/packages/util/src/is/hex.ts#L24)*
 
 *__name__*: isHex
 
