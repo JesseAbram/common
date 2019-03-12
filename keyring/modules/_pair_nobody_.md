@@ -8,7 +8,7 @@
 
 ▸ **everybody**(): [KeyringPair](../interfaces/_types_.keyringpair.md)
 
-*Defined in [pair/nobody.ts:25](https://github.com/polkadot-js/common/blob/fef3e85/packages/keyring/src/pair/nobody.ts#L25)*
+*Defined in [pair/nobody.ts:25](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/pair/nobody.ts#L25)*
 
 **Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
 

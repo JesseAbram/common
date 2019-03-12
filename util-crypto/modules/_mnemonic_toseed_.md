@@ -8,7 +8,7 @@
 
 ▸ **toSeed**(mnemonic: *`string`*): `Uint8Array`
 
-*Defined in [mnemonic/toSeed.ts:24](https://github.com/polkadot-js/common/blob/fef3e85/packages/util-crypto/src/mnemonic/toSeed.ts#L24)*
+*Defined in [mnemonic/toSeed.ts:24](https://github.com/polkadot-js/common/blob/2602a43/packages/util-crypto/src/mnemonic/toSeed.ts#L24)*
 
 *__name__*: toSeed
 

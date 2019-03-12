@@ -8,7 +8,7 @@
 
 ▸ **hexAddPrefix**(value?: *`string` \| `null`*): `string`
 
-*Defined in [hex/addPrefix.ts:21](https://github.com/polkadot-js/common/blob/fef3e85/packages/util/src/hex/addPrefix.ts#L21)*
+*Defined in [hex/addPrefix.ts:21](https://github.com/polkadot-js/common/blob/2602a43/packages/util/src/hex/addPrefix.ts#L21)*
 
 *__name__*: hexAddPrefix
 

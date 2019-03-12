@@ -28,6 +28,7 @@
 * [&quot;is/hex&quot;](modules/_is_hex_.md)
 * [&quot;is/instanceOf&quot;](modules/_is_instanceof_.md)
 * [&quot;is/ip&quot;](modules/_is_ip_.md)
+* [&quot;is/jsonObject&quot;](modules/_is_jsonobject_.md)
 * [&quot;is/null&quot;](modules/_is_null_.md)
 * [&quot;is/number&quot;](modules/_is_number_.md)
 * [&quot;is/object&quot;](modules/_is_object_.md)
