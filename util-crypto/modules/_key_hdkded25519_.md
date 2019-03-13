@@ -8,7 +8,7 @@
 
 ▸ **keyHdkdEd25519**(seed: *`Uint8Array`*, __namedParameters: *`object`*): `Uint8Array`
 
-*Defined in [key/hdkdEd25519.ts:12](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/util-crypto/src/key/hdkdEd25519.ts#L12)*
+*Defined in [key/hdkdEd25519.ts:12](https://github.com/polkadot-js/common/blob/4276420/packages/util-crypto/src/key/hdkdEd25519.ts#L12)*
 
 **Parameters:**
 
