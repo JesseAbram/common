@@ -6,9 +6,9 @@
 
 ##  testKeyring
 
-▸ **testKeyring**(options?: *[KeyringOptions](_types_.md#keyringoptions)*): [KeyringInstance](../interfaces/_types_.keyringinstance.md)
+▸ **testKeyring**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isHdKd?: *`boolean`*): [KeyringInstance](../interfaces/_types_.keyringinstance.md)
 
-*Defined in [testing.ts:41](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/testing.ts#L41)*
+*Defined in [testing.ts:18](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/testing.ts#L18)*
 
 *__name__*: testKeyring
 
@@ -18,9 +18,10 @@
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` options | [KeyringOptions](_types_.md#keyringoptions) |
+| Name | Type | Default value |
+| ------ | ------ | ------ |
+| `Optional` options | [KeyringOptions](_types_.md#keyringoptions) | - |
+| `Default value` isHdKd | `boolean` | false |
 
 **Returns:** [KeyringInstance](../interfaces/_types_.keyringinstance.md)
 

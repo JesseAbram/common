@@ -6,9 +6,9 @@
 
 ##  naclKeypairFromSeed
 
-▸ **naclKeypairFromSeed**(seed: *`Uint8Array`*): [KeypairType](_types_.md#keypairtype)
+▸ **naclKeypairFromSeed**(seed: *`Uint8Array`*): [Keypair](_types_.md#keypair)
 
-*Defined in [nacl/keypair/fromSeed.ts:23](https://github.com/polkadot-js/common/blob/2602a43/packages/util-crypto/src/nacl/keypair/fromSeed.ts#L23)*
+*Defined in [nacl/keypair/fromSeed.ts:23](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/util-crypto/src/nacl/keypair/fromSeed.ts#L23)*
 
 *__name__*: naclKeypairFromSeed
 
@@ -30,7 +30,7 @@ naclKeypairFromSeed(...); // => { secretKey: [...], publicKey: [...] }
 | ------ | ------ |
 | seed | `Uint8Array` |
 
-**Returns:** [KeypairType](_types_.md#keypairtype)
+**Returns:** [Keypair](_types_.md#keypair)
 
 ___
 

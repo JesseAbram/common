@@ -15,7 +15,6 @@
 * [KeyringPair$JsonEncoding](_types_.md#keyringpair_jsonencoding)
 * [KeyringPair$JsonVersion](_types_.md#keyringpair_jsonversion)
 * [KeyringPair$Meta](_types_.md#keyringpair_meta)
-* [KeyringPairType](_types_.md#keyringpairtype)
 
 ---
 
@@ -27,7 +26,7 @@
 
 **Ƭ KeyringOptions**: *`object`*
 
-*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L9)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/types.ts#L8)*
 
 #### Type declaration
 
@@ -38,7 +37,7 @@ ___
 
 **Ƭ KeyringPair$Json**: *`object`*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L26)*
+*Defined in [types.ts:25](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/types.ts#L25)*
 
 #### Type declaration
 
@@ -49,7 +48,7 @@ ___
 
 **Ƭ KeyringPair$JsonEncoding**: *`object`*
 
-*Defined in [types.ts:20](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L20)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/types.ts#L19)*
 
 #### Type declaration
 
@@ -60,7 +59,7 @@ ___
 
 **Ƭ KeyringPair$JsonVersion**: *"0" \| "1"*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L18)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/types.ts#L17)*
 
 ___
 <a id="keyringpair_meta"></a>
@@ -69,20 +68,11 @@ ___
 
 **Ƭ KeyringPair$Meta**: *`object`*
 
-*Defined in [types.ts:14](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L14)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/common/blob/f1ca4ee/packages/keyring/src/types.ts#L13)*
 
 #### Type declaration
 
 [index: `string`]: `any`
-
-___
-<a id="keyringpairtype"></a>
-
-##  KeyringPairType
-
-**Ƭ KeyringPairType**: *"ed25519" \| "sr25519"*
-
-*Defined in [types.ts:7](https://github.com/polkadot-js/common/blob/2602a43/packages/keyring/src/types.ts#L7)*
 
 ___
 
