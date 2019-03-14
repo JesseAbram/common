@@ -8,7 +8,7 @@
 
 ▸ **schnorrkelSecretFromSeed**(seed: *`Uint8Array`*): `Uint8Array`
 
-*Defined in [schnorrkel/secretFromSeed.ts:13](https://github.com/polkadot-js/common/blob/5240dbc/packages/util-crypto/src/schnorrkel/secretFromSeed.ts#L13)*
+*Defined in [schnorrkel/secretFromSeed.ts:13](https://github.com/polkadot-js/common/blob/1cd491b/packages/util-crypto/src/schnorrkel/secretFromSeed.ts#L13)*
 
 *__name__*: schnorrkelSecretFromSeed
 

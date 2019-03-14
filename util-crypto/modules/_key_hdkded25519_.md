@@ -8,7 +8,7 @@
 
 ▸ **keyHdkdEd25519**(__namedParameters: *`object`*, __namedParameters: *`object`*): [Seedpair](_types_.md#seedpair)
 
-*Defined in [key/hdkdEd25519.ts:13](https://github.com/polkadot-js/common/blob/5240dbc/packages/util-crypto/src/key/hdkdEd25519.ts#L13)*
+*Defined in [key/hdkdEd25519.ts:13](https://github.com/polkadot-js/common/blob/1cd491b/packages/util-crypto/src/key/hdkdEd25519.ts#L13)*
 
 **Parameters:**
 
