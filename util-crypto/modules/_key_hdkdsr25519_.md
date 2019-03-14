@@ -6,18 +6,18 @@
 
 ##  keyHdkdSr25519
 
-▸ **keyHdkdSr25519**(seed: *`Uint8Array`*, __namedParameters: *`object`*): `Uint8Array`
+▸ **keyHdkdSr25519**(__namedParameters: *`object`*, __namedParameters: *`object`*): [Seedpair](_types_.md#seedpair)
 
-*Defined in [key/hdkdSr25519.ts:13](https://github.com/polkadot-js/common/blob/e921161/packages/util-crypto/src/key/hdkdSr25519.ts#L13)*
+*Defined in [key/hdkdSr25519.ts:13](https://github.com/polkadot-js/common/blob/6049f09/packages/util-crypto/src/key/hdkdSr25519.ts#L13)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| seed | `Uint8Array` |
+| __namedParameters | `object` |
 | __namedParameters | `object` |
 
-**Returns:** `Uint8Array`
+**Returns:** [Seedpair](_types_.md#seedpair)
 
 ___
 

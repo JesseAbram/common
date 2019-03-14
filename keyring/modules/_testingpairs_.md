@@ -6,16 +6,16 @@
 
 ##  testKeyringPairs
 
-▸ **testKeyringPairs**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isHdKd?: *`boolean`*): `TestKeyringMap`
+▸ **testKeyringPairs**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isDerived?: *`boolean`*): `TestKeyringMap`
 
-*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/e921161/packages/keyring/src/testingPairs.ts#L14)*
+*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/6049f09/packages/keyring/src/testingPairs.ts#L14)*
 
 **Parameters:**
 
 | Name | Type | Default value |
 | ------ | ------ | ------ |
 | `Optional` options | [KeyringOptions](_types_.md#keyringoptions) | - |
-| `Default value` isHdKd | `boolean` | false |
+| `Default value` isDerived | `boolean` | true |
 
 **Returns:** `TestKeyringMap`
 

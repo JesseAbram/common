@@ -6,19 +6,19 @@
 
 ##  keyFromPath
 
-▸ **keyFromPath**(seed: *`Uint8Array`*, path: *`Array`<[DeriveJunction](../classes/_key_derivejunction_.derivejunction.md)>*, type: *[KeypairType](_types_.md#keypairtype)*): `Uint8Array`
+▸ **keyFromPath**(seedpair: *[Seedpair](_types_.md#seedpair)*, path: *`Array`<[DeriveJunction](../classes/_key_derivejunction_.derivejunction.md)>*, type: *[KeypairType](_types_.md#keypairtype)*): [Seedpair](_types_.md#seedpair)
 
-*Defined in [key/fromPath.ts:11](https://github.com/polkadot-js/common/blob/e921161/packages/util-crypto/src/key/fromPath.ts#L11)*
+*Defined in [key/fromPath.ts:11](https://github.com/polkadot-js/common/blob/6049f09/packages/util-crypto/src/key/fromPath.ts#L11)*
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| seed | `Uint8Array` |
+| seedpair | [Seedpair](_types_.md#seedpair) |
 | path | `Array`<[DeriveJunction](../classes/_key_derivejunction_.derivejunction.md)> |
 | type | [KeypairType](_types_.md#keypairtype) |
 
-**Returns:** `Uint8Array`
+**Returns:** [Seedpair](_types_.md#seedpair)
 
 ___
 
