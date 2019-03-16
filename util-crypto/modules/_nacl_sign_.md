@@ -8,7 +8,7 @@
 
 ▸ **naclSign**(message: *`Uint8Array`*, __namedParameters: *`object`*): `Uint8Array`
 
-*Defined in [nacl/sign.ts:24](https://github.com/polkadot-js/common/blob/5dc8e87/packages/util-crypto/src/nacl/sign.ts#L24)*
+*Defined in [nacl/sign.ts:24](https://github.com/polkadot-js/common/blob/4a31466/packages/util-crypto/src/nacl/sign.ts#L24)*
 
 *__name__*: naclSign
 
