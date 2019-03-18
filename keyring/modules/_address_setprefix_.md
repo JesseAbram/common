@@ -8,7 +8,7 @@
 
 ▸ **setPrefix**(prefix: *[Prefix](_address_types_.md#prefix)*): `void`
 
-*Defined in [address/setPrefix.ts:9](https://github.com/polkadot-js/common/blob/4a31466/packages/keyring/src/address/setPrefix.ts#L9)*
+*Defined in [address/setPrefix.ts:9](https://github.com/polkadot-js/common/blob/eb167f8/packages/keyring/src/address/setPrefix.ts#L9)*
 
 **Parameters:**
 
