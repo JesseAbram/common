@@ -8,7 +8,7 @@
 
 ▸ **isJsonObject**(value: *`any`*): `boolean`
 
-*Defined in [is/jsonObject.ts:34](https://github.com/polkadot-js/common/blob/eb167f8/packages/util/src/is/jsonObject.ts#L34)*
+*Defined in [is/jsonObject.ts:34](https://github.com/polkadot-js/common/blob/7b0a39a/packages/util/src/is/jsonObject.ts#L34)*
 
 *__name__*: isJsonObject
 

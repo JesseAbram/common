@@ -8,7 +8,7 @@
 
 **● DEFAULT_BITLENGTH**: *[BitLength](_compact_types_.md#bitlength)* = 32
 
-*Defined in [compact/defaults.ts:7](https://github.com/polkadot-js/common/blob/eb167f8/packages/util/src/compact/defaults.ts#L7)*
+*Defined in [compact/defaults.ts:7](https://github.com/polkadot-js/common/blob/7b0a39a/packages/util/src/compact/defaults.ts#L7)*
 
 ___
 
