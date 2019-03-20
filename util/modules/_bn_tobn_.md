@@ -8,7 +8,7 @@
 
 ▸ **bnToBn**(value?: *`BN` \| `number` \| `null`*): `BN`
 
-*Defined in [bn/toBn.ts:23](https://github.com/polkadot-js/common/blob/fe0bd25/packages/util/src/bn/toBn.ts#L23)*
+*Defined in [bn/toBn.ts:23](https://github.com/polkadot-js/common/blob/2e757ff/packages/util/src/bn/toBn.ts#L23)*
 
 *__name__*: bnToBn
 
