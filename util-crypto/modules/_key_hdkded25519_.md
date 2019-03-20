@@ -8,7 +8,7 @@
 
 ▸ **keyHdkdEd25519**(keypair: *[Keypair](_types_.md#keypair)*, __namedParameters: *`object`*): [Keypair](_types_.md#keypair)
 
-*Defined in [key/hdkdEd25519.ts:13](https://github.com/polkadot-js/common/blob/7b0a39a/packages/util-crypto/src/key/hdkdEd25519.ts#L13)*
+*Defined in [key/hdkdEd25519.ts:13](https://github.com/polkadot-js/common/blob/fe0bd25/packages/util-crypto/src/key/hdkdEd25519.ts#L13)*
 
 **Parameters:**
 
