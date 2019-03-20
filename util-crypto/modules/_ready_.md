@@ -8,7 +8,7 @@
 
 ▸ **wasmIsReady**(): `boolean`
 
-*Defined in [ready.ts:11](https://github.com/polkadot-js/common/blob/a358c8b/packages/util-crypto/src/ready.ts#L11)*
+*Defined in [ready.ts:11](https://github.com/polkadot-js/common/blob/7da1c54/packages/util-crypto/src/ready.ts#L11)*
 
 **Returns:** `boolean`
 
@@ -19,7 +19,7 @@ ___
 
 ▸ **wasmWaitReady**(): `Promise`<`boolean`>
 
-*Defined in [ready.ts:7](https://github.com/polkadot-js/common/blob/a358c8b/packages/util-crypto/src/ready.ts#L7)*
+*Defined in [ready.ts:7](https://github.com/polkadot-js/common/blob/7da1c54/packages/util-crypto/src/ready.ts#L7)*
 
 **Returns:** `Promise`<`boolean`>
 
