@@ -14,7 +14,7 @@
 
 ⊕ **new Checkpoint**(rootHash: *`Uint8Array`*): [Checkpoint](_checkpoint_.checkpoint.md)
 
-*Defined in [Checkpoint.ts:7](https://github.com/polkadot-js/common/blob/7da1c54/packages/trie-db/src/Checkpoint.ts#L7)*
+*Defined in [Checkpoint.ts:7](https://github.com/polkadot-js/common/blob/f6d05e0/packages/trie-db/src/Checkpoint.ts#L7)*
 
 **Parameters:**
 
