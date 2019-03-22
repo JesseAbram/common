@@ -8,7 +8,7 @@
 
 ▸ **testKeyring**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isDerived?: *`boolean`*): [KeyringInstance](../interfaces/_types_.keyringinstance.md)
 
-*Defined in [testing.ts:53](https://github.com/polkadot-js/common/blob/663b8ca/packages/keyring/src/testing.ts#L53)*
+*Defined in [testing.ts:50](https://github.com/polkadot-js/common/blob/0feb61c/packages/keyring/src/testing.ts#L50)*
 
 *__name__*: testKeyring
 

@@ -8,7 +8,7 @@
 
 ▸ **mnemonicValidate**(mnemonic: *`string`*): `boolean`
 
-*Defined in [mnemonic/validate.ts:23](https://github.com/polkadot-js/common/blob/663b8ca/packages/util-crypto/src/mnemonic/validate.ts#L23)*
+*Defined in [mnemonic/validate.ts:23](https://github.com/polkadot-js/common/blob/0feb61c/packages/util-crypto/src/mnemonic/validate.ts#L23)*
 
 *__name__*: mnemonicValidate
 
