@@ -8,7 +8,7 @@
 
 **Ƭ Prefix**: *`0` \| `1` \| `3` \| `42` \| `43` \| `68` \| `69`*
 
-*Defined in [address/types.ts:5](https://github.com/polkadot-js/common/blob/0feb61c/packages/keyring/src/address/types.ts#L5)*
+*Defined in [address/types.ts:5](https://github.com/polkadot-js/common/blob/d1498d3/packages/keyring/src/address/types.ts#L5)*
 
 ___
 

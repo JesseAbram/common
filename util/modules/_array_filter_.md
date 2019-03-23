@@ -8,7 +8,7 @@
 
 ▸ **arrayFilter**(array: *`Array`<`any`>*, allowNulls?: *`boolean`*): `Array`<`any`>
 
-*Defined in [array/filter.ts:23](https://github.com/polkadot-js/common/blob/0feb61c/packages/util/src/array/filter.ts#L23)*
+*Defined in [array/filter.ts:23](https://github.com/polkadot-js/common/blob/d1498d3/packages/util/src/array/filter.ts#L23)*
 
 *__name__*: arrayFilter
 
