@@ -12,7 +12,6 @@
 * [&quot;mnemonic/generate&quot;](modules/_mnemonic_generate_.md)
 * [&quot;mnemonic/toEntropy&quot;](modules/_mnemonic_toentropy_.md)
 * [&quot;mnemonic/toMiniSecret&quot;](modules/_mnemonic_tominisecret_.md)
-* [&quot;mnemonic/toSecret&quot;](modules/_mnemonic_tosecret_.md)
 * [&quot;mnemonic/toSeed&quot;](modules/_mnemonic_toseed_.md)
 * [&quot;mnemonic/validate&quot;](modules/_mnemonic_validate_.md)
 * [&quot;nacl/decrypt&quot;](modules/_nacl_decrypt_.md)
