@@ -8,7 +8,7 @@
 
 ▸ **keccakAsHex**(value: *`Buffer` \| `Uint8Array` \| `string`*): `string`
 
-*Defined in [keccak/asHex.ts:23](https://github.com/polkadot-js/common/blob/2ff60b8/packages/util-crypto/src/keccak/asHex.ts#L23)*
+*Defined in [keccak/asHex.ts:23](https://github.com/polkadot-js/common/blob/88a73dd/packages/util-crypto/src/keccak/asHex.ts#L23)*
 
 *__name__*: keccakAsHex
 
