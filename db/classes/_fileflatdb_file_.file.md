@@ -16,7 +16,7 @@
 
 ⊕ **new File**(base: *`string`*, file: *`string`*, options: *[BaseDbOptions](../modules/_types_.md#basedboptions)*): [File](_fileflatdb_file_.file.md)
 
-*Defined in [FileFlatDb/File.ts:19](https://github.com/polkadot-js/common/blob/88a73dd/packages/db/src/FileFlatDb/File.ts#L19)*
+*Defined in [FileFlatDb/File.ts:19](https://github.com/polkadot-js/common/blob/8e034bb/packages/db/src/FileFlatDb/File.ts#L19)*
 
 **Parameters:**
 

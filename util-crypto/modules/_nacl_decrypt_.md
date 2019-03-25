@@ -8,7 +8,7 @@
 
 ▸ **naclDecrypt**(encrypted: *`Uint8Array`*, nonce: *`Uint8Array`*, secret: *`Uint8Array`*): `Uint8Array` \| `null`
 
-*Defined in [nacl/decrypt.ts:21](https://github.com/polkadot-js/common/blob/88a73dd/packages/util-crypto/src/nacl/decrypt.ts#L21)*
+*Defined in [nacl/decrypt.ts:21](https://github.com/polkadot-js/common/blob/8e034bb/packages/util-crypto/src/nacl/decrypt.ts#L21)*
 
 *__name__*: naclDecrypt
 
