@@ -8,7 +8,7 @@
 
 ▸ **schnorrkelSign**(message: *`Uint8Array`*, __namedParameters: *`object`*): `Uint8Array`
 
-*Defined in [schnorrkel/sign.ts:16](https://github.com/polkadot-js/common/blob/8e034bb/packages/util-crypto/src/schnorrkel/sign.ts#L16)*
+*Defined in [schnorrkel/sign.ts:16](https://github.com/polkadot-js/common/blob/5bc4ea2/packages/util-crypto/src/schnorrkel/sign.ts#L16)*
 
 *__name__*: schnorrkelSign
 

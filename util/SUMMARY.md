@@ -1,5 +1,6 @@
 * [&quot;array/filter&quot;](modules/_array_filter_.md)
 * [&quot;assert&quot;](modules/_assert_.md)
+* [&quot;assertSingletonPackage&quot;](modules/_assertsingletonpackage_.md)
 * [&quot;bn/fromHex&quot;](modules/_bn_fromhex_.md)
 * [&quot;bn/toBn&quot;](modules/_bn_tobn_.md)
 * [&quot;bn/toHex&quot;](modules/_bn_tohex_.md)
