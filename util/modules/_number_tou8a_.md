@@ -8,7 +8,7 @@
 
 ▸ **numberToU8a**(value?: *`number` \| `null`*, bitLength?: *`number`*): `Uint8Array`
 
-*Defined in [number/toU8a.ts:22](https://github.com/polkadot-js/common/blob/e8454de/packages/util/src/number/toU8a.ts#L22)*
+*Defined in [number/toU8a.ts:22](https://github.com/polkadot-js/common/blob/bf6fcf9/packages/util/src/number/toU8a.ts#L22)*
 
 *__name__*: numberToU8a
 
