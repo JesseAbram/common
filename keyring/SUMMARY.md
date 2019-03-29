@@ -2,6 +2,7 @@
 * [&quot;address/defaults&quot;](modules/_address_defaults_.md)
 * [&quot;address/encode&quot;](modules/_address_encode_.md)
 * [&quot;address/setPrefix&quot;](modules/_address_setprefix_.md)
+* [&quot;address/sshash&quot;](modules/_address_sshash_.md)
 * [&quot;address/types&quot;](modules/_address_types_.md)
 * [&quot;defaults&quot;](modules/_defaults_.md)
 * [&quot;pair/decode&quot;](modules/_pair_decode_.md)
