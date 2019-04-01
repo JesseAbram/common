@@ -8,7 +8,7 @@
 
 ▸ **createSubstream**(value: *`Uint8Array`*): `Uint8Array`
 
-*Defined in [stream/createSubstream.ts:8](https://github.com/polkadot-js/common/blob/6335c35/packages/trie-codec/src/stream/createSubstream.ts#L8)*
+*Defined in [stream/createSubstream.ts:8](https://github.com/polkadot-js/common/blob/ee2fe5e/packages/trie-codec/src/stream/createSubstream.ts#L8)*
 
 **Parameters:**
 
