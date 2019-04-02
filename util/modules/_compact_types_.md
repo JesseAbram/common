@@ -8,7 +8,7 @@
 
 **Ƭ BitLength**: *`8` \| `16` \| `32` \| `64` \| `128` \| `256`*
 
-*Defined in [compact/types.ts:5](https://github.com/polkadot-js/common/blob/ee2fe5e/packages/util/src/compact/types.ts#L5)*
+*Defined in [compact/types.ts:5](https://github.com/polkadot-js/common/blob/b15ae9e/packages/util/src/compact/types.ts#L5)*
 
 ___
 
