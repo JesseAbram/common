@@ -8,7 +8,7 @@
 
 **Ƭ Codec**: *`object`*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/47c0533/packages/trie-codec/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/ebb4df2/packages/trie-codec/src/types.ts#L5)*
 
 #### Type declaration
 

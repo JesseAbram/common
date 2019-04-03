@@ -8,7 +8,7 @@
 
 ▸ **schnorrkelVerify**(message: *`Uint8Array`*, signature: *`Uint8Array`*, publicKey: *`Uint8Array`*): `boolean`
 
-*Defined in [schnorrkel/verify.ts:13](https://github.com/polkadot-js/common/blob/47c0533/packages/util-crypto/src/schnorrkel/verify.ts#L13)*
+*Defined in [schnorrkel/verify.ts:13](https://github.com/polkadot-js/common/blob/ebb4df2/packages/util-crypto/src/schnorrkel/verify.ts#L13)*
 
 *__name__*: schnorrkelVerify
 

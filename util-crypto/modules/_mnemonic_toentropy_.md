@@ -8,7 +8,7 @@
 
 ▸ **toEntropy**(mnemonic: *`string`*): `Uint8Array`
 
-*Defined in [mnemonic/toEntropy.ts:11](https://github.com/polkadot-js/common/blob/47c0533/packages/util-crypto/src/mnemonic/toEntropy.ts#L11)*
+*Defined in [mnemonic/toEntropy.ts:11](https://github.com/polkadot-js/common/blob/ebb4df2/packages/util-crypto/src/mnemonic/toEntropy.ts#L11)*
 
 **Parameters:**
 
