@@ -8,7 +8,7 @@
 
 ▸ **isObservable**(value: *`any`*): `boolean`
 
-*Defined in [is/observable.ts:26](https://github.com/polkadot-js/common/blob/ebb4df2/packages/util/src/is/observable.ts#L26)*
+*Defined in [is/observable.ts:26](https://github.com/polkadot-js/common/blob/b521959/packages/util/src/is/observable.ts#L26)*
 
 *__name__*: isBObservable
 
