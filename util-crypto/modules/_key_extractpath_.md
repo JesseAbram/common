@@ -8,7 +8,7 @@
 
 ▸ **keyExtractPath**(derivePath: *`string`*): `ExtractResult`
 
-*Defined in [key/extractPath.ts:18](https://github.com/polkadot-js/common/blob/5158cef/packages/util-crypto/src/key/extractPath.ts#L18)*
+*Defined in [key/extractPath.ts:18](https://github.com/polkadot-js/common/blob/0e13479/packages/util-crypto/src/key/extractPath.ts#L18)*
 
 *__description__*: Extract derivation juntions from the supplied path
 

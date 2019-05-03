@@ -8,7 +8,7 @@
 
 ▸ **u8aToBuffer**(value?: *`Uint8Array` \| `null`*): `Buffer`
 
-*Defined in [u8a/toBuffer.ts:19](https://github.com/polkadot-js/common/blob/5158cef/packages/util/src/u8a/toBuffer.ts#L19)*
+*Defined in [u8a/toBuffer.ts:19](https://github.com/polkadot-js/common/blob/0e13479/packages/util/src/u8a/toBuffer.ts#L19)*
 
 *__name__*: u8aToBuffer
 
