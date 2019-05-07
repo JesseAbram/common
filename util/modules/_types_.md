@@ -9,6 +9,7 @@
 
 ### Type aliases
 
+* [BnList](_types_.md#bnlist)
 * [Logger](_types_.md#logger)
 * [Logger$Data](_types_.md#logger_data)
 
@@ -16,13 +17,22 @@
 
 # Type aliases
 
+<a id="bnlist"></a>
+
+##  BnList
+
+**Ƭ BnList**: *`object` & `Array`<`BN`>*
+
+*Defined in [types.ts:30](https://github.com/polkadot-js/common/blob/9c03ec8/packages/util/src/types.ts#L30)*
+
+___
 <a id="logger"></a>
 
 ##  Logger
 
 **Ƭ Logger**: *`object`*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/0e13479/packages/util/src/types.ts#L15)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/9c03ec8/packages/util/src/types.ts#L17)*
 
 #### Type declaration
 
@@ -33,7 +43,7 @@ ___
 
 **Ƭ Logger$Data**: *`Array`<`any` \| `Logger$Data$Fn`>*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/common/blob/0e13479/packages/util/src/types.ts#L13)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/9c03ec8/packages/util/src/types.ts#L15)*
 
 ___
 

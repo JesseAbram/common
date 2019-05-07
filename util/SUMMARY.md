@@ -2,6 +2,8 @@
 * [&quot;assert&quot;](modules/_assert_.md)
 * [&quot;assertSingletonPackage&quot;](modules/_assertsingletonpackage_.md)
 * [&quot;bn/fromHex&quot;](modules/_bn_fromhex_.md)
+* [&quot;bn/max&quot;](modules/_bn_max_.md)
+* [&quot;bn/min&quot;](modules/_bn_min_.md)
 * [&quot;bn/toBn&quot;](modules/_bn_tobn_.md)
 * [&quot;bn/toHex&quot;](modules/_bn_tohex_.md)
 * [&quot;bn/toU8a&quot;](modules/_bn_tou8a_.md)
