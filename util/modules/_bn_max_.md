@@ -6,9 +6,9 @@
 
 ##  max
 
-▸ **max**(...items: *[BnList](_types_.md#bnlist)*): `BN`
+▸ **max**(...items: *`BN`[]*): `BN`
 
-*Defined in [bn/max.ts:23](https://github.com/polkadot-js/common/blob/9c03ec8/packages/util/src/bn/max.ts#L23)*
+*Defined in [bn/max.ts:22](https://github.com/polkadot-js/common/blob/b0d8c85/packages/util/src/bn/max.ts#L22)*
 
 *__name__*: max
 
@@ -27,7 +27,7 @@ max([new BN(1), new BN(3), new BN(2)]).toString(); // => '3'
 
 | Name | Type |
 | ------ | ------ |
-| `Rest` items | [BnList](_types_.md#bnlist) |
+| `Rest` items | `BN`[] |
 
 **Returns:** `BN`
 
