@@ -6,9 +6,9 @@
 
 ##  schnorrkelSign
 
-▸ **schnorrkelSign**(message: *`Uint8Array`*, __namedParameters: *`object`*): `Uint8Array`
+▸ **schnorrkelSign**(message: *`Uint8Array` \| `string`*, __namedParameters: *`object`*): `Uint8Array`
 
-*Defined in [schnorrkel/sign.ts:16](https://github.com/polkadot-js/common/blob/f46ba03/packages/util-crypto/src/schnorrkel/sign.ts#L16)*
+*Defined in [schnorrkel/sign.ts:16](https://github.com/polkadot-js/common/blob/8d86900/packages/util-crypto/src/schnorrkel/sign.ts#L16)*
 
 *__name__*: schnorrkelSign
 
@@ -18,7 +18,7 @@
 
 | Name | Type |
 | ------ | ------ |
-| message | `Uint8Array` |
+| message | `Uint8Array` \| `string` |
 | __namedParameters | `object` |
 
 **Returns:** `Uint8Array`

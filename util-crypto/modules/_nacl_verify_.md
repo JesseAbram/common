@@ -6,9 +6,9 @@
 
 ##  naclVerify
 
-▸ **naclVerify**(message: *`Uint8Array`*, signature: *`Uint8Array`*, publicKey: *`Uint8Array`*): `boolean`
+▸ **naclVerify**(message: *`Uint8Array` \| `string`*, signature: *`Uint8Array` \| `string`*, publicKey: *`Uint8Array` \| `string`*): `boolean`
 
-*Defined in [nacl/verify.ts:22](https://github.com/polkadot-js/common/blob/f46ba03/packages/util-crypto/src/nacl/verify.ts#L22)*
+*Defined in [nacl/verify.ts:23](https://github.com/polkadot-js/common/blob/8d86900/packages/util-crypto/src/nacl/verify.ts#L23)*
 
 *__name__*: naclSign
 
@@ -28,9 +28,9 @@ naclVerify([...], [...], [...]); // => true/false
 
 | Name | Type |
 | ------ | ------ |
-| message | `Uint8Array` |
-| signature | `Uint8Array` |
-| publicKey | `Uint8Array` |
+| message | `Uint8Array` \| `string` |
+| signature | `Uint8Array` \| `string` |
+| publicKey | `Uint8Array` \| `string` |
 
 **Returns:** `boolean`
 
