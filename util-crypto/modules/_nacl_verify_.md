@@ -8,7 +8,7 @@
 
 ▸ **naclVerify**(message: *`Uint8Array` \| `string`*, signature: *`Uint8Array` \| `string`*, publicKey: *`Uint8Array` \| `string`*): `boolean`
 
-*Defined in [nacl/verify.ts:23](https://github.com/polkadot-js/common/blob/8d86900/packages/util-crypto/src/nacl/verify.ts#L23)*
+*Defined in [nacl/verify.ts:23](https://github.com/polkadot-js/common/blob/d8b3021/packages/util-crypto/src/nacl/verify.ts#L23)*
 
 *__name__*: naclSign
 
