@@ -5,6 +5,8 @@
 * [&quot;address/sshash&quot;](modules/_address_sshash_.md)
 * [&quot;address/types&quot;](modules/_address_types_.md)
 * [&quot;defaults&quot;](modules/_defaults_.md)
+* [&quot;keyring&quot;](modules/_keyring_.md)
+  * [Keyring](classes/_keyring_.keyring.md)
 * [&quot;pair/decode&quot;](modules/_pair_decode_.md)
 * [&quot;pair/defaults&quot;](modules/_pair_defaults_.md)
 * [&quot;pair/encode&quot;](modules/_pair_encode_.md)
