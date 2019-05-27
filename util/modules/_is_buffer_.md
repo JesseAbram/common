@@ -8,7 +8,7 @@
 
 ▸ **isBuffer**(value: *`any`*): `boolean`
 
-*Defined in [is/buffer.ts:21](https://github.com/polkadot-js/common/blob/3d2a5d9/packages/util/src/is/buffer.ts#L21)*
+*Defined in [is/buffer.ts:21](https://github.com/polkadot-js/common/blob/9d4c36d/packages/util/src/is/buffer.ts#L21)*
 
 *__name__*: isBuffer
 
