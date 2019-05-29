@@ -8,7 +8,7 @@
 
 ▸ **naclEncrypt**(message: *`Uint8Array`*, secret: *`Uint8Array`*, nonce?: *`Uint8Array`*): `Encrypted`
 
-*Defined in [nacl/encrypt.ts:28](https://github.com/polkadot-js/common/blob/f8f2349/packages/util-crypto/src/nacl/encrypt.ts#L28)*
+*Defined in [nacl/encrypt.ts:28](https://github.com/polkadot-js/common/blob/1196bb5/packages/util-crypto/src/nacl/encrypt.ts#L28)*
 
 *__name__*: naclEncrypt
 

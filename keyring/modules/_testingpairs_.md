@@ -8,7 +8,7 @@
 
 ▸ **testKeyringPairs**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isDerived?: *`boolean`*): `TestKeyringMap`
 
-*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/f8f2349/packages/keyring/src/testingPairs.ts#L14)*
+*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/1196bb5/packages/keyring/src/testingPairs.ts#L14)*
 
 **Parameters:**
 

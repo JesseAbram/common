@@ -8,7 +8,7 @@
 
 ▸ **schnorrkelKeypairFromSeed**(seed: *`Uint8Array`*): [Keypair](_types_.md#keypair)
 
-*Defined in [schnorrkel/keypair/fromSeed.ts:17](https://github.com/polkadot-js/common/blob/f8f2349/packages/util-crypto/src/schnorrkel/keypair/fromSeed.ts#L17)*
+*Defined in [schnorrkel/keypair/fromSeed.ts:17](https://github.com/polkadot-js/common/blob/1196bb5/packages/util-crypto/src/schnorrkel/keypair/fromSeed.ts#L17)*
 
 *__name__*: schnorrkelKeypairFromSeed
 
