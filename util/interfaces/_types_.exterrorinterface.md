@@ -16,7 +16,7 @@
 
 **● code**: *`number`*
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/ef30fb8/packages/util/src/types.ts#L8)*
 
 ___
 <a id="data"></a>
@@ -25,7 +25,7 @@ ___
 
 **● data**: *`any`*
 
-*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/ef30fb8/packages/util/src/types.ts#L9)*
 
 ___
 <a id="message"></a>
@@ -34,7 +34,7 @@ ___
 
 **● message**: *`string`*
 
-*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/ef30fb8/packages/util/src/types.ts#L10)*
 
 ___
 <a id="stack"></a>
@@ -43,7 +43,7 @@ ___
 
 **● stack**: *`string`*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/ef30fb8/packages/util/src/types.ts#L11)*
 
 ___
 
