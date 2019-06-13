@@ -8,7 +8,7 @@
 
 ▸ **min**(...items: *`BN`[]*): `BN`
 
-*Defined in [bn/min.ts:22](https://github.com/polkadot-js/common/blob/6065e10/packages/util/src/bn/min.ts#L22)*
+*Defined in [bn/min.ts:22](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/bn/min.ts#L22)*
 
 *__name__*: min
 

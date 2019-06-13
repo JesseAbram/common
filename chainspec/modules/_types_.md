@@ -8,7 +8,7 @@
 
 **Ƭ Chainspec**: *`object`*
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/common/blob/6065e10/packages/chainspec/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/common/blob/3c253ec/packages/chainspec/src/types.ts#L7)*
 
 #### Type declaration
 
@@ -19,7 +19,7 @@ ___
 
 **Ƭ Telemetry**: *[`string`, `number`]*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/6065e10/packages/chainspec/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/3c253ec/packages/chainspec/src/types.ts#L5)*
 
 ___
 

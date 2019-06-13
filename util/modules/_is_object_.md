@@ -8,7 +8,7 @@
 
 ▸ **isObject**(value: *`any`*): `boolean`
 
-*Defined in [is/object.ts:24](https://github.com/polkadot-js/common/blob/6065e10/packages/util/src/is/object.ts#L24)*
+*Defined in [is/object.ts:24](https://github.com/polkadot-js/common/blob/3c253ec/packages/util/src/is/object.ts#L24)*
 
 *__name__*: isObject
 
