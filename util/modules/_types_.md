@@ -23,7 +23,7 @@
 
 **Ƭ BnList**: *`object` & `Array`<`BN`>*
 
-*Defined in [types.ts:30](https://github.com/polkadot-js/common/blob/66803c5/packages/util/src/types.ts#L30)*
+*Defined in [types.ts:30](https://github.com/polkadot-js/common/blob/a98151c/packages/util/src/types.ts#L30)*
 
 ___
 <a id="logger"></a>
@@ -32,7 +32,7 @@ ___
 
 **Ƭ Logger**: *`object`*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/66803c5/packages/util/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/a98151c/packages/util/src/types.ts#L17)*
 
 #### Type declaration
 
@@ -43,7 +43,7 @@ ___
 
 **Ƭ Logger$Data**: *`Array`<`any` \| `Logger$Data$Fn`>*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/66803c5/packages/util/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/a98151c/packages/util/src/types.ts#L15)*
 
 ___
 
