@@ -8,7 +8,7 @@
 
 ▸ **decode**(encoded: *`string` \| `Uint8Array`*, ignoreChecksum?: *`undefined` \| `false` \| `true`*, prefix?: *[Prefix](_address_types_.md#prefix)*): `Uint8Array`
 
-*Defined in [address/decode.ts:15](https://github.com/polkadot-js/common/blob/ef30fb8/packages/util-crypto/src/address/decode.ts#L15)*
+*Defined in [address/decode.ts:15](https://github.com/polkadot-js/common/blob/66803c5/packages/util-crypto/src/address/decode.ts#L15)*
 
 **Parameters:**
 
