@@ -8,7 +8,7 @@
 
 ▸ **formatElapsed**(now?: *`Date` \| `null`*, value?: *`BN` \| [Compact](../interfaces/_format_types_.compact.md) \| `Date` \| `number` \| `null`*): `string`
 
-*Defined in [format/formatElapsed.ts:23](https://github.com/polkadot-js/common/blob/3835d8d/packages/util/src/format/formatElapsed.ts#L23)*
+*Defined in [format/formatElapsed.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/formatElapsed.ts#L23)*
 
 **Parameters:**
 

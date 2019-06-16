@@ -12,7 +12,7 @@
 
 **● toBn**: *`function`*
 
-*Defined in [format/types.ts:8](https://github.com/polkadot-js/common/blob/3835d8d/packages/util/src/format/types.ts#L8)*
+*Defined in [format/types.ts:8](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/types.ts#L8)*
 
 #### Type declaration
 ▸(): `BN`
@@ -26,7 +26,7 @@ ___
 
 **● unwrap**: *`function`*
 
-*Defined in [format/types.ts:9](https://github.com/polkadot-js/common/blob/3835d8d/packages/util/src/format/types.ts#L9)*
+*Defined in [format/types.ts:9](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/types.ts#L9)*
 
 #### Type declaration
 ▸(): `BN` \| `Date`

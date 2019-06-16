@@ -12,7 +12,7 @@
 
 **● isLe**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/common/blob/3835d8d/packages/util/src/types.ts#L26)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L26)*
 
 ___
 <a id="isnegative"></a>
@@ -21,7 +21,7 @@ ___
 
 **● isNegative**: *`undefined` \| `false` \| `true`*
 
-*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/3835d8d/packages/util/src/types.ts#L27)*
+*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L27)*
 
 ___
 
