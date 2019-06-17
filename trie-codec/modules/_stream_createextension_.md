@@ -1,22 +1,25 @@
+> # External module: "stream/createExtension"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createextension"></a>
+* [createExtension](_stream_createextension_.md#createextension)
 
-##  createExtension
+## Functions
 
-▸ **createExtension**(key: *`Uint8Array`*): `Uint8Array`
+###  createExtension
 
-*Defined in [stream/createExtension.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/stream/createExtension.ts#L7)*
+▸ **createExtension**(`key`: `Uint8Array`): *`Uint8Array`*
+
+*Defined in [stream/createExtension.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

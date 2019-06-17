@@ -1,16 +1,19 @@
+> # External module: "stream/createEmpty"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createempty"></a>
+* [createEmpty](_stream_createempty_.md#createempty)
 
-##  createEmpty
+## Functions
 
-▸ **createEmpty**(): `Uint8Array`
+###  createEmpty
 
-*Defined in [stream/createEmpty.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/stream/createEmpty.ts#L7)*
+▸ **createEmpty**(): *`Uint8Array`*
 
-**Returns:** `Uint8Array`
+*Defined in [stream/createEmpty.ts:7](url)*
+
+**Returns:** *`Uint8Array`*
 
 ___
-

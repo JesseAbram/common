@@ -1,22 +1,28 @@
+> # External module: "is/instanceOf"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isinstanceof"></a>
+* [isInstanceOf](_is_instanceof_.md#isinstanceof)
 
-##  isInstanceOf
+## Functions
 
-▸ **isInstanceOf**(value: *`any`*, clazz: *`any`*): `boolean`
+###  isInstanceOf
 
-*Defined in [is/instanceOf.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/instanceOf.ts#L19)*
+▸ **isInstanceOf**(`value`: any, `clazz`: any): *boolean*
 
-*__name__*: isInstanceOf
+*Defined in [is/instanceOf.ts:19](url)*
 
-*__summary__*: Tests for a instance of a class.
+**`name`** isInstanceOf
 
-*__description__*: Checks to see if the input value is an instance of the test class.
+**`summary`** Tests for a instance of a class.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is an instance of the test class.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isInstanceOf } from '@polkadot/util';
@@ -26,12 +32,11 @@ console.log('isInstanceOf', isInstanceOf(new Array(0), Array)); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
-| clazz | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
+`clazz` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "buffer/toU8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="buffertou8a"></a>
+* [bufferToU8a](_buffer_tou8a_.md#buffertou8a)
 
-##  bufferToU8a
+## Functions
 
-▸ **bufferToU8a**(buffer?: *`Buffer` \| `number`[] \| `null`*): `Uint8Array`
+###  bufferToU8a
 
-*Defined in [buffer/toU8a.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/buffer/toU8a.ts#L19)*
+▸ **bufferToU8a**(`buffer?`: `Buffer` | number[] | null): *`Uint8Array`*
 
-*__name__*: bufferToU8a
+*Defined in [buffer/toU8a.ts:19](url)*
 
-*__summary__*: Creates a Uint8Array value from a Buffer object.
+**`name`** bufferToU8a
 
-*__description__*: `null` inputs returns an empty result, `Buffer` values return the actual value as a `Uint8Array`. Anything that is not a `Buffer` object throws an error.
+**`summary`** Creates a Uint8Array value from a Buffer object.
 
-*__example__*:   
+**`description`** 
+`null` inputs returns an empty result, `Buffer` values return the actual value as a `Uint8Array`. Anything that is not a `Buffer` object throws an error.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { bufferToU8a } from '@polkadot/util';
@@ -26,11 +32,10 @@ bufferToU8a(Buffer.from([1, 2, 3]));
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` buffer | `Buffer` \| `number`[] \| `null` |
+Name | Type |
+------ | ------ |
+`buffer?` | `Buffer` | number[] | null |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

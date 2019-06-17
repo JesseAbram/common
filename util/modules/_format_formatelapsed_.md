@@ -1,23 +1,26 @@
+> # External module: "format/formatElapsed"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="formatelapsed"></a>
+* [formatElapsed](_format_formatelapsed_.md#formatelapsed)
 
-##  formatElapsed
+## Functions
 
-▸ **formatElapsed**(now?: *`Date` \| `null`*, value?: *`BN` \| [Compact](../interfaces/_format_types_.compact.md) \| `Date` \| `number` \| `null`*): `string`
+###  formatElapsed
 
-*Defined in [format/formatElapsed.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/formatElapsed.ts#L23)*
+▸ **formatElapsed**(`now?`: `Date` | null, `value?`: `BN` | [Compact](../interfaces/_format_types_.compact.md) | `Date` | number | null): *string*
+
+*Defined in [format/formatElapsed.ts:23](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` now | `Date` \| `null` |
-| `Optional` value | `BN` \| [Compact](../interfaces/_format_types_.compact.md) \| `Date` \| `number` \| `null` |
+Name | Type |
+------ | ------ |
+`now?` | `Date` | null |
+`value?` | `BN` | [Compact](../interfaces/_format_types_.compact.md) | `Date` | number | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

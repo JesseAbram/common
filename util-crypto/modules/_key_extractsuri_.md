@@ -1,24 +1,27 @@
+> # External module: "key/extractSuri"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="keyextract"></a>
+* [keyExtract](_key_extractsuri_.md#keyextract)
 
-##  keyExtract
+## Functions
 
-▸ **keyExtract**(suri: *`string`*): `ExtractResult`
+###  keyExtract
 
-*Defined in [key/extractSuri.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/extractSuri.ts#L21)*
+▸ **keyExtract**(`suri`: string): *`ExtractResult`*
 
-*__description__*: Extracts the phrase, path and password from a SURI format for specifying secret keys `<secret>/<soft-key>//<hard-key>///<password>` (the `///password` may be omitted, and `/<soft-key>` and `//<hard-key>` maybe repeated and mixed).
+*Defined in [key/extractSuri.ts:21](url)*
+
+**`description`** Extracts the phrase, path and password from a SURI format for specifying secret keys `<secret>/<soft-key>//<hard-key>///<password>` (the `///password` may be omitted, and `/<soft-key>` and `//<hard-key>` maybe repeated and mixed).
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| suri | `string` |
+Name | Type |
+------ | ------ |
+`suri` | string |
 
-**Returns:** `ExtractResult`
+**Returns:** *`ExtractResult`*
 
 ___
-

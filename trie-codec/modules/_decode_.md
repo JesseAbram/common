@@ -1,22 +1,25 @@
+> # External module: "decode"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decode"></a>
+* [decode](_decode_.md#decode)
 
-##  decode
+## Functions
 
-▸ **decode**(input: *`null` \| `Uint8Array`*): `Uint8Array` \| `null` \| `Array`<`null` \| `Uint8Array` \| [`Uint8Array`, `Uint8Array`]>
+###  decode
 
-*Defined in [decode.ts:76](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/decode.ts#L76)*
+▸ **decode**(`input`: null | `Uint8Array`): *`Uint8Array` | null | `Array<null | Uint8Array | [Uint8Array, Uint8Array]>`*
+
+*Defined in [decode.ts:76](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| input | `null` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`input` | null | `Uint8Array` |
 
-**Returns:** `Uint8Array` \| `null` \| `Array`<`null` \| `Uint8Array` \| [`Uint8Array`, `Uint8Array`]>
+**Returns:** *`Uint8Array` | null | `Array<null | Uint8Array | [Uint8Array, Uint8Array]>`*
 
 ___
-

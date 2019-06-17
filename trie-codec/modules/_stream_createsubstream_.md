@@ -1,22 +1,25 @@
+> # External module: "stream/createSubstream"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createsubstream"></a>
+* [createSubstream](_stream_createsubstream_.md#createsubstream)
 
-##  createSubstream
+## Functions
 
-▸ **createSubstream**(value: *`Uint8Array`*): `Uint8Array`
+###  createSubstream
 
-*Defined in [stream/createSubstream.ts:8](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/stream/createSubstream.ts#L8)*
+▸ **createSubstream**(`value`: `Uint8Array`): *`Uint8Array`*
+
+*Defined in [stream/createSubstream.ts:8](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`value` | `Uint8Array` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

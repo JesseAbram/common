@@ -1,22 +1,28 @@
+> # External module: "u8a/toString"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="u8atostring"></a>
+* [u8aToString](_u8a_tostring_.md#u8atostring)
 
-##  u8aToString
+## Functions
 
-▸ **u8aToString**(value?: *`Uint8Array` \| `null`*): `string`
+###  u8aToString
 
-*Defined in [u8a/toString.ts:35](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/u8a/toString.ts#L35)*
+▸ **u8aToString**(`value?`: `Uint8Array` | null): *string*
 
-*__name__*: u8aToString
+*Defined in [u8a/toString.ts:35](url)*
 
-*__summary__*: Creates a utf-8 string from a Uint8Array object.
+**`name`** u8aToString
 
-*__description__*: `UInt8Array` input values return the actual decoded utf-8 string. `null` or `undefined` values returns an empty string.
+**`summary`** Creates a utf-8 string from a Uint8Array object.
 
-*__example__*:   
+**`description`** 
+`UInt8Array` input values return the actual decoded utf-8 string. `null` or `undefined` values returns an empty string.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { u8aToString } from '@polkadot/util';
@@ -26,11 +32,10 @@ u8aToString(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0x6f])); // hello
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `Uint8Array` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | `Uint8Array` | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

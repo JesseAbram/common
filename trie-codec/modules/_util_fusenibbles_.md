@@ -1,23 +1,26 @@
+> # External module: "util/fuseNibbles"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="fusenibbles"></a>
+* [fuseNibbles](_util_fusenibbles_.md#fusenibbles)
 
-##  fuseNibbles
+## Functions
 
-▸ **fuseNibbles**(nibbles: *`Uint8Array`*, isLeaf: *`boolean`*): `Uint8Array`
+###  fuseNibbles
 
-*Defined in [util/fuseNibbles.ts:12](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/util/fuseNibbles.ts#L12)*
+▸ **fuseNibbles**(`nibbles`: `Uint8Array`, `isLeaf`: boolean): *`Uint8Array`*
+
+*Defined in [util/fuseNibbles.ts:12](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| nibbles | `Uint8Array` |
-| isLeaf | `boolean` |
+Name | Type |
+------ | ------ |
+`nibbles` | `Uint8Array` |
+`isLeaf` | boolean |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "hex/hasPrefix"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="hexhasprefix"></a>
+* [hexHasPrefix](_hex_hasprefix_.md#hexhasprefix)
 
-##  hexHasPrefix
+## Functions
 
-▸ **hexHasPrefix**(value?: *`string` \| `null`*): `boolean`
+###  hexHasPrefix
 
-*Defined in [hex/hasPrefix.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/hex/hasPrefix.ts#L21)*
+▸ **hexHasPrefix**(`value?`: string | null): *boolean*
 
-*__name__*: hexHasPrefix
+*Defined in [hex/hasPrefix.ts:21](url)*
 
-*__summary__*: Tests for the existence of a `0x` prefix.
+**`name`** hexHasPrefix
 
-*__description__*: Checks for a valid hex input value and if the start matched `0x`
+**`summary`** Tests for the existence of a `0x` prefix.
 
-*__example__*:   
+**`description`** 
+Checks for a valid hex input value and if the start matched `0x`
+
+**`example`** 
+<BR>
 
 ```javascript
 import { hexHasPrefix } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('has prefix', hexHasPrefix('0x1234')); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `string` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | string | null |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,20 +1,25 @@
+> # External module: "compact/stripLength"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="compactstriplength"></a>
+* [compactStripLength](_compact_striplength_.md#compactstriplength)
 
-##  compactStripLength
+## Functions
 
-▸ **compactStripLength**(input: *`Uint8Array`*, bitLength?: *[BitLength](_compact_types_.md#bitlength)*): [`number`, `Uint8Array`]
+###  compactStripLength
 
-*Defined in [compact/stripLength.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/compact/stripLength.ts#L22)*
+▸ **compactStripLength**(`input`: `Uint8Array`, `bitLength`: [BitLength](_compact_types_.md#bitlength)): *[number, `Uint8Array`]*
 
-*__name__*: compactStripLength
+*Defined in [compact/stripLength.ts:22](url)*
 
-*__description__*: Removes the length prefix, returning both the total length (including the value + compact encoding) and the decoded value with the correct length
+**`name`** compactStripLength
 
-*__example__*:   
+**`description`** Removes the length prefix, returning both the total length (including the value + compact encoding) and the decoded value with the correct length
+
+**`example`** 
+<BR>
 
 ```javascript
 import { compactStripLength } from '@polkadot/util';
@@ -24,12 +29,11 @@ console.log(compactStripLength(new Uint8Array([2 << 2, 0xde, 0xad]))); // [2, Ui
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| input | `Uint8Array` | - |
-| `Default value` bitLength | [BitLength](_compact_types_.md#bitlength) |  DEFAULT_BITLENGTH |
+Name | Type | Default value |
+------ | ------ | ------ |
+`input` | `Uint8Array` | - |
+`bitLength` | [BitLength](_compact_types_.md#bitlength) |  DEFAULT_BITLENGTH |
 
-**Returns:** [`number`, `Uint8Array`]
+**Returns:** *[number, `Uint8Array`]*
 
 ___
-

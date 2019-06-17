@@ -1,22 +1,28 @@
+> # External module: "nacl/sign"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="naclsign"></a>
+* [naclSign](_nacl_sign_.md#naclsign)
 
-##  naclSign
+## Functions
 
-▸ **naclSign**(message: *`Uint8Array` \| `string`*, __namedParameters: *`object`*): `Uint8Array`
+###  naclSign
 
-*Defined in [nacl/sign.ts:25](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/sign.ts#L25)*
+▸ **naclSign**(`message`: `Uint8Array` | string, `__namedParameters`: object): *`Uint8Array`*
 
-*__name__*: naclSign
+*Defined in [nacl/sign.ts:25](url)*
 
-*__summary__*: Signs a message using the supplied secretKey
+**`name`** naclSign
 
-*__description__*: Returns message signature of `message`, using the `secretKey`.
+**`summary`** Signs a message using the supplied secretKey
 
-*__example__*:   
+**`description`** 
+Returns message signature of `message`, using the `secretKey`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclSign } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ naclSign([...], [...]); // => [...]
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| message | `Uint8Array` \| `string` |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`message` | `Uint8Array` | string |
+`__namedParameters` | object |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

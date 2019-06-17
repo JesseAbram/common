@@ -1,331 +1,337 @@
+> # Interface: TrieDb
 
+## Hierarchy
 
-# Hierarchy
+* `TxDb`
 
- `TxDb`
+  * **TrieDb**
 
-**↳ TrieDb**
+### Index
 
-# Properties
+#### Properties
 
-<a id="db"></a>
+* [db](_types_.triedb.md#db)
+* [txCommit](_types_.triedb.md#optional-txcommit)
+* [txRevert](_types_.triedb.md#optional-txrevert)
+* [txStart](_types_.triedb.md#optional-txstart)
 
-##  db
+#### Methods
 
-**● db**: *`TxDb`*
+* [close](_types_.triedb.md#close)
+* [del](_types_.triedb.md#del)
+* [drop](_types_.triedb.md#drop)
+* [empty](_types_.triedb.md#empty)
+* [entries](_types_.triedb.md#entries)
+* [get](_types_.triedb.md#get)
+* [getEntry](_types_.triedb.md#getentry)
+* [getNode](_types_.triedb.md#getnode)
+* [getRoot](_types_.triedb.md#getroot)
+* [maintain](_types_.triedb.md#maintain)
+* [open](_types_.triedb.md#open)
+* [put](_types_.triedb.md#put)
+* [rename](_types_.triedb.md#rename)
+* [setRoot](_types_.triedb.md#setroot)
+* [size](_types_.triedb.md#size)
+* [snapshot](_types_.triedb.md#snapshot)
+* [transaction](_types_.triedb.md#transaction)
 
-*Defined in [types.ts:40](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L40)*
+## Properties
 
-___
-<a id="txcommit"></a>
+###  db
 
-## `<Optional>` txCommit
+● **db**: *`TxDb`*
 
-**● txCommit**: *`undefined` \| `function`*
-
-*Inherited from BaseDb.txCommit*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:28](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L28)*
-
-___
-<a id="txrevert"></a>
-
-## `<Optional>` txRevert
-
-**● txRevert**: *`undefined` \| `function`*
-
-*Inherited from BaseDb.txRevert*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:29](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L29)*
-
-___
-<a id="txstart"></a>
-
-## `<Optional>` txStart
-
-**● txStart**: *`undefined` \| `function`*
-
-*Inherited from BaseDb.txStart*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:30](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L30)*
+*Defined in [types.ts:40](url)*
 
 ___
 
-# Methods
+### `Optional` txCommit
 
-<a id="close"></a>
+● **txCommit**? : *undefined | function*
 
-##  close
+*Inherited from void*
 
-▸ **close**(): `void`
-
-*Inherited from BaseDb.close*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:20](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L20)*
-
-**Returns:** `void`
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:28](url)*
 
 ___
-<a id="del"></a>
 
-##  del
+### `Optional` txRevert
 
-▸ **del**(key: *`Uint8Array`*): `void`
+● **txRevert**? : *undefined | function*
 
-*Inherited from BaseDb.del*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:32](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L32)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:29](url)*
+
+___
+
+### `Optional` txStart
+
+● **txStart**? : *undefined | function*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:30](url)*
+
+___
+
+## Methods
+
+###  close
+
+▸ **close**(): *void*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:20](url)*
+
+**Returns:** *void*
+
+___
+
+###  del
+
+▸ **del**(`key`: `Uint8Array`): *void*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:32](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
 
-**Returns:** `void`
-
-___
-<a id="drop"></a>
-
-##  drop
-
-▸ **drop**(): `void`
-
-*Inherited from BaseDb.drop*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L22)*
-
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="empty"></a>
 
-##  empty
+###  drop
 
-▸ **empty**(): `void`
+▸ **drop**(): *void*
 
-*Inherited from BaseDb.empty*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L23)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:22](url)*
 
-**Returns:** `void`
-
-___
-<a id="entries"></a>
-
-##  entries
-
-▸ **entries**(): `Array`<[TrieEntry](../modules/_types_.md#trieentry)>
-
-*Defined in [types.ts:48](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L48)*
-
-**Returns:** `Array`<[TrieEntry](../modules/_types_.md#trieentry)>
+**Returns:** *void*
 
 ___
-<a id="get"></a>
 
-##  get
+###  empty
 
-▸ **get**(key: *`Uint8Array`*): `Uint8Array` \| `null`
+▸ **empty**(): *void*
 
-*Inherited from BaseDb.get*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:33](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L33)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:23](url)*
+
+**Returns:** *void*
+
+___
+
+###  entries
+
+▸ **entries**(): *`Array<TrieEntry>`*
+
+*Defined in [types.ts:48](url)*
+
+**Returns:** *`Array<TrieEntry>`*
+
+___
+
+###  get
+
+▸ **get**(`key`: `Uint8Array`): *`Uint8Array` | null*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:33](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
 
-**Returns:** `Uint8Array` \| `null`
+**Returns:** *`Uint8Array` | null*
 
 ___
-<a id="getentry"></a>
 
-##  getEntry
+###  getEntry
 
-▸ **getEntry**(root?: *`Uint8Array`*): [TrieEntry](../modules/_types_.md#trieentry) \| `null`
+▸ **getEntry**(`root?`: `Uint8Array`): *[TrieEntry](../modules/_types_.md#trieentry) | null*
 
-*Defined in [types.ts:45](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L45)*
+*Defined in [types.ts:45](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` root | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`root?` | `Uint8Array` |
 
-**Returns:** [TrieEntry](../modules/_types_.md#trieentry) \| `null`
+**Returns:** *[TrieEntry](../modules/_types_.md#trieentry) | null*
 
 ___
-<a id="getnode"></a>
 
-##  getNode
+###  getNode
 
-▸ **getNode**(hash?: *`Uint8Array`*): [Node](../modules/_types_.md#node)
+▸ **getNode**(`hash?`: `Uint8Array`): *[Node](../modules/_types_.md#node)*
 
-*Defined in [types.ts:46](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L46)*
+*Defined in [types.ts:46](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` hash | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`hash?` | `Uint8Array` |
 
-**Returns:** [Node](../modules/_types_.md#node)
-
-___
-<a id="getroot"></a>
-
-##  getRoot
-
-▸ **getRoot**(): `Uint8Array`
-
-*Defined in [types.ts:42](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L42)*
-
-**Returns:** `Uint8Array`
+**Returns:** *[Node](../modules/_types_.md#node)*
 
 ___
-<a id="maintain"></a>
 
-##  maintain
+###  getRoot
 
-▸ **maintain**(fn: *`ProgressCb`*): `void`
+▸ **getRoot**(): *`Uint8Array`*
 
-*Inherited from BaseDb.maintain*
+*Defined in [types.ts:42](url)*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L24)*
+**Returns:** *`Uint8Array`*
+
+___
+
+###  maintain
+
+▸ **maintain**(`fn`: `ProgressCb`): *void*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:24](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| fn | `ProgressCb` |
+Name | Type |
+------ | ------ |
+`fn` | `ProgressCb` |
 
-**Returns:** `void`
-
-___
-<a id="open"></a>
-
-##  open
-
-▸ **open**(): `void`
-
-*Inherited from BaseDb.open*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L21)*
-
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="put"></a>
 
-##  put
+###  open
 
-▸ **put**(key: *`Uint8Array`*, value: *`Uint8Array`*): `void`
+▸ **open**(): *void*
 
-*Inherited from BaseDb.put*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:34](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L34)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:21](url)*
+
+**Returns:** *void*
+
+___
+
+###  put
+
+▸ **put**(`key`: `Uint8Array`, `value`: `Uint8Array`): *void*
+
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:34](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
-| value | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
+`value` | `Uint8Array` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="rename"></a>
 
-##  rename
+###  rename
 
-▸ **rename**(base: *`string`*, file: *`string`*): `void`
+▸ **rename**(`base`: string, `file`: string): *void*
 
-*Inherited from BaseDb.rename*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:25](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L25)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:25](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| base | `string` |
-| file | `string` |
+Name | Type |
+------ | ------ |
+`base` | string |
+`file` | string |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="setroot"></a>
 
-##  setRoot
+###  setRoot
 
-▸ **setRoot**(rootHash: *`Uint8Array`*): `void`
+▸ **setRoot**(`rootHash`: `Uint8Array`): *void*
 
-*Defined in [types.ts:43](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L43)*
+*Defined in [types.ts:43](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| rootHash | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`rootHash` | `Uint8Array` |
 
-**Returns:** `void`
-
-___
-<a id="size"></a>
-
-##  size
-
-▸ **size**(): `number`
-
-*Inherited from BaseDb.size*
-
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L26)*
-
-**Returns:** `number`
+**Returns:** *void*
 
 ___
-<a id="snapshot"></a>
 
-##  snapshot
+###  size
 
-▸ **snapshot**(dest: *[TrieDb](_types_.triedb.md)*, fn?: *`ProgressCb`*): `number`
+▸ **size**(): *number*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L49)*
+*Inherited from void*
+
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:26](url)*
+
+**Returns:** *number*
+
+___
+
+###  snapshot
+
+▸ **snapshot**(`dest`: [TrieDb](_types_.triedb.md), `fn?`: `ProgressCb`): *number*
+
+*Defined in [types.ts:49](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| dest | [TrieDb](_types_.triedb.md) |
-| `Optional` fn | `ProgressCb` |
+Name | Type |
+------ | ------ |
+`dest` | [TrieDb](_types_.triedb.md) |
+`fn?` | `ProgressCb` |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-<a id="transaction"></a>
 
-##  transaction
+###  transaction
 
-▸ **transaction**<`T`>(fn: *`function`*): `T`
+▸ **transaction**<**T**>(`fn`: function): *`T`*
 
-*Inherited from TxDb.transaction*
+*Inherited from void*
 
-*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:38](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/types.ts#L38)*
+*Defined in [/home/travis/build/polkadot-js/common/packages/db/src/types.ts:38](url)*
 
 **Type parameters:**
 
-#### T 
+■` T`
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| fn | `function` |
+■` fn`: *function*
 
-**Returns:** `T`
+▸ (): *`T`*
+
+**Returns:** *`T`*
 
 ___
-

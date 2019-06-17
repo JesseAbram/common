@@ -1,22 +1,28 @@
+> # External module: "is/observable"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isobservable"></a>
+* [isObservable](_is_observable_.md#isobservable)
 
-##  isObservable
+## Functions
 
-▸ **isObservable**(value: *`any`*): `boolean`
+###  isObservable
 
-*Defined in [is/observable.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/observable.ts#L26)*
+▸ **isObservable**(`value`: any): *boolean*
 
-*__name__*: isBObservable
+*Defined in [is/observable.ts:26](url)*
 
-*__summary__*: Tests for a `Observable` object instance.
+**`name`** isBObservable
 
-*__description__*: Checks to see if the input object is an instance of `BN` (bn.js).
+**`summary`** Tests for a `Observable` object instance.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input object is an instance of `BN` (bn.js).
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isObservable } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isObservable', isObservable(...));
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

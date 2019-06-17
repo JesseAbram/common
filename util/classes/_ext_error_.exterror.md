@@ -1,12 +1,14 @@
+> # Class: ExtError
 
+**`name`** ExtError
 
-*__name__*: ExtError
+**`summary`** Extension to the basic JS Error.
 
-*__summary__*: Extension to the basic JS Error.
+**`description`** 
+The built-in JavaScript Error class is extended by adding a code to allow for Error categorization. In addition to the normal `stack`, `message`, the numeric `code` and `data` (any types) parameters are available on the object.
 
-*__description__*: The built-in JavaScript Error class is extended by adding a code to allow for Error categorization. In addition to the normal `stack`, `message`, the numeric `code` and `data` (any types) parameters are available on the object.
-
-*__example__*:   
+**`example`** 
+<BR>
 
 ```javascript
 const { ExtError } from '@polkadot/util');
@@ -14,155 +16,149 @@ const { ExtError } from '@polkadot/util');
 throw new ExtError('some message', ExtError.CODES.METHOD_NOT_FOUND); // => error.code = -32601
 ```
 
-# Hierarchy
+## Hierarchy
 
- `Error`
+* `Error`
 
-**↳ ExtError**
+  * **ExtError**
 
-# Implements
+## Implements
 
 * [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_ext_error_.exterror.md#constructor)
 
-⊕ **new ExtError**(message?: *`string`*, code?: *`number`*, data?: *`any`*): [ExtError](_ext_error_.exterror.md)
+#### Properties
 
-*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L43)*
+* [code](_ext_error_.exterror.md#code)
+* [data](_ext_error_.exterror.md#data)
+* [message](_ext_error_.exterror.md#message)
+* [name](_ext_error_.exterror.md#name)
+* [stack](_ext_error_.exterror.md#stack)
+* [Error](_ext_error_.exterror.md#static-error)
+
+#### Object literals
+
+* [CODES](_ext_error_.exterror.md#static-codes)
+
+## Constructors
+
+###  constructor
+
+\+ **new ExtError**(`message`: string, `code`: number, `data?`: any): *[ExtError](_ext_error_.exterror.md)*
+
+*Defined in [ext/error.ts:43](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` message | `string` | &quot;&quot; |
-| `Default value` code | `number` |  UNKNOWN |
-| `Optional` data | `any` | - |
+Name | Type | Default value |
+------ | ------ | ------ |
+`message` | string | "" |
+`code` | number |  UNKNOWN |
+`data?` | any | - |
 
-**Returns:** [ExtError](_ext_error_.exterror.md)
+**Returns:** *[ExtError](_ext_error_.exterror.md)*
 
 ___
 
-# Properties
+## Properties
 
-<a id="code"></a>
+###  code
 
-##  code
-
-**● code**: *`number`*
+● **code**: *number*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[code](../interfaces/_types_.exterrorinterface.md#code)*
 
-*Defined in [ext/error.ts:35](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L35)*
+*Defined in [ext/error.ts:35](url)*
 
 ___
-<a id="data"></a>
 
-##  data
+###  data
 
-**● data**: *`any`*
+● **data**: *any*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[data](../interfaces/_types_.exterrorinterface.md#data)*
 
-*Defined in [ext/error.ts:37](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L37)*
+*Defined in [ext/error.ts:37](url)*
 
 ___
-<a id="message"></a>
 
-##  message
+###  message
 
-**● message**: *`string`*
+● **message**: *string*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[message](../interfaces/_types_.exterrorinterface.md#message)*
 
-*Overrides Error.message*
+*Overrides void*
 
-*Defined in [ext/error.ts:39](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L39)*
-
-___
-<a id="name"></a>
-
-##  name
-
-**● name**: *`string`*
-
-*Overrides Error.name*
-
-*Defined in [ext/error.ts:41](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L41)*
+*Defined in [ext/error.ts:39](url)*
 
 ___
-<a id="stack"></a>
 
-##  stack
+###  name
 
-**● stack**: *`string`*
+● **name**: *string*
+
+*Overrides void*
+
+*Defined in [ext/error.ts:41](url)*
+
+___
+
+###  stack
+
+● **stack**: *string*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[stack](../interfaces/_types_.exterrorinterface.md#stack)*
 
-*Overrides Error.stack*
+*Overrides void*
 
-*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L43)*
-
-___
-<a id="error"></a>
-
-## `<Static>` Error
-
-**● Error**: *`ErrorConstructor`*
-
-*Defined in /home/travis/build/polkadot-js/common/node_modules/typescript/lib/lib.es5.d.ts:984*
+*Defined in [ext/error.ts:43](url)*
 
 ___
 
-# Object literals
+### `Static` Error
 
-<a id="codes"></a>
+■ **Error**: *`ErrorConstructor`*
 
-## `<Static>` CODES
+Defined in /home/travis/build/polkadot-js/common/node_modules/typescript/lib/lib.es5.d.ts:984
 
-**CODES**: *`object`*
+___
 
-*Defined in [ext/error.ts:60](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L60)*
+## Object literals
 
-<a id="codes.assert"></a>
+### `Static` CODES
+
+### ■ **CODES**: *object*
+
+*Defined in [ext/error.ts:60](url)*
 
 ###  ASSERT
 
-**● ASSERT**: *`number`* =  -90009
+● **ASSERT**: *number* =  -90009
 
-*Defined in [ext/error.ts:61](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L61)*
-
-___
-<a id="codes.invalid_jsonrpc"></a>
+*Defined in [ext/error.ts:61](url)*
 
 ###  INVALID_JSONRPC
 
-**● INVALID_JSONRPC**: *`number`* =  -99998
+● **INVALID_JSONRPC**: *number* =  -99998
 
-*Defined in [ext/error.ts:63](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L63)*
-
-___
-<a id="codes.method_not_found"></a>
+*Defined in [ext/error.ts:63](url)*
 
 ###  METHOD_NOT_FOUND
 
-**● METHOD_NOT_FOUND**: *`number`* =  -32601
+● **METHOD_NOT_FOUND**: *number* =  -32601
 
-*Defined in [ext/error.ts:64](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L64)*
-
-___
-<a id="codes.unknown"></a>
+*Defined in [ext/error.ts:64](url)*
 
 ###  UNKNOWN
 
-**● UNKNOWN**: *`number`*
+● **UNKNOWN**: *number*
 
-*Defined in [ext/error.ts:62](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/ext/error.ts#L62)*
-
-___
+*Defined in [ext/error.ts:62](url)*
 
 ___
-

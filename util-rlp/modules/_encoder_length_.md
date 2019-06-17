@@ -1,23 +1,26 @@
+> # External module: "encoder/length"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="encodelength"></a>
+* [encodeLength](_encoder_length_.md#encodelength)
 
-##  encodeLength
+## Functions
 
-▸ **encodeLength**(length: *`number`*, offset: *`number`*): `Uint8Array`
+###  encodeLength
 
-*Defined in [encoder/length.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/encoder/length.ts#L7)*
+▸ **encodeLength**(`length`: number, `offset`: number): *`Uint8Array`*
+
+*Defined in [encoder/length.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| length | `number` |
-| offset | `number` |
+Name | Type |
+------ | ------ |
+`length` | number |
+`offset` | number |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

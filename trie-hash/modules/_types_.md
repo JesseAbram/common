@@ -1,16 +1,19 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="triepair"></a>
+* [TriePair](_types_.md#triepair)
 
-##  TriePair
+## Type aliases
 
-**Ƭ TriePair**: *`object`*
+###  TriePair
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-hash/src/types.ts#L5)*
+Ƭ **TriePair**: *object*
 
-#### Type declaration
+*Defined in [types.ts:5](url)*
+
+#### Type declaration:
 
 ___
-

@@ -1,23 +1,26 @@
+> # External module: "stream/createLeaf"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createleaf"></a>
+* [createLeaf](_stream_createleaf_.md#createleaf)
 
-##  createLeaf
+## Functions
 
-▸ **createLeaf**(key: *`Uint8Array`*, value: *`Uint8Array`*): `Uint8Array`
+###  createLeaf
 
-*Defined in [stream/createLeaf.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/stream/createLeaf.ts#L10)*
+▸ **createLeaf**(`key`: `Uint8Array`, `value`: `Uint8Array`): *`Uint8Array`*
+
+*Defined in [stream/createLeaf.ts:10](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
-| value | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
+`value` | `Uint8Array` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

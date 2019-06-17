@@ -1,22 +1,28 @@
+> # External module: "xxhash/asU8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="xxhashasu8a"></a>
+* [xxhashAsU8a](_xxhash_asu8a_.md#xxhashasu8a)
 
-##  xxhashAsU8a
+## Functions
 
-▸ **xxhashAsU8a**(data: *`Buffer` \| `Uint8Array` \| `string`*, bitLength?: *`number`*): `Uint8Array`
+###  xxhashAsU8a
 
-*Defined in [xxhash/asU8a.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/xxhash/asU8a.ts#L24)*
+▸ **xxhashAsU8a**(`data`: `Buffer` | `Uint8Array` | string, `bitLength`: number): *`Uint8Array`*
 
-*__name__*: xxhashAsU8a
+*Defined in [xxhash/asU8a.ts:24](url)*
 
-*__summary__*: Creates a xxhash64 u8a from the input.
+**`name`** xxhashAsU8a
 
-*__description__*: From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash64 and return the result as a `Uint8Array` with the specified `bitLength`.
+**`summary`** Creates a xxhash64 u8a from the input.
 
-*__example__*:   
+**`description`** 
+From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash64 and return the result as a `Uint8Array` with the specified `bitLength`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { xxhashAsU8a } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ xxhashAsU8a('abc'); // => 0x44bc2cf5ad770999
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| data | `Buffer` \| `Uint8Array` \| `string` | - |
-| `Default value` bitLength | `number` | 64 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`data` | `Buffer` | `Uint8Array` | string | - |
+`bitLength` | number | 64 |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

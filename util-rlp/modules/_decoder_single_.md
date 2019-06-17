@@ -1,23 +1,26 @@
+> # External module: "decoder/single"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decodesingle"></a>
+* [decodeSingle](_decoder_single_.md#decodesingle)
 
-##  decodeSingle
+## Functions
 
-▸ **decodeSingle**(decode: *[DecodeFunc](_decoder_types_.md#decodefunc)*, input: *`Uint8Array`*): [DecodeOutput](_decoder_types_.md#decodeoutput)
+###  decodeSingle
 
-*Defined in [decoder/single.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/decoder/single.ts#L7)*
+▸ **decodeSingle**(`decode`: [DecodeFunc](_decoder_types_.md#decodefunc), `input`: `Uint8Array`): *[DecodeOutput](_decoder_types_.md#decodeoutput)*
+
+*Defined in [decoder/single.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| decode | [DecodeFunc](_decoder_types_.md#decodefunc) |
-| input | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`decode` | [DecodeFunc](_decoder_types_.md#decodefunc) |
+`input` | `Uint8Array` |
 
-**Returns:** [DecodeOutput](_decoder_types_.md#decodeoutput)
+**Returns:** *[DecodeOutput](_decoder_types_.md#decodeoutput)*
 
 ___
-

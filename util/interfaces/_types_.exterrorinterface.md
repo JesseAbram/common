@@ -1,49 +1,52 @@
+> # Interface: ExtErrorInterface
 
+## Hierarchy
 
-# Hierarchy
+* **ExtErrorInterface**
 
-**ExtErrorInterface**
-
-# Implemented by
+## Implemented by
 
 * [ExtError](../classes/_ext_error_.exterror.md)
 
-# Properties
+### Index
 
-<a id="code"></a>
+#### Properties
 
-##  code
+* [code](_types_.exterrorinterface.md#code)
+* [data](_types_.exterrorinterface.md#data)
+* [message](_types_.exterrorinterface.md#message)
+* [stack](_types_.exterrorinterface.md#stack)
 
-**● code**: *`number`*
+## Properties
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L8)*
+###  code
 
-___
-<a id="data"></a>
+● **code**: *number*
 
-##  data
-
-**● data**: *`any`*
-
-*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L9)*
-
-___
-<a id="message"></a>
-
-##  message
-
-**● message**: *`string`*
-
-*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L10)*
-
-___
-<a id="stack"></a>
-
-##  stack
-
-**● stack**: *`string`*
-
-*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L11)*
+*Defined in [types.ts:8](url)*
 
 ___
 
+###  data
+
+● **data**: *any*
+
+*Defined in [types.ts:9](url)*
+
+___
+
+###  message
+
+● **message**: *string*
+
+*Defined in [types.ts:10](url)*
+
+___
+
+###  stack
+
+● **stack**: *string*
+
+*Defined in [types.ts:11](url)*
+
+___

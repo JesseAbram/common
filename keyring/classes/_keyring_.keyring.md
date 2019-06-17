@@ -1,419 +1,447 @@
+> # Class: Keyring
 
+# @polkadot/keyring
 
-@polkadot/keyring
-=================
+## Overview
 
-Overview
---------
+**`name`** Keyring
 
-*__name__*: Keyring
+**`summary`** Keyring management of user accounts
 
-*__summary__*: Keyring management of user accounts
+**`description`** Allows generation of keyring pairs from a variety of input combinations, such as
+json object containing account address or public key, account metadata, and account encoded using
+`addFromJson`, or by providing those values as arguments separately to `addFromAddress`,
+or by providing the mnemonic (seed phrase) and account metadata as arguments to `addFromMnemonic`.
+Stores the keyring pairs in a keyring pair dictionary. Removal of the keyring pairs from the keyring pair
+dictionary is achieved using `removePair`. Retrieval of all the stored pairs via `getPairs` or perform
+lookup of a pair for a given account address or public key using `getPair`. JSON metadata associated with
+an account may be obtained using `toJson` accompanied by the account passphrase.
 
-*__description__*: Allows generation of keyring pairs from a variety of input combinations, such as json object containing account address or public key, account metadata, and account encoded using `addFromJson`, or by providing those values as arguments separately to `addFromAddress`, or by providing the mnemonic (seed phrase) and account metadata as arguments to `addFromMnemonic`. Stores the keyring pairs in a keyring pair dictionary. Removal of the keyring pairs from the keyring pair dictionary is achieved using `removePair`. Retrieval of all the stored pairs via `getPairs` or perform lookup of a pair for a given account address or public key using `getPair`. JSON metadata associated with an account may be obtained using `toJson` accompanied by the account passphrase.
+## Hierarchy
 
-# Hierarchy
+* **Keyring**
 
-**Keyring**
-
-# Implements
+## Implements
 
 * [KeyringInstance](../interfaces/_types_.keyringinstance.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_keyring_.keyring.md#constructor)
 
-⊕ **new Keyring**(options?: *[KeyringOptions](../modules/_types_.md#keyringoptions)*): [Keyring](_keyring_.keyring.md)
+#### Properties
 
-*Defined in [keyring.ts:33](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L33)*
+* [decodeAddress](_keyring_.keyring.md#decodeaddress)
+* [encodeAddress](_keyring_.keyring.md#encodeaddress)
+* [setAddressPrefix](_keyring_.keyring.md#setaddressprefix)
+
+#### Accessors
+
+* [pairs](_keyring_.keyring.md#pairs)
+* [publicKeys](_keyring_.keyring.md#publickeys)
+* [type](_keyring_.keyring.md#type)
+
+#### Methods
+
+* [addFromAddress](_keyring_.keyring.md#addfromaddress)
+* [addFromJson](_keyring_.keyring.md#addfromjson)
+* [addFromMnemonic](_keyring_.keyring.md#addfrommnemonic)
+* [addFromSeed](_keyring_.keyring.md#addfromseed)
+* [addFromUri](_keyring_.keyring.md#addfromuri)
+* [addPair](_keyring_.keyring.md#addpair)
+* [createFromUri](_keyring_.keyring.md#createfromuri)
+* [getPair](_keyring_.keyring.md#getpair)
+* [getPairs](_keyring_.keyring.md#getpairs)
+* [getPublicKeys](_keyring_.keyring.md#getpublickeys)
+* [removePair](_keyring_.keyring.md#removepair)
+* [toJson](_keyring_.keyring.md#tojson)
+
+## Constructors
+
+###  constructor
+
+\+ **new Keyring**(`options`: [KeyringOptions](../modules/_types_.md#keyringoptions)): *[Keyring](_keyring_.keyring.md)*
+
+*Defined in [keyring.ts:33](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` options | [KeyringOptions](../modules/_types_.md#keyringoptions) |  {} |
+Name | Type | Default value |
+------ | ------ | ------ |
+`options` | [KeyringOptions](../modules/_types_.md#keyringoptions) |  {} |
 
-**Returns:** [Keyring](_keyring_.keyring.md)
+**Returns:** *[Keyring](_keyring_.keyring.md)*
 
 ___
 
-# Properties
+## Properties
 
-<a id="decodeaddress"></a>
+###  decodeAddress
 
-##  decodeAddress
-
-**● decodeAddress**: *`decode`* =  decodeAddress
+● **decodeAddress**: *`decode`* =  decodeAddress
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[decodeAddress](../interfaces/_types_.keyringinstance.md#decodeaddress)*
 
-*Defined in [keyring.ts:46](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L46)*
+*Defined in [keyring.ts:46](url)*
 
 ___
-<a id="encodeaddress"></a>
 
-##  encodeAddress
+###  encodeAddress
 
-**● encodeAddress**: *`encode`* =  encodeAddress
+● **encodeAddress**: *`encode`* =  encodeAddress
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[encodeAddress](../interfaces/_types_.keyringinstance.md#encodeaddress)*
 
-*Defined in [keyring.ts:47](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L47)*
+*Defined in [keyring.ts:47](url)*
 
 ___
-<a id="setaddressprefix"></a>
 
-##  setAddressPrefix
+###  setAddressPrefix
 
-**● setAddressPrefix**: *`setPrefix`* =  setAddressPrefix
+● **setAddressPrefix**: *`setPrefix`* =  setAddressPrefix
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[setAddressPrefix](../interfaces/_types_.keyringinstance.md#setaddressprefix)*
 
-*Defined in [keyring.ts:48](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L48)*
+*Defined in [keyring.ts:48](url)*
 
 ___
 
-# Accessors
+## Accessors
 
-<a id="pairs"></a>
+###  pairs
 
-##  pairs
+● **get pairs**(): *`Array<KeyringPair>`*
 
-**get pairs**(): `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
+*Defined in [keyring.ts:53](url)*
 
-*Defined in [keyring.ts:53](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L53)*
+**`description`** retrieve the pairs (alias for getPairs)
 
-*__description__*: retrieve the pairs (alias for getPairs)
-
-**Returns:** `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
-
-___
-<a id="publickeys"></a>
-
-##  publicKeys
-
-**get publicKeys**(): `Array`<`Uint8Array`>
-
-*Defined in [keyring.ts:60](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L60)*
-
-*__description__*: retrieve the publicKeys (alias for getPublicKeys)
-
-**Returns:** `Array`<`Uint8Array`>
-
-___
-<a id="type"></a>
-
-##  type
-
-**get type**(): `KeypairType`
-
-*Defined in [keyring.ts:67](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L67)*
-
-*__description__*: Returns the type of the keyring, either ed25519 of sr25519
-
-**Returns:** `KeypairType`
+**Returns:** *`Array<KeyringPair>`*
 
 ___
 
-# Methods
+###  publicKeys
 
-<a id="addfromaddress"></a>
+● **get publicKeys**(): *`Array<Uint8Array>`*
 
-##  addFromAddress
+*Defined in [keyring.ts:60](url)*
 
-▸ **addFromAddress**(address: *`string` \| `Uint8Array`*, meta?: *[KeyringPair$Meta](../modules/_types_.md#keyringpair_meta)*, encoded?: *`Uint8Array` \| `null`*, type?: *`KeypairType`*, ignoreChecksum?: *`undefined` \| `false` \| `true`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+**`description`** retrieve the publicKeys (alias for getPublicKeys)
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[addFromAddress](../interfaces/_types_.keyringinstance.md#addfromaddress)*
+**Returns:** *`Array<Uint8Array>`*
 
-*Defined in [keyring.ts:87](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L87)*
+___
 
-*__name__*: addFromAddress
+###  type
 
-*__summary__*: Stores an account, given an account address, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+● **get type**(): *`KeypairType`*
 
-*__description__*: Allows user to explicitely provide separate inputs including account address or public key, and optionally the associated account metadata, and the default encoded value as arguments (that may be obtained from the json file of an account backup), and then generates a keyring pair from them that it passes to `addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
+*Defined in [keyring.ts:67](url)*
+
+**`description`** Returns the type of the keyring, either ed25519 of sr25519
+
+**Returns:** *`KeypairType`*
+
+___
+
+## Methods
+
+###  addFromAddress
+
+▸ **addFromAddress**(`address`: string | `Uint8Array`, `meta`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `encoded`: `Uint8Array` | null, `type`: `KeypairType`, `ignoreChecksum?`: undefined | false | true): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
+
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
+
+*Defined in [keyring.ts:87](url)*
+
+**`name`** addFromAddress
+
+**`summary`** Stores an account, given an account address, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+
+**`description`** Allows user to explicitely provide separate inputs including account address or public key, and optionally
+the associated account metadata, and the default encoded value as arguments (that may be obtained from the json file
+of an account backup), and then generates a keyring pair from them that it passes to
+`addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| address | `string` \| `Uint8Array` | - |
-| `Default value` meta | [KeyringPair$Meta](../modules/_types_.md#keyringpair_meta) |  {} |
-| `Default value` encoded | `Uint8Array` \| `null` |  null |
-| `Default value` type | `KeypairType` |  this.type |
-| `Optional` ignoreChecksum | `undefined` \| `false` \| `true` | - |
+Name | Type | Default value |
+------ | ------ | ------ |
+`address` | string | `Uint8Array` | - |
+`meta` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |  {} |
+`encoded` | `Uint8Array` | null |  null |
+`type` | `KeypairType` |  this.type |
+`ignoreChecksum?` | undefined | false | true | - |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="addfromjson"></a>
 
-##  addFromJson
+###  addFromJson
 
-▸ **addFromJson**(__namedParameters: *`object`*, ignoreChecksum?: *`undefined` \| `false` \| `true`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **addFromJson**(`__namedParameters`: object, `ignoreChecksum?`: undefined | false | true): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Defined in [keyring.ts:100](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L100)*
+*Defined in [keyring.ts:100](url)*
 
-*__name__*: addFromJson
+**`name`** addFromJson
 
-*__summary__*: Stores an account, given JSON data, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+**`summary`** Stores an account, given JSON data, as a Key/Value (public key, pair) in Keyring Pair Dictionary
 
-*__description__*: Allows user to provide a json object argument that contains account information (that may be obtained from the json file of an account backup), and then generates a keyring pair from it that it passes to `addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
+**`description`** Allows user to provide a json object argument that contains account information (that may be obtained from the json file
+of an account backup), and then generates a keyring pair from it that it passes to
+`addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
-| `Optional` ignoreChecksum | `undefined` \| `false` \| `true` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
+`ignoreChecksum?` | undefined | false | true |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="addfrommnemonic"></a>
 
-##  addFromMnemonic
+###  addFromMnemonic
 
-▸ **addFromMnemonic**(mnemonic: *`string`*, meta?: *[KeyringPair$Meta](../modules/_types_.md#keyringpair_meta)*, type?: *`KeypairType`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **addFromMnemonic**(`mnemonic`: string, `meta`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type`: `KeypairType`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[addFromMnemonic](../interfaces/_types_.keyringinstance.md#addfrommnemonic)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:116](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L116)*
+*Defined in [keyring.ts:116](url)*
 
-*__name__*: addFromMnemonic
+**`name`** addFromMnemonic
 
-*__summary__*: Stores an account, given a mnemonic, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+**`summary`** Stores an account, given a mnemonic, as a Key/Value (public key, pair) in Keyring Pair Dictionary
 
-*__description__*: Allows user to provide a mnemonic (seed phrase that is provided when account is originally created) argument and a metadata argument that contains account information (that may be obtained from the json file of an account backup), and then generates a keyring pair from it that it passes to `addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
+**`description`** Allows user to provide a mnemonic (seed phrase that is provided when account is originally created)
+argument and a metadata argument that contains account information (that may be obtained from the json file
+of an account backup), and then generates a keyring pair from it that it passes to
+`addPair` to stores in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| mnemonic | `string` | - |
-| `Default value` meta | [KeyringPair$Meta](../modules/_types_.md#keyringpair_meta) |  {} |
-| `Default value` type | `KeypairType` |  this.type |
+Name | Type | Default value |
+------ | ------ | ------ |
+`mnemonic` | string | - |
+`meta` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |  {} |
+`type` | `KeypairType` |  this.type |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="addfromseed"></a>
 
-##  addFromSeed
+###  addFromSeed
 
-▸ **addFromSeed**(seed: *`Uint8Array`*, meta?: *[KeyringPair$Meta](../modules/_types_.md#keyringpair_meta)*, type?: *`KeypairType`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **addFromSeed**(`seed`: `Uint8Array`, `meta`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type`: `KeypairType`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[addFromSeed](../interfaces/_types_.keyringinstance.md#addfromseed)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:127](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L127)*
+*Defined in [keyring.ts:127](url)*
 
-*__name__*: addFromSeed
+**`name`** addFromSeed
 
-*__summary__*: Stores an account, given seed data, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+**`summary`** Stores an account, given seed data, as a Key/Value (public key, pair) in Keyring Pair Dictionary
 
-*__description__*: Stores in a keyring pair dictionary the public key of the pair as a key and the pair as the associated value. Allows user to provide the account seed as an argument, and then generates a keyring pair from it that it passes to `addPair` to store in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
+**`description`** Stores in a keyring pair dictionary the public key of the pair as a key and the pair as the associated value.
+Allows user to provide the account seed as an argument, and then generates a keyring pair from it that it passes to
+`addPair` to store in a keyring pair dictionary the public key of the generated pair as a key and the pair as the associated value.
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| seed | `Uint8Array` | - |
-| `Default value` meta | [KeyringPair$Meta](../modules/_types_.md#keyringpair_meta) |  {} |
-| `Default value` type | `KeypairType` |  this.type |
+Name | Type | Default value |
+------ | ------ | ------ |
+`seed` | `Uint8Array` | - |
+`meta` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |  {} |
+`type` | `KeypairType` |  this.type |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="addfromuri"></a>
 
-##  addFromUri
+###  addFromUri
 
-▸ **addFromUri**(suri: *`string`*, meta?: *[KeyringPair$Meta](../modules/_types_.md#keyringpair_meta)*, type?: *`KeypairType`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **addFromUri**(`suri`: string, `meta`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type`: `KeypairType`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[addFromUri](../interfaces/_types_.keyringinstance.md#addfromuri)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:140](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L140)*
+*Defined in [keyring.ts:140](url)*
 
-*__name__*: addFromUri
+**`name`** addFromUri
 
-*__summary__*: Creates an account via an suri
+**`summary`** Creates an account via an suri
 
-*__description__*: Extracts the phrase, path and password from a SURI format for specifying secret keys `<secret>/<soft-key>//<hard-key>///<password>` (the `///password` may be omitted, and `/<soft-key>` and `//<hard-key>` maybe repeated and mixed). The secret can be a hex string, mnemonic phrase or a string (to be padded)
+**`description`** Extracts the phrase, path and password from a SURI format for specifying secret keys `<secret>/<soft-key>//<hard-key>///<password>` (the `///password` may be omitted, and `/<soft-key>` and `//<hard-key>` maybe repeated and mixed). The secret can be a hex string, mnemonic phrase or a string (to be padded)
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| suri | `string` | - |
-| `Default value` meta | [KeyringPair$Meta](../modules/_types_.md#keyringpair_meta) |  {} |
-| `Default value` type | `KeypairType` |  this.type |
+Name | Type | Default value |
+------ | ------ | ------ |
+`suri` | string | - |
+`meta` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |  {} |
+`type` | `KeypairType` |  this.type |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="addpair"></a>
 
-##  addPair
+###  addPair
 
-▸ **addPair**(pair: *[KeyringPair](../interfaces/_types_.keyringpair.md)*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **addPair**(`pair`: [KeyringPair](../interfaces/_types_.keyringpair.md)): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[addPair](../interfaces/_types_.keyringinstance.md#addpair)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:75](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L75)*
+*Defined in [keyring.ts:75](url)*
 
-*__name__*: addPair
+**`name`** addPair
 
-*__summary__*: Stores an account, given a keyring pair, as a Key/Value (public key, pair) in Keyring Pair Dictionary
+**`summary`** Stores an account, given a keyring pair, as a Key/Value (public key, pair) in Keyring Pair Dictionary
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| pair | [KeyringPair](../interfaces/_types_.keyringpair.md) |
+Name | Type |
+------ | ------ |
+`pair` | [KeyringPair](../interfaces/_types_.keyringpair.md) |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="createfromuri"></a>
 
-##  createFromUri
+###  createFromUri
 
-▸ **createFromUri**(_suri: *`string`*, meta?: *[KeyringPair$Meta](../modules/_types_.md#keyringpair_meta)*, type?: *`KeypairType`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **createFromUri**(`_suri`: string, `meta`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type`: `KeypairType`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[createFromUri](../interfaces/_types_.keyringinstance.md#createfromuri)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:151](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L151)*
+*Defined in [keyring.ts:151](url)*
 
-*__name__*: createFromUri
+**`name`** createFromUri
 
-*__summry__*: Creates a Keypair from an suri
+**`summry`** Creates a Keypair from an suri
 
-*__description__*: This creates a pair from the suri, but does not add it to the keyring
+**`description`** This creates a pair from the suri, but does not add it to the keyring
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| _suri | `string` | - |
-| `Default value` meta | [KeyringPair$Meta](../modules/_types_.md#keyringpair_meta) |  {} |
-| `Default value` type | `KeypairType` |  this.type |
+Name | Type | Default value |
+------ | ------ | ------ |
+`_suri` | string | - |
+`meta` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |  {} |
+`type` | `KeypairType` |  this.type |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="getpair"></a>
 
-##  getPair
+###  getPair
 
-▸ **getPair**(address: *`string` \| `Uint8Array`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **getPair**(`address`: string | `Uint8Array`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[getPair](../interfaces/_types_.keyringinstance.md#getpair)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:192](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L192)*
+*Defined in [keyring.ts:192](url)*
 
-*__name__*: getPair
+**`name`** getPair
 
-*__summary__*: Retrieves an account keyring pair from the Keyring Pair Dictionary, given an account address
+**`summary`** Retrieves an account keyring pair from the Keyring Pair Dictionary, given an account address
 
-*__description__*: Returns a keyring pair value from the keyring pair dictionary by performing a key lookup using the provided account address or public key (after decoding it).
+**`description`** Returns a keyring pair value from the keyring pair dictionary by performing
+a key lookup using the provided account address or public key (after decoding it).
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`address` | string | `Uint8Array` |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
-
-___
-<a id="getpairs"></a>
-
-##  getPairs
-
-▸ **getPairs**(): `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
-
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[getPairs](../interfaces/_types_.keyringinstance.md#getpairs)*
-
-*Defined in [keyring.ts:201](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L201)*
-
-*__name__*: getPairs
-
-*__summary__*: Retrieves all account keyring pairs from the Keyring Pair Dictionary
-
-*__description__*: Returns an array list of all the keyring pair values that are stored in the keyring pair dictionary.
-
-**Returns:** `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="getpublickeys"></a>
 
-##  getPublicKeys
+###  getPairs
 
-▸ **getPublicKeys**(): `Array`<`Uint8Array`>
+▸ **getPairs**(): *`Array<KeyringPair>`*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[getPublicKeys](../interfaces/_types_.keyringinstance.md#getpublickeys)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:210](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L210)*
+*Defined in [keyring.ts:201](url)*
 
-*__name__*: getPublicKeys
+**`name`** getPairs
 
-*__summary__*: Retrieves Public Keys of all Keyring Pairs stored in the Keyring Pair Dictionary
+**`summary`** Retrieves all account keyring pairs from the Keyring Pair Dictionary
 
-*__description__*: Returns an array list of all the public keys associated with each of the keyring pair values that are stored in the keyring pair dictionary.
+**`description`** Returns an array list of all the keyring pair values that are stored in the keyring pair dictionary.
 
-**Returns:** `Array`<`Uint8Array`>
+**Returns:** *`Array<KeyringPair>`*
 
 ___
-<a id="removepair"></a>
 
-##  removePair
+###  getPublicKeys
 
-▸ **removePair**(address: *`string` \| `Uint8Array`*): `void`
+▸ **getPublicKeys**(): *`Array<Uint8Array>`*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[removePair](../interfaces/_types_.keyringinstance.md#removepair)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:222](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L222)*
+*Defined in [keyring.ts:210](url)*
 
-*__name__*: removePair
+**`name`** getPublicKeys
 
-*__description__*: Deletes the provided input address or public key from the stored Keyring Pair Dictionary.
+**`summary`** Retrieves Public Keys of all Keyring Pairs stored in the Keyring Pair Dictionary
+
+**`description`** Returns an array list of all the public keys associated with each of the keyring pair values that are stored in the keyring pair dictionary.
+
+**Returns:** *`Array<Uint8Array>`*
+
+___
+
+###  removePair
+
+▸ **removePair**(`address`: string | `Uint8Array`): *void*
+
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
+
+*Defined in [keyring.ts:222](url)*
+
+**`name`** removePair
+
+**`description`** Deletes the provided input address or public key from the stored Keyring Pair Dictionary.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`address` | string | `Uint8Array` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="tojson"></a>
 
-##  toJson
+###  toJson
 
-▸ **toJson**(address: *`string` \| `Uint8Array`*, passphrase?: *`undefined` \| `string`*): [KeyringPair$Json](../modules/_types_.md#keyringpair_json)
+▸ **toJson**(`address`: string | `Uint8Array`, `passphrase?`: undefined | string): *[KeyringPair$Json](../modules/_types_.md#keyringpair$json)*
 
-*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[toJson](../interfaces/_types_.keyringinstance.md#tojson)*
+*Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:234](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/keyring.ts#L234)*
+*Defined in [keyring.ts:234](url)*
 
-*__name__*: toJson
+**`name`** toJson
 
-*__summary__*: Returns a JSON object associated with the input argument that contains metadata assocated with an account
+**`summary`** Returns a JSON object associated with the input argument that contains metadata assocated with an account
 
-*__description__*: Returns a JSON object containing the metadata associated with an account when valid address or public key and when the account passphrase is provided if the account secret is not already unlocked and available in memory. Note that in [Polkadot-JS Apps](https://github.com/polkadot-js/apps) the user may backup their account to a JSON file that contains this information.
+**`description`** Returns a JSON object containing the metadata associated with an account
+when valid address or public key and when the account passphrase is provided if the account secret
+is not already unlocked and available in memory. Note that in [Polkadot-JS Apps](https://github.com/polkadot-js/apps) the user
+may backup their account to a JSON file that contains this information.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
-| `Optional` passphrase | `undefined` \| `string` |
+Name | Type |
+------ | ------ |
+`address` | string | `Uint8Array` |
+`passphrase?` | undefined | string |
 
-**Returns:** [KeyringPair$Json](../modules/_types_.md#keyringpair_json)
+**Returns:** *[KeyringPair$Json](../modules/_types_.md#keyringpair$json)*
 
 ___
-

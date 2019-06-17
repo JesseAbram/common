@@ -1,23 +1,26 @@
+> # External module: "encoder/array"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="encodearray"></a>
+* [encodeArray](_encoder_array_.md#encodearray)
 
-##  encodeArray
+## Functions
 
-▸ **encodeArray**(encoder: *[EncodeFunc](_encoder_types_.md#encodefunc)*, input: *`any`*): `Uint8Array`
+###  encodeArray
 
-*Defined in [encoder/array.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/encoder/array.ts#L11)*
+▸ **encodeArray**(`encoder`: [EncodeFunc](_encoder_types_.md#encodefunc), `input`: any): *`Uint8Array`*
+
+*Defined in [encoder/array.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| encoder | [EncodeFunc](_encoder_types_.md#encodefunc) |
-| input | `any` |
+Name | Type |
+------ | ------ |
+`encoder` | [EncodeFunc](_encoder_types_.md#encodefunc) |
+`input` | any |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

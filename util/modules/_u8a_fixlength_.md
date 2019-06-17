@@ -1,22 +1,28 @@
+> # External module: "u8a/fixLength"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="u8afixlength"></a>
+* [u8aFixLength](_u8a_fixlength_.md#u8afixlength)
 
-##  u8aFixLength
+## Functions
 
-▸ **u8aFixLength**(value: *`Uint8Array`*, bitLength?: *`number`*, atStart?: *`boolean`*): `Uint8Array`
+###  u8aFixLength
 
-*Defined in [u8a/fixLength.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/u8a/fixLength.ts#L21)*
+▸ **u8aFixLength**(`value`: `Uint8Array`, `bitLength`: number, `atStart`: boolean): *`Uint8Array`*
 
-*__name__*: u8aFixLength
+*Defined in [u8a/fixLength.ts:21](url)*
 
-*__summary__*: Shifts a Uint8Array to a specific bitLength
+**`name`** u8aFixLength
 
-*__description__*: Returns a uint8Array with the specified number of bits contained in the return value. (If bitLength is -1, length checking is not done). Values with more bits are trimmed to the specified length.
+**`summary`** Shifts a Uint8Array to a specific bitLength
 
-*__example__*:   
+**`description`** 
+Returns a uint8Array with the specified number of bits contained in the return value. (If bitLength is -1, length checking is not done). Values with more bits are trimmed to the specified length.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { u8aFixLength } from '@polkadot/util';
@@ -28,13 +34,12 @@ u8aFixLength('0x1234', 8) // => 0x12
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| value | `Uint8Array` | - |
-| `Default value` bitLength | `number` |  -1 |
-| `Default value` atStart | `boolean` | false |
+Name | Type | Default value |
+------ | ------ | ------ |
+`value` | `Uint8Array` | - |
+`bitLength` | number |  -1 |
+`atStart` | boolean | false |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

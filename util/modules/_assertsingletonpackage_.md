@@ -1,26 +1,29 @@
+> # External module: "assertSingletonPackage"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="assertsingletonpackage"></a>
+* [assertSingletonPackage](_assertsingletonpackage_.md#assertsingletonpackage)
 
-##  assertSingletonPackage
+## Functions
 
-▸ **assertSingletonPackage**(name: *`string`*): `void`
+###  assertSingletonPackage
 
-*Defined in [assertSingletonPackage.ts:12](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/assertSingletonPackage.ts#L12)*
+▸ **assertSingletonPackage**(`name`: string): *void*
 
-*__name__*: assertSingletonPackage
+*Defined in [assertSingletonPackage.ts:12](url)*
 
-*__summary__*: Checks that a specific package is only imported once
+**`name`** assertSingletonPackage
+
+**`summary`** Checks that a specific package is only imported once
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
+Name | Type |
+------ | ------ |
+`name` | string |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

@@ -1,23 +1,26 @@
+> # External module: "decoder/number"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decodenumber"></a>
+* [decodeNumber](_decoder_number_.md#decodenumber)
 
-##  decodeNumber
+## Functions
 
-▸ **decodeNumber**(decode: *[DecodeFunc](_decoder_types_.md#decodefunc)*, input: *`Uint8Array`*): [DecodeOutput](_decoder_types_.md#decodeoutput)
+###  decodeNumber
 
-*Defined in [decoder/number.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/decoder/number.ts#L11)*
+▸ **decodeNumber**(`decode`: [DecodeFunc](_decoder_types_.md#decodefunc), `input`: `Uint8Array`): *[DecodeOutput](_decoder_types_.md#decodeoutput)*
+
+*Defined in [decoder/number.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| decode | [DecodeFunc](_decoder_types_.md#decodefunc) |
-| input | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`decode` | [DecodeFunc](_decoder_types_.md#decodefunc) |
+`input` | `Uint8Array` |
 
-**Returns:** [DecodeOutput](_decoder_types_.md#decodeoutput)
+**Returns:** *[DecodeOutput](_decoder_types_.md#decodeoutput)*
 
 ___
-

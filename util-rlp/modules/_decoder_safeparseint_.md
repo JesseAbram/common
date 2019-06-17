@@ -1,22 +1,25 @@
+> # External module: "decoder/safeParseInt"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="safeparseint"></a>
+* [safeParseInt](_decoder_safeparseint_.md#safeparseint)
 
-##  safeParseInt
+## Functions
 
-▸ **safeParseInt**(input: *`Uint8Array`*): `number`
+###  safeParseInt
 
-*Defined in [decoder/safeParseInt.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/decoder/safeParseInt.ts#L7)*
+▸ **safeParseInt**(`input`: `Uint8Array`): *number*
+
+*Defined in [decoder/safeParseInt.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| input | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`input` | `Uint8Array` |
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-

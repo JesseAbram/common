@@ -1,26 +1,29 @@
+> # External module: "schnorrkel/keypair/fromSeed"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="schnorrkelkeypairfromseed"></a>
+* [schnorrkelKeypairFromSeed](_schnorrkel_keypair_fromseed_.md#schnorrkelkeypairfromseed)
 
-##  schnorrkelKeypairFromSeed
+## Functions
 
-▸ **schnorrkelKeypairFromSeed**(seed: *`Uint8Array`*): [Keypair](_types_.md#keypair)
+###  schnorrkelKeypairFromSeed
 
-*Defined in [schnorrkel/keypair/fromSeed.ts:17](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/schnorrkel/keypair/fromSeed.ts#L17)*
+▸ **schnorrkelKeypairFromSeed**(`seed`: `Uint8Array`): *[Keypair](_types_.md#keypair)*
 
-*__name__*: schnorrkelKeypairFromSeed
+*Defined in [schnorrkel/keypair/fromSeed.ts:17](url)*
 
-*__description__*: Returns a object containing a `publicKey` & `secretKey` generated from the supplied seed.
+**`name`** schnorrkelKeypairFromSeed
+
+**`description`** Returns a object containing a `publicKey` & `secretKey` generated from the supplied seed.
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| seed | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`seed` | `Uint8Array` |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

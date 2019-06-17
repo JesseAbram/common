@@ -1,22 +1,28 @@
+> # External module: "random/asU8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="randomasu8a"></a>
+* [randomAsU8a](_random_asu8a_.md#randomasu8a)
 
-##  randomAsU8a
+## Functions
 
-▸ **randomAsU8a**(length?: *`number`*): `Uint8Array`
+###  randomAsU8a
 
-*Defined in [random/asU8a.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/random/asU8a.ts#L21)*
+▸ **randomAsU8a**(`length`: number): *`Uint8Array`*
 
-*__name__*: randomAsU8a
+*Defined in [random/asU8a.ts:21](url)*
 
-*__summary__*: Creates a Uint8Array filled with random bytes.
+**`name`** randomAsU8a
 
-*__description__*: Returns a `Uint8Array` with the specified (optional) length filled with random bytes.
+**`summary`** Creates a Uint8Array filled with random bytes.
 
-*__example__*:   
+**`description`** 
+Returns a `Uint8Array` with the specified (optional) length filled with random bytes.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { randomAsU8a } from '@polkadot/util-crypto';
@@ -26,11 +32,10 @@ randomAsU8a(); // => Uint8Array([...])
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` length | `number` | 32 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`length` | number | 32 |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

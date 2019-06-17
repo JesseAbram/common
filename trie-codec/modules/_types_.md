@@ -1,16 +1,19 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="codec"></a>
+* [Codec](_types_.md#codec)
 
-##  Codec
+## Type aliases
 
-**Ƭ Codec**: *`object`*
+###  Codec
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/types.ts#L5)*
+Ƭ **Codec**: *object*
 
-#### Type declaration
+*Defined in [types.ts:5](url)*
+
+#### Type declaration:
 
 ___
-

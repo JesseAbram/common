@@ -1,22 +1,28 @@
+> # External module: "xxhash/xxhash64/asBn"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="xxhash64asbn"></a>
+* [xxhash64AsBn](_xxhash_xxhash64_asbn_.md#xxhash64asbn)
 
-##  xxhash64AsBn
+## Functions
 
-▸ **xxhash64AsBn**(data: *`Buffer` \| `Uint8Array` \| `string`*, seed: *`number`*): `BN`
+###  xxhash64AsBn
 
-*Defined in [xxhash/xxhash64/asBn.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/xxhash/xxhash64/asBn.ts#L23)*
+▸ **xxhash64AsBn**(`data`: `Buffer` | `Uint8Array` | string, `seed`: number): *`BN`*
 
-*__name__*: xxhash64AsBn
+*Defined in [xxhash/xxhash64/asBn.ts:23](url)*
 
-*__summary__*: Creates a xxhash BN from the input.
+**`name`** xxhash64AsBn
 
-*__description__*: From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a BN.
+**`summary`** Creates a xxhash BN from the input.
 
-*__example__*:   
+**`description`** 
+From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a BN.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { xxhash64AsNumber } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ xxhash64AsBn('abcd', 0xabcd)); // => new BN(0xe29f70f8b8c96df7)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| data | `Buffer` \| `Uint8Array` \| `string` |
-| seed | `number` |
+Name | Type |
+------ | ------ |
+`data` | `Buffer` | `Uint8Array` | string |
+`seed` | number |
 
-**Returns:** `BN`
+**Returns:** *`BN`*
 
 ___
-

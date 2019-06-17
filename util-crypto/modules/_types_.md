@@ -1,36 +1,39 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="keypair"></a>
+* [Keypair](_types_.md#keypair)
+* [KeypairType](_types_.md#keypairtype)
+* [Seedpair](_types_.md#seedpair)
 
-##  Keypair
+## Type aliases
 
-**Ƭ Keypair**: *`object`*
+###  Keypair
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/types.ts#L5)*
+Ƭ **Keypair**: *object*
 
-#### Type declaration
+*Defined in [types.ts:5](url)*
 
-___
-<a id="keypairtype"></a>
-
-##  KeypairType
-
-**Ƭ KeypairType**: *"ed25519" \| "sr25519"*
-
-*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/types.ts#L15)*
-
-___
-<a id="seedpair"></a>
-
-##  Seedpair
-
-**Ƭ Seedpair**: *`object`*
-
-*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/types.ts#L10)*
-
-#### Type declaration
+#### Type declaration:
 
 ___
 
+###  KeypairType
+
+Ƭ **KeypairType**: *ed25519 | sr25519*
+
+*Defined in [types.ts:15](url)*
+
+___
+
+###  Seedpair
+
+Ƭ **Seedpair**: *object*
+
+*Defined in [types.ts:10](url)*
+
+#### Type declaration:
+
+___

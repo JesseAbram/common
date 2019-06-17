@@ -1,111 +1,114 @@
+> # External module: "util/key"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="computeextensionkey"></a>
+* [computeExtensionKey](_util_key_.md#computeextensionkey)
+* [computeLeafKey](_util_key_.md#computeleafkey)
+* [consumeCommonPrefix](_util_key_.md#consumecommonprefix)
+* [getCommonPrefixLength](_util_key_.md#getcommonprefixlength)
+* [keyEquals](_util_key_.md#keyequals)
+* [keyStartsWith](_util_key_.md#keystartswith)
 
-##  computeExtensionKey
+## Functions
 
-▸ **computeExtensionKey**(nibbles: *`Uint8Array`*): [EncodedPath](_types_.md#encodedpath)
+###  computeExtensionKey
 
-*Defined in [util/key.ts:36](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L36)*
+▸ **computeExtensionKey**(`nibbles`: `Uint8Array`): *[EncodedPath](_types_.md#encodedpath)*
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| nibbles | `Uint8Array` |
-
-**Returns:** [EncodedPath](_types_.md#encodedpath)
-
-___
-<a id="computeleafkey"></a>
-
-##  computeLeafKey
-
-▸ **computeLeafKey**(nibbles: *`Uint8Array`*): [EncodedPath](_types_.md#encodedpath)
-
-*Defined in [util/key.ts:40](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L40)*
+*Defined in [util/key.ts:36](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| nibbles | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`nibbles` | `Uint8Array` |
 
-**Returns:** [EncodedPath](_types_.md#encodedpath)
+**Returns:** *[EncodedPath](_types_.md#encodedpath)*
 
 ___
-<a id="consumecommonprefix"></a>
 
-##  consumeCommonPrefix
+###  computeLeafKey
 
-▸ **consumeCommonPrefix**(left: *`Uint8Array`*, right: *`Uint8Array`*): [`Uint8Array`, `Uint8Array`, `Uint8Array`]
+▸ **computeLeafKey**(`nibbles`: `Uint8Array`): *[EncodedPath](_types_.md#encodedpath)*
 
-*Defined in [util/key.ts:56](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L56)*
+*Defined in [util/key.ts:40](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| left | `Uint8Array` |
-| right | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`nibbles` | `Uint8Array` |
 
-**Returns:** [`Uint8Array`, `Uint8Array`, `Uint8Array`]
+**Returns:** *[EncodedPath](_types_.md#encodedpath)*
 
 ___
-<a id="getcommonprefixlength"></a>
 
-##  getCommonPrefixLength
+###  consumeCommonPrefix
 
-▸ **getCommonPrefixLength**(left: *`Uint8Array`*, right: *`Uint8Array`*): `number`
+▸ **consumeCommonPrefix**(`left`: `Uint8Array`, `right`: `Uint8Array`): *[`Uint8Array`, `Uint8Array`, `Uint8Array`]*
 
-*Defined in [util/key.ts:46](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L46)*
+*Defined in [util/key.ts:56](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| left | `Uint8Array` |
-| right | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`left` | `Uint8Array` |
+`right` | `Uint8Array` |
 
-**Returns:** `number`
+**Returns:** *[`Uint8Array`, `Uint8Array`, `Uint8Array`]*
 
 ___
-<a id="keyequals"></a>
 
-##  keyEquals
+###  getCommonPrefixLength
 
-▸ **keyEquals**(key: *`Uint8Array` \| `null`*, test: *`Uint8Array` \| `null`*): `boolean`
+▸ **getCommonPrefixLength**(`left`: `Uint8Array`, `right`: `Uint8Array`): *number*
 
-*Defined in [util/key.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L10)*
+*Defined in [util/key.ts:46](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` \| `null` |
-| test | `Uint8Array` \| `null` |
+Name | Type |
+------ | ------ |
+`left` | `Uint8Array` |
+`right` | `Uint8Array` |
 
-**Returns:** `boolean`
+**Returns:** *number*
 
 ___
-<a id="keystartswith"></a>
 
-##  keyStartsWith
+###  keyEquals
 
-▸ **keyStartsWith**(key: *`Uint8Array` \| `null`*, partial: *`Uint8Array` \| `null`*): `boolean`
+▸ **keyEquals**(`key`: `Uint8Array` | null, `test`: `Uint8Array` | null): *boolean*
 
-*Defined in [util/key.ts:20](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/key.ts#L20)*
+*Defined in [util/key.ts:10](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` \| `null` |
-| partial | `Uint8Array` \| `null` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` | null |
+`test` | `Uint8Array` | null |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
 
+###  keyStartsWith
+
+▸ **keyStartsWith**(`key`: `Uint8Array` | null, `partial`: `Uint8Array` | null): *boolean*
+
+*Defined in [util/key.ts:20](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` | null |
+`partial` | `Uint8Array` | null |
+
+**Returns:** *boolean*
+
+___

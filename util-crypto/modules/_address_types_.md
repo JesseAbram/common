@@ -1,14 +1,17 @@
+> # External module: "address/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="prefix"></a>
+* [Prefix](_address_types_.md#prefix)
 
-##  Prefix
+## Type aliases
 
-**Ƭ Prefix**: *`0` \| `1` \| `3` \| `42` \| `43` \| `68` \| `69`*
+###  Prefix
 
-*Defined in [address/types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/address/types.ts#L5)*
+Ƭ **Prefix**: *`0` | `1` | `3` | `42` | `43` | `68` | `69`*
+
+*Defined in [address/types.ts:5](url)*
 
 ___
-

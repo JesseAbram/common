@@ -1,22 +1,28 @@
+> # External module: "util/toNibbles"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="tonibbles"></a>
+* [toNibbles](_util_tonibbles_.md#tonibbles)
 
-##  toNibbles
+## Functions
 
-▸ **toNibbles**(input?: *`Uint8Array` \| `null`*): `Uint8Array`
+###  toNibbles
 
-*Defined in [util/toNibbles.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/util/toNibbles.ts#L19)*
+▸ **toNibbles**(`input?`: `Uint8Array` | null): *`Uint8Array`*
 
-*__name__*: toNibbles
+*Defined in [util/toNibbles.ts:19](url)*
 
-*__summary__*: Converts the input to Nibbles.
+**`name`** toNibbles
 
-*__description__*: From an `Uint8Array` input, calculate and return a list of nibbles that makes up the input.
+**`summary`** Converts the input to Nibbles.
 
-*__example__*:   
+**`description`** 
+From an `Uint8Array` input, calculate and return a list of nibbles that makes up the input.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { toNibbles } from '@polkadot/trie-codec/util';
@@ -26,11 +32,10 @@ toNibbles(new Uint8Array([0x41, 0x20]); // => Uint8Array([4, 1, 2, 0])
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` input | `Uint8Array` \| `null` |
+Name | Type |
+------ | ------ |
+`input?` | `Uint8Array` | null |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

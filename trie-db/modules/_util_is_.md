@@ -1,120 +1,123 @@
+> # External module: "util/is"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isbranchnode"></a>
+* [isBranchNode](_util_is_.md#isbranchnode)
+* [isEmptyNode](_util_is_.md#isemptynode)
+* [isExtensionNode](_util_is_.md#isextensionnode)
+* [isKvNode](_util_is_.md#iskvnode)
+* [isLeafNode](_util_is_.md#isleafnode)
 
-##  isBranchNode
+## Functions
 
-▸ **isBranchNode**(node: *[Node](_types_.md#node)*): `boolean`
+###  isBranchNode
 
-*Defined in [util/is.ts:52](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/is.ts#L52)*
+▸ **isBranchNode**(`node`: [Node](_types_.md#node)): *boolean*
 
-*__name__*: isBranchNode
+*Defined in [util/is.ts:52](url)*
 
-*__summary__*: Returns true if node is an Branch 17-item node
+**`name`** isBranchNode
 
-*__description__*: Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+**`summary`** Returns true if node is an Branch 17-item node
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
-
-**Returns:** `boolean`
-
-___
-<a id="isemptynode"></a>
-
-##  isEmptyNode
-
-▸ **isEmptyNode**(node: *[Node](_types_.md#node)*): `boolean`
-
-*Defined in [util/is.ts:16](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/is.ts#L16)*
-
-*__name__*: isEmptyNode
-
-*__summary__*: Returns true if node is NULL
-
-*__description__*: Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+**`description`** Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isextensionnode"></a>
 
-##  isExtensionNode
+###  isEmptyNode
 
-▸ **isExtensionNode**(node: *[Node](_types_.md#node)*): `boolean`
+▸ **isEmptyNode**(`node`: [Node](_types_.md#node)): *boolean*
 
-*Defined in [util/is.ts:34](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/is.ts#L34)*
+*Defined in [util/is.ts:16](url)*
 
-*__name__*: isExtensionNode
+**`name`** isEmptyNode
 
-*__summary__*: Returns true if node is an Extension 2-item node
+**`summary`** Returns true if node is NULL
 
-*__description__*: Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+**`description`** Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="iskvnode"></a>
 
-##  isKvNode
+###  isExtensionNode
 
-▸ **isKvNode**(node: *[Node](_types_.md#node)*): `boolean`
+▸ **isExtensionNode**(`node`: [Node](_types_.md#node)): *boolean*
 
-*Defined in [util/is.ts:25](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/is.ts#L25)*
+*Defined in [util/is.ts:34](url)*
 
-*__name__*: isKvNode
+**`name`** isExtensionNode
 
-*__summary__*: Returns true if node is not empty and contains a single key/value pair
+**`summary`** Returns true if node is an Extension 2-item node
 
-*__description__*: Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+**`description`** Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-<a id="isleafnode"></a>
 
-##  isLeafNode
+###  isKvNode
 
-▸ **isLeafNode**(node: *[Node](_types_.md#node)*): `boolean`
+▸ **isKvNode**(`node`: [Node](_types_.md#node)): *boolean*
 
-*Defined in [util/is.ts:43](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/is.ts#L43)*
+*Defined in [util/is.ts:25](url)*
 
-*__name__*: isLeafNode
+**`name`** isKvNode
 
-*__summary__*: Returns true if node is an Leaf 2-item node
+**`summary`** Returns true if node is not empty and contains a single key/value pair
 
-*__description__*: Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+**`description`** Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
 
+###  isLeafNode
+
+▸ **isLeafNode**(`node`: [Node](_types_.md#node)): *boolean*
+
+*Defined in [util/is.ts:43](url)*
+
+**`name`** isLeafNode
+
+**`summary`** Returns true if node is an Leaf 2-item node
+
+**`description`** Refer to [Merkle Patricia Trie specification](https://github.com/ethereum/wiki/wiki/Patricia-Tree#optimization)
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
+
+**Returns:** *boolean*
+
+___

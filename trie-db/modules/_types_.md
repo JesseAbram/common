@@ -1,16 +1,16 @@
+> # External module: "types"
 
+### Index
 
-# Index
-
-### Enumerations
+#### Enumerations
 
 * [NodeType](../enums/_types_.nodetype.md)
 
-### Interfaces
+#### Interfaces
 
 * [TrieDb](../interfaces/_types_.triedb.md)
 
-### Type aliases
+#### Type aliases
 
 * [EncodedPath](_types_.md#encodedpath)
 * [Node](_types_.md#node)
@@ -22,89 +22,76 @@
 * [NodeNotEmpty](_types_.md#nodenotempty)
 * [TrieEntry](_types_.md#trieentry)
 
----
+## Type aliases
 
-# Type aliases
+###  EncodedPath
 
-<a id="encodedpath"></a>
+Ƭ **EncodedPath**: *`Uint8Array` | null*
 
-##  EncodedPath
-
-**Ƭ EncodedPath**: *`Uint8Array` \| `null`*
-
-*Defined in [types.ts:28](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L28)*
-
-___
-<a id="node"></a>
-
-##  Node
-
-**Ƭ Node**: *[NodeEmpty](_types_.md#nodeempty) \| [NodeNotEmpty](_types_.md#nodenotempty)*
-
-*Defined in [types.ts:34](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L34)*
-
-___
-<a id="nodebranch"></a>
-
-##  NodeBranch
-
-**Ƭ NodeBranch**: *[[NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty)]*
-
-*Defined in [types.ts:20](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L20)*
-
-___
-<a id="nodeempty"></a>
-
-##  NodeEmpty
-
-**Ƭ NodeEmpty**: *`null`*
-
-*Defined in [types.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L14)*
-
-___
-<a id="nodeencoded"></a>
-
-##  NodeEncoded
-
-**Ƭ NodeEncoded**: *`Uint8Array`*
-
-*Defined in [types.ts:16](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L16)*
-
-___
-<a id="nodeencodedorempty"></a>
-
-##  NodeEncodedOrEmpty
-
-**Ƭ NodeEncodedOrEmpty**: *[NodeEncoded](_types_.md#nodeencoded) \| [NodeEmpty](_types_.md#nodeempty)*
-
-*Defined in [types.ts:18](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L18)*
-
-___
-<a id="nodekv"></a>
-
-##  NodeKv
-
-**Ƭ NodeKv**: *[[EncodedPath](_types_.md#encodedpath), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty)]*
-
-*Defined in [types.ts:30](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L30)*
-
-___
-<a id="nodenotempty"></a>
-
-##  NodeNotEmpty
-
-**Ƭ NodeNotEmpty**: *[NodeKv](_types_.md#nodekv) \| [NodeBranch](_types_.md#nodebranch)*
-
-*Defined in [types.ts:32](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L32)*
-
-___
-<a id="trieentry"></a>
-
-##  TrieEntry
-
-**Ƭ TrieEntry**: *[`Uint8Array`, `Uint8Array`, `Array`<`Uint8Array`>]*
-
-*Defined in [types.ts:37](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/types.ts#L37)*
+*Defined in [types.ts:28](url)*
 
 ___
 
+###  Node
+
+Ƭ **Node**: *[NodeEmpty](_types_.md#nodeempty) | [NodeNotEmpty](_types_.md#nodenotempty)*
+
+*Defined in [types.ts:34](url)*
+
+___
+
+###  NodeBranch
+
+Ƭ **NodeBranch**: *[[NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty)]*
+
+*Defined in [types.ts:20](url)*
+
+___
+
+###  NodeEmpty
+
+Ƭ **NodeEmpty**: *null*
+
+*Defined in [types.ts:14](url)*
+
+___
+
+###  NodeEncoded
+
+Ƭ **NodeEncoded**: *`Uint8Array`*
+
+*Defined in [types.ts:16](url)*
+
+___
+
+###  NodeEncodedOrEmpty
+
+Ƭ **NodeEncodedOrEmpty**: *[NodeEncoded](_types_.md#nodeencoded) | [NodeEmpty](_types_.md#nodeempty)*
+
+*Defined in [types.ts:18](url)*
+
+___
+
+###  NodeKv
+
+Ƭ **NodeKv**: *[[EncodedPath](_types_.md#encodedpath), [NodeEncodedOrEmpty](_types_.md#nodeencodedorempty)]*
+
+*Defined in [types.ts:30](url)*
+
+___
+
+###  NodeNotEmpty
+
+Ƭ **NodeNotEmpty**: *[NodeKv](_types_.md#nodekv) | [NodeBranch](_types_.md#nodebranch)*
+
+*Defined in [types.ts:32](url)*
+
+___
+
+###  TrieEntry
+
+Ƭ **TrieEntry**: *[`Uint8Array`, `Uint8Array`, `Array<Uint8Array>`]*
+
+*Defined in [types.ts:37](url)*
+
+___

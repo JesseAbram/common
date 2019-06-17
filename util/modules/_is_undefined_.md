@@ -1,22 +1,28 @@
+> # External module: "is/undefined"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isundefined"></a>
+* [isUndefined](_is_undefined_.md#isundefined)
 
-##  isUndefined
+## Functions
 
-▸ **isUndefined**(value?: *`any`*): `boolean`
+###  isUndefined
 
-*Defined in [is/undefined.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/undefined.ts#L19)*
+▸ **isUndefined**(`value?`: any): *boolean*
 
-*__name__*: isUndefined
+*Defined in [is/undefined.ts:19](url)*
 
-*__summary__*: Tests for a `undefined` values.
+**`name`** isUndefined
 
-*__description__*: Checks to see if the input value is `undefined`.
+**`summary`** Tests for a `undefined` values.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is `undefined`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isUndefined } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isUndefined', isUndefined(void(0))); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "bn/toHex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="bntohex"></a>
+* [bnToHex](_bn_tohex_.md#bntohex)
 
-##  bnToHex
+## Functions
 
-▸ **bnToHex**(value?: *`BN` \| `number` \| `null`*, options?: *`number` \| `Options`*): `string`
+###  bnToHex
 
-*Defined in [bn/toHex.ts:33](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/bn/toHex.ts#L33)*
+▸ **bnToHex**(`value?`: `BN` | number | null, `options`: number | `Options`): *string*
 
-*__name__*: bnToHex
+*Defined in [bn/toHex.ts:33](url)*
 
-*__summary__*: Creates a hex value from a BN.js bignumber object.
+**`name`** bnToHex
 
-*__description__*: `null` inputs returns a `0x` result, BN values return the actual value as a `0x` prefixed hex value. Anything that is not a BN object throws an error. With `bitLength` set, it fixes the number to the specified length.
+**`summary`** Creates a hex value from a BN.js bignumber object.
 
-*__example__*:   
+**`description`** 
+`null` inputs returns a `0x` result, BN values return the actual value as a `0x` prefixed hex value. Anything that is not a BN object throws an error. With `bitLength` set, it fixes the number to the specified length.
+
+**`example`** 
+<BR>
 
 ```javascript
 import BN from 'bn.js';
@@ -27,12 +33,11 @@ bnToHex(new BN(0x123456)); // => '0x123456'
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Optional` value | `BN` \| `number` \| `null` | - |
-| `Default value` options | `number` \| `Options` |  { bitLength: -1, isLe: false, isNegative: false } |
+Name | Type | Default value |
+------ | ------ | ------ |
+`value?` | `BN` | number | null | - |
+`options` | number | `Options` |  { bitLength: -1, isLe: false, isNegative: false } |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

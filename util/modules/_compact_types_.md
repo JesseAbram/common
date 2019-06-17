@@ -1,14 +1,17 @@
+> # External module: "compact/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="bitlength"></a>
+* [BitLength](_compact_types_.md#bitlength)
 
-##  BitLength
+## Type aliases
 
-**Ƭ BitLength**: *`8` \| `16` \| `32` \| `64` \| `128` \| `256`*
+###  BitLength
 
-*Defined in [compact/types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/compact/types.ts#L5)*
+Ƭ **BitLength**: *`8` | `16` | `32` | `64` | `128` | `256`*
+
+*Defined in [compact/types.ts:5](url)*
 
 ___
-

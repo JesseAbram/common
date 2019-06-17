@@ -1,27 +1,30 @@
+> # Interface: ToBnOptions
 
+## Hierarchy
 
-# Hierarchy
+* **ToBnOptions**
 
-**ToBnOptions**
+### Index
 
-# Properties
+#### Properties
 
-<a id="isle"></a>
+* [isLe](_types_.tobnoptions.md#optional-isle)
+* [isNegative](_types_.tobnoptions.md#optional-isnegative)
 
-## `<Optional>` isLe
+## Properties
 
-**● isLe**: *`undefined` \| `false` \| `true`*
+### `Optional` isLe
 
-*Defined in [types.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L26)*
+● **isLe**? : *undefined | false | true*
 
-___
-<a id="isnegative"></a>
-
-## `<Optional>` isNegative
-
-**● isNegative**: *`undefined` \| `false` \| `true`*
-
-*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/types.ts#L27)*
+*Defined in [types.ts:26](url)*
 
 ___
 
+### `Optional` isNegative
+
+● **isNegative**? : *undefined | false | true*
+
+*Defined in [types.ts:27](url)*
+
+___

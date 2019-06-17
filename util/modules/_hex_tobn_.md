@@ -1,22 +1,28 @@
+> # External module: "hex/toBn"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="hextobn"></a>
+* [hexToBn](_hex_tobn_.md#hextobn)
 
-##  hexToBn
+## Functions
 
-▸ **hexToBn**(value?: *`string` \| `number` \| `null`*, options?: *[ToBnOptions](../interfaces/_types_.tobnoptions.md) \| `boolean`*): `BN`
+###  hexToBn
 
-*Defined in [hex/toBn.ts:35](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/hex/toBn.ts#L35)*
+▸ **hexToBn**(`value?`: string | number | null, `options`: [ToBnOptions](../interfaces/_types_.tobnoptions.md) | boolean): *`BN`*
 
-*__name__*: hexToBn
+*Defined in [hex/toBn.ts:35](url)*
 
-*__summary__*: Creates a BN.js bignumber object from a hex string.
+**`name`** hexToBn
 
-*__description__*: `null` inputs returns a `BN(0)` result. Hex input values return the actual value converted to a BN. Anything that is not a hex string (including the `0x` prefix) throws an error.
+**`summary`** Creates a BN.js bignumber object from a hex string.
 
-*__example__*:   
+**`description`** 
+`null` inputs returns a `BN(0)` result. Hex input values return the actual value converted to a BN. Anything that is not a hex string (including the `0x` prefix) throws an error.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { hexToBn } from '@polkadot/util';
@@ -26,12 +32,11 @@ hexToBn('0x123480001f'); // => BN(0x123480001f)
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Optional` value | `string` \| `number` \| `null` | - |
-| `Default value` options | [ToBnOptions](../interfaces/_types_.tobnoptions.md) \| `boolean` |  { isLe: false, isNegative: false } |
+Name | Type | Default value |
+------ | ------ | ------ |
+`value?` | string | number | null | - |
+`options` | [ToBnOptions](../interfaces/_types_.tobnoptions.md) | boolean |  { isLe: false, isNegative: false } |
 
-**Returns:** `BN`
+**Returns:** *`BN`*
 
 ___
-

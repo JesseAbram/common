@@ -1,22 +1,28 @@
+> # External module: "keccak/asHex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="keccakashex"></a>
+* [keccakAsHex](_keccak_ashex_.md#keccakashex)
 
-##  keccakAsHex
+## Functions
 
-▸ **keccakAsHex**(value: *`Buffer` \| `Uint8Array` \| `string`*): `string`
+###  keccakAsHex
 
-*Defined in [keccak/asHex.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/keccak/asHex.ts#L23)*
+▸ **keccakAsHex**(`value`: `Buffer` | `Uint8Array` | string): *string*
 
-*__name__*: keccakAsHex
+*Defined in [keccak/asHex.ts:23](url)*
 
-*__summary__*: Creates a keccak hex string from the input.
+**`name`** keccakAsHex
 
-*__description__*: From either a `string` or a `Buffer` input, create the keccak and return the result as a `0x` prefixed hex string.
+**`summary`** Creates a keccak hex string from the input.
 
-*__example__*:   
+**`description`** 
+From either a `string` or a `Buffer` input, create the keccak and return the result as a `0x` prefixed hex string.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { keccakAsHex } from '@polkadot/util-crypto';
@@ -26,11 +32,10 @@ keccakAsHex('123'); // => 0x...
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `Buffer` \| `Uint8Array` \| `string` |
+Name | Type |
+------ | ------ |
+`value` | `Buffer` | `Uint8Array` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

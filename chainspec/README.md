@@ -1,11 +1,7 @@
-
-@polkadot/chainspec
-===================
+# @polkadot/chainspec
 
 Chainspecs for known chains
 
-Utilities
----------
+## Utilities
 
 [Utilities](SUMMARY.md)
-

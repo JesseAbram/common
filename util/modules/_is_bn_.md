@@ -1,22 +1,28 @@
+> # External module: "is/bn"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isbn"></a>
+* [isBn](_is_bn_.md#isbn)
 
-##  isBn
+## Functions
 
-▸ **isBn**(value: *`any`*): `boolean`
+###  isBn
 
-*Defined in [is/bn.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/bn.ts#L22)*
+▸ **isBn**(`value`: any): *boolean*
 
-*__name__*: isBn
+*Defined in [is/bn.ts:22](url)*
 
-*__summary__*: Tests for a `BN` object instance.
+**`name`** isBn
 
-*__description__*: Checks to see if the input object is an instance of `BN` (bn.js).
+**`summary`** Tests for a `BN` object instance.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input object is an instance of `BN` (bn.js).
+
+**`example`** 
+<BR>
 
 ```javascript
 import BN from 'bn.js';
@@ -27,11 +33,10 @@ console.log('isBn', isBn(new BN(1))); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

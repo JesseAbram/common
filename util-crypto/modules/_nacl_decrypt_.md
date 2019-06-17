@@ -1,22 +1,28 @@
+> # External module: "nacl/decrypt"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="nacldecrypt"></a>
+* [naclDecrypt](_nacl_decrypt_.md#nacldecrypt)
 
-##  naclDecrypt
+## Functions
 
-▸ **naclDecrypt**(encrypted: *`Uint8Array`*, nonce: *`Uint8Array`*, secret: *`Uint8Array`*): `Uint8Array` \| `null`
+###  naclDecrypt
 
-*Defined in [nacl/decrypt.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/decrypt.ts#L21)*
+▸ **naclDecrypt**(`encrypted`: `Uint8Array`, `nonce`: `Uint8Array`, `secret`: `Uint8Array`): *`Uint8Array` | null*
 
-*__name__*: naclDecrypt
+*Defined in [nacl/decrypt.ts:21](url)*
 
-*__summary__*: Decrypts a message using the supplied secretKey and nonce
+**`name`** naclDecrypt
 
-*__description__*: Returns an decrypted message, using the `secret` and `nonce`.
+**`summary`** Decrypts a message using the supplied secretKey and nonce
 
-*__example__*:   
+**`description`** 
+Returns an decrypted message, using the `secret` and `nonce`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclDecrypt } from '@polkadot/util-crypto';
@@ -26,13 +32,12 @@ naclDecrypt([...], [...], [...]); // => [...]
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| encrypted | `Uint8Array` |
-| nonce | `Uint8Array` |
-| secret | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`encrypted` | `Uint8Array` |
+`nonce` | `Uint8Array` |
+`secret` | `Uint8Array` |
 
-**Returns:** `Uint8Array` \| `null`
+**Returns:** *`Uint8Array` | null*
 
 ___
-

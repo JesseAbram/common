@@ -1,29 +1,33 @@
+> # External module: "testing"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="testkeyring"></a>
+* [testKeyring](_testing_.md#testkeyring)
 
-##  testKeyring
+## Functions
 
-▸ **testKeyring**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isDerived?: *`boolean`*): [KeyringInstance](../interfaces/_types_.keyringinstance.md)
+###  testKeyring
 
-*Defined in [testing.ts:65](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/testing.ts#L65)*
+▸ **testKeyring**(`options`: [KeyringOptions](_types_.md#keyringoptions), `isDerived`: boolean): *[KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*__name__*: testKeyring
+*Defined in [testing.ts:65](url)*
 
-*__summary__*: Create an instance of Keyring pre-populated with locked test accounts
+**`name`** testKeyring
 
-*__description__*: The test accounts (i.e. alice, bob, dave, eve, ferdie) are available on the dev chain and each test account is initialised with DOT funds.
+**`summary`** Create an instance of Keyring pre-populated with locked test accounts
+
+**`description`** The test accounts (i.e. alice, bob, dave, eve, ferdie)
+are available on the dev chain and each test account is initialised with DOT funds.
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` options | [KeyringOptions](_types_.md#keyringoptions) |  {} |
-| `Default value` isDerived | `boolean` | true |
+Name | Type | Default value |
+------ | ------ | ------ |
+`options` | [KeyringOptions](_types_.md#keyringoptions) |  {} |
+`isDerived` | boolean | true |
 
-**Returns:** [KeyringInstance](../interfaces/_types_.keyringinstance.md)
+**Returns:** *[KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
 ___
-

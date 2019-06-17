@@ -1,22 +1,25 @@
+> # External module: "mnemonic/toEntropy"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="toentropy"></a>
+* [toEntropy](_mnemonic_toentropy_.md#toentropy)
 
-##  toEntropy
+## Functions
 
-▸ **toEntropy**(mnemonic: *`string`*): `Uint8Array`
+###  toEntropy
 
-*Defined in [mnemonic/toEntropy.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/mnemonic/toEntropy.ts#L11)*
+▸ **toEntropy**(`mnemonic`: string): *`Uint8Array`*
+
+*Defined in [mnemonic/toEntropy.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| mnemonic | `string` |
+Name | Type |
+------ | ------ |
+`mnemonic` | string |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

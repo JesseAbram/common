@@ -1,20 +1,25 @@
+> # External module: "mnemonic/toSeed"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="toseed"></a>
+* [toSeed](_mnemonic_toseed_.md#toseed)
 
-##  toSeed
+## Functions
 
-▸ **toSeed**(mnemonic: *`string`*, password?: *`string`*): `Uint8Array`
+###  toSeed
 
-*Defined in [mnemonic/toSeed.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/mnemonic/toSeed.ts#L26)*
+▸ **toSeed**(`mnemonic`: string, `password`: string): *`Uint8Array`*
 
-*__name__*: toSeed
+*Defined in [mnemonic/toSeed.ts:26](url)*
 
-*__summary__*: Creates a valid seed from a mnemonic input
+**`name`** toSeed
 
-*__example__*:   
+**`summary`** Creates a valid seed from a mnemonic input
+
+**`example`** 
+<BR>
 
 ```javascript
 import { mnemonicGenerate, mnemonicToSeed, mnemonicValidate } from '@polkadot/util-crypto';
@@ -23,18 +28,17 @@ const mnemonic = mnemonicGenerate(); // => string
 const isValidMnemonic = mnemonicValidate(mnemonic); // => boolean
 
 if (isValidMnemonic) {
-  console.log(`Seed generated from mnemonic: ${mnemonicToSeed(mnemonic)}`); => u8a
+console.log(`Seed generated from mnemonic: ${mnemonicToSeed(mnemonic)}`); => u8a
 }
 ```
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| mnemonic | `string` | - |
-| `Default value` password | `string` | &quot;&quot; |
+Name | Type | Default value |
+------ | ------ | ------ |
+`mnemonic` | string | - |
+`password` | string | "" |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

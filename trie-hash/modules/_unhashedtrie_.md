@@ -1,23 +1,26 @@
+> # External module: "unhashedTrie"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="unhashedtrie"></a>
+* [unhashedTrie](_unhashedtrie_.md#unhashedtrie)
 
-##  unhashedTrie
+## Functions
 
-▸ **unhashedTrie**(input: *`Array`<[TriePair](_types_.md#triepair)>*, codec?: *`Codec`*): `Uint8Array`
+###  unhashedTrie
 
-*Defined in [unhashedTrie.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-hash/src/unhashedTrie.ts#L14)*
+▸ **unhashedTrie**(`input`: `Array<TriePair>`, `codec`: `Codec`): *`Uint8Array`*
+
+*Defined in [unhashedTrie.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| input | `Array`<[TriePair](_types_.md#triepair)> | - |
-| `Default value` codec | `Codec` |  DEFAULT_CODEC |
+Name | Type | Default value |
+------ | ------ | ------ |
+`input` | `Array<TriePair>` | - |
+`codec` | `Codec` |  DEFAULT_CODEC |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

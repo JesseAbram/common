@@ -1,23 +1,26 @@
+> # External module: "pair/encode"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="encode"></a>
+* [encode](_pair_encode_.md#encode)
 
-##  encode
+## Functions
 
-▸ **encode**(__namedParameters: *`object`*, passphrase?: *`undefined` \| `string`*): `Uint8Array`
+###  encode
 
-*Defined in [pair/encode.ts:12](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pair/encode.ts#L12)*
+▸ **encode**(`__namedParameters`: object, `passphrase?`: undefined | string): *`Uint8Array`*
+
+*Defined in [pair/encode.ts:12](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| __namedParameters | `object` |
-| `Optional` passphrase | `undefined` \| `string` |
+Name | Type |
+------ | ------ |
+`__namedParameters` | object |
+`passphrase?` | undefined | string |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

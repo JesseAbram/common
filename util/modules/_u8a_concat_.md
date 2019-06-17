@@ -1,39 +1,44 @@
+> # External module: "u8a/concat"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="u8aconcat"></a>
+* [u8aConcat](_u8a_concat_.md#u8aconcat)
 
-##  u8aConcat
+## Functions
 
-▸ **u8aConcat**(..._list: *`Array`<`Uint8Array` \| `string`>*): `Uint8Array`
+###  u8aConcat
 
-*Defined in [u8a/concat.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/u8a/concat.ts#L24)*
+▸ **u8aConcat**(...`_list`: `Array<Uint8Array | string>`): *`Uint8Array`*
 
-*__name__*: u8aConcat
+*Defined in [u8a/concat.ts:24](url)*
 
-*__summary__*: Creates a concatenated Uint8Array from the inputs.
+**`name`** u8aConcat
 
-*__description__*: Concatenates the input arrays into a single `UInt8Array`.
+**`summary`** Creates a concatenated Uint8Array from the inputs.
 
-*__example__*:   
+**`description`** 
+Concatenates the input arrays into a single `UInt8Array`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { u8aConcat } from '@polkadot/util';
 
 u8aConcat(
-  new Uint8Array([1, 2, 3]),
-  new Uint8Array([4, 5, 6])
+new Uint8Array([1, 2, 3]),
+new Uint8Array([4, 5, 6])
 ); // [1, 2, 3, 4, 5, 6]
 ```
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` _list | `Array`<`Uint8Array` \| `string`> |
+Name | Type |
+------ | ------ |
+`..._list` | `Array<Uint8Array | string>` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

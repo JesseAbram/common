@@ -1,22 +1,28 @@
+> # External module: "is/null"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isnull"></a>
+* [isNull](_is_null_.md#isnull)
 
-##  isNull
+## Functions
 
-▸ **isNull**(value?: *`any`*): `boolean`
+###  isNull
 
-*Defined in [is/null.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/null.ts#L19)*
+▸ **isNull**(`value?`: any): *boolean*
 
-*__name__*: isNull
+*Defined in [is/null.ts:19](url)*
 
-*__summary__*: Tests for a `null` values.
+**`name`** isNull
 
-*__description__*: Checks to see if the input value is `null`.
+**`summary`** Tests for a `null` values.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is `null`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isNull } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isNull', isNull(null)); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

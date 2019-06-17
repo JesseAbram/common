@@ -1,22 +1,25 @@
+> # External module: "address/setPrefix"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="setprefix"></a>
+* [setPrefix](_address_setprefix_.md#setprefix)
 
-##  setPrefix
+## Functions
 
-▸ **setPrefix**(prefix: *[Prefix](_address_types_.md#prefix)*): `void`
+###  setPrefix
 
-*Defined in [address/setPrefix.ts:9](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/address/setPrefix.ts#L9)*
+▸ **setPrefix**(`prefix`: [Prefix](_address_types_.md#prefix)): *void*
+
+*Defined in [address/setPrefix.ts:9](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| prefix | [Prefix](_address_types_.md#prefix) |
+Name | Type |
+------ | ------ |
+`prefix` | [Prefix](_address_types_.md#prefix) |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

@@ -1,41 +1,46 @@
+> # External module: "trieRoot"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="trieroot"></a>
+* [trieRoot](_trieroot_.md#trieroot)
 
-##  trieRoot
+## Functions
 
-▸ **trieRoot**(input: *`Array`<[TriePair](_types_.md#triepair)>*, codec?: *`Codec`*): `Uint8Array`
+###  trieRoot
 
-*Defined in [trieRoot.ts:29](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-hash/src/trieRoot.ts#L29)*
+▸ **trieRoot**(`input`: `Array<TriePair>`, `codec`: `Codec`): *`Uint8Array`*
 
-*__name__*: trieRoot
+*Defined in [trieRoot.ts:29](url)*
 
-*__summary__*: Creates a trie hash from the supplied pairs.
+**`name`** trieRoot
 
-*__description__*: From an `Array<{k: Uint8Array, v: Uint8Array}>` input, calculate the triehash and return the result as a `Uint8Array`.
+**`summary`** Creates a trie hash from the supplied pairs.
 
-*__example__*:   
+**`description`** 
+From an `Array<{k: Uint8Array, v: Uint8Array}>` input, calculate the triehash and return the result as a `Uint8Array`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { stringToU8a } from '@polkadot/util';
 import { trieRoot } from '@polkadot/trie-hash';
 
 trieRoot([{
-  k: stringToU8a('A'),
-  v: stringToU8a('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+k: stringToU8a('A'),
+v: stringToU8a('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 }]); // => 0xd23786fb4a010da3ce639d66d5e904a11dbc02746d1ce25029e53290cabf28ab
 ```
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| input | `Array`<[TriePair](_types_.md#triepair)> | - |
-| `Default value` codec | `Codec` |  DEFAULT_CODEC |
+Name | Type | Default value |
+------ | ------ | ------ |
+`input` | `Array<TriePair>` | - |
+`codec` | `Codec` |  DEFAULT_CODEC |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

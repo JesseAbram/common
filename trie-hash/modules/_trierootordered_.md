@@ -1,41 +1,46 @@
+> # External module: "trieRootOrdered"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="trierootordered"></a>
+* [trieRootOrdered](_trierootordered_.md#trierootordered)
 
-##  trieRootOrdered
+## Functions
 
-▸ **trieRootOrdered**(input: *`Array`<`Uint8Array`>*, codec?: *`Codec`*): `Uint8Array`
+###  trieRootOrdered
 
-*Defined in [trieRootOrdered.ts:30](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-hash/src/trieRootOrdered.ts#L30)*
+▸ **trieRootOrdered**(`input`: `Array<Uint8Array>`, `codec`: `Codec`): *`Uint8Array`*
 
-*__name__*: trieRootOrdered
+*Defined in [trieRootOrdered.ts:30](url)*
 
-*__summary__*: Creates a trie hash from the supplied values.
+**`name`** trieRootOrdered
 
-*__description__*: From an `Array<Uint8Array>` input, calculate the ordered triehash and return the result as a `Uint8Array`.
+**`summary`** Creates a trie hash from the supplied values.
 
-*__example__*:   
+**`description`** 
+From an `Array<Uint8Array>` input, calculate the ordered triehash and return the result as a `Uint8Array`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { stringToU8a } from '@polkadot/util';
 import { trieRootOrdered } from '@polkadot/trie-hash';
 
 trieRootOrdered([
-  stringToU8a('doe'),
-  stringToU8a('reindeer')
+stringToU8a('doe'),
+stringToU8a('reindeer')
 ]); // => 0xe766d5d51b89dc39d981b41bda63248d7abce4f0225eefd023792a540bcffee3
 ```
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| input | `Array`<`Uint8Array`> | - |
-| `Default value` codec | `Codec` |  DEFAULT_CODEC |
+Name | Type | Default value |
+------ | ------ | ------ |
+`input` | `Array<Uint8Array>` | - |
+`codec` | `Codec` |  DEFAULT_CODEC |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

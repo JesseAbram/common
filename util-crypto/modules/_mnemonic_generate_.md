@@ -1,20 +1,25 @@
+> # External module: "mnemonic/generate"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="mnemonicgenerate"></a>
+* [mnemonicGenerate](_mnemonic_generate_.md#mnemonicgenerate)
 
-##  mnemonicGenerate
+## Functions
 
-▸ **mnemonicGenerate**(numWords?: *`WordCount`*): `string`
+###  mnemonicGenerate
 
-*Defined in [mnemonic/generate.ts:33](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/mnemonic/generate.ts#L33)*
+▸ **mnemonicGenerate**(`numWords`: `WordCount`): *string*
 
-*__name__*: mnemonicGenerate
+*Defined in [mnemonic/generate.ts:33](url)*
 
-*__summary__*: Creates a valid mnemonic string using using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
+**`name`** mnemonicGenerate
 
-*__example__*:   
+**`summary`** Creates a valid mnemonic string using using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
+
+**`example`** 
+<BR>
 
 ```javascript
 import { mnemonicGenerate } from '@polkadot/util-crypto';
@@ -24,11 +29,10 @@ const mnemonic = mnemonicGenerate(); // => string
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` numWords | `WordCount` | 12 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`numWords` | `WordCount` | 12 |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

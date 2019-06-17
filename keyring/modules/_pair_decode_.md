@@ -1,23 +1,26 @@
+> # External module: "pair/decode"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decode"></a>
+* [decode](_pair_decode_.md#decode)
 
-##  decode
+## Functions
 
-▸ **decode**(passphrase?: *`undefined` \| `string`*, _encrypted?: *`Uint8Array` \| `null`*): `DecodeResult`
+###  decode
 
-*Defined in [pair/decode.ts:17](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pair/decode.ts#L17)*
+▸ **decode**(`passphrase?`: undefined | string, `_encrypted?`: `Uint8Array` | null): *`DecodeResult`*
+
+*Defined in [pair/decode.ts:17](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` passphrase | `undefined` \| `string` |
-| `Optional` _encrypted | `Uint8Array` \| `null` |
+Name | Type |
+------ | ------ |
+`passphrase?` | undefined | string |
+`_encrypted?` | `Uint8Array` | null |
 
-**Returns:** `DecodeResult`
+**Returns:** *`DecodeResult`*
 
 ___
-

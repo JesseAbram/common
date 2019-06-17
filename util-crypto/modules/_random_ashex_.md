@@ -1,22 +1,28 @@
+> # External module: "random/asHex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="randomashex"></a>
+* [randomAsHex](_random_ashex_.md#randomashex)
 
-##  randomAsHex
+## Functions
 
-▸ **randomAsHex**(length?: *`number`*): `string`
+###  randomAsHex
 
-*Defined in [random/asHex.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/random/asHex.ts#L23)*
+▸ **randomAsHex**(`length`: number): *string*
 
-*__name__*: randomAsHex
+*Defined in [random/asHex.ts:23](url)*
 
-*__summary__*: Creates a hex string filled with random bytes.
+**`name`** randomAsHex
 
-*__description__*: Returns a hex string with the specified (optional) length filled with random bytes.
+**`summary`** Creates a hex string filled with random bytes.
 
-*__example__*:   
+**`description`** 
+Returns a hex string with the specified (optional) length filled with random bytes.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { randomAsHex } from '@polkadot/util-crypto';
@@ -26,11 +32,10 @@ randomAsHex(); // => 0x...
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Default value` length | `number` | 32 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`length` | number | 32 |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

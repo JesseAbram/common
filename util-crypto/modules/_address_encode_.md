@@ -1,23 +1,26 @@
+> # External module: "address/encode"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="encode"></a>
+* [encode](_address_encode_.md#encode)
 
-##  encode
+## Functions
 
-▸ **encode**(_key: *`Uint8Array` \| `string`*, prefix?: *[Prefix](_address_types_.md#prefix)*): `string`
+###  encode
 
-*Defined in [address/encode.ts:15](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/address/encode.ts#L15)*
+▸ **encode**(`_key`: `Uint8Array` | string, `prefix`: [Prefix](_address_types_.md#prefix)): *string*
+
+*Defined in [address/encode.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| _key | `Uint8Array` \| `string` | - |
-| `Default value` prefix | [Prefix](_address_types_.md#prefix) |  defaults.prefix |
+Name | Type | Default value |
+------ | ------ | ------ |
+`_key` | `Uint8Array` | string | - |
+`prefix` | [Prefix](_address_types_.md#prefix) |  defaults.prefix |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

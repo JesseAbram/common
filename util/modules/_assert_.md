@@ -1,22 +1,28 @@
+> # External module: "assert"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="assert"></a>
+* [assert](_assert_.md#assert)
 
-##  assert
+## Functions
 
-▸ **assert**<`T`>(test: *`Falsy` \| `T`*, message: *`string` \| `MessageFn`*, code?: *`number`*, data?: *`any`*): `boolean`
+###  assert
 
-*Defined in [assert.ts:28](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/assert.ts#L28)*
+▸ **assert**<**T**>(`test`: `Falsy` | `T`, `message`: string | `MessageFn`, `code`: number, `data?`: any): *boolean*
 
-*__name__*: assert
+*Defined in [assert.ts:28](url)*
 
-*__summary__*: Checks for a valid test, if not ExtError is thrown.
+**`name`** assert
 
-*__description__*: Checks that `test` is a truthy value. If value is falsy (`null`, `undefined`, `false`, ...), it throws an ExtError with the supplied `message` and an optional `code` and `data`. When `test` passes, `true` is returned.
+**`summary`** Checks for a valid test, if not ExtError is thrown.
 
-*__example__*:   
+**`description`** 
+Checks that `test` is a truthy value. If value is falsy (`null`, `undefined`, `false`, ...), it throws an ExtError with the supplied `message` and an optional `code` and `data`. When `test` passes, `true` is returned.
+
+**`example`** 
+<BR>
 
 ```javascript
 const { assert } from '@polkadot/util';
@@ -28,17 +34,17 @@ assert(false, () => 'message'); // ExtError with 'message'
 
 **Type parameters:**
 
-#### T 
+■` T`
+
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| test | `Falsy` \| `T` | - |
-| message | `string` \| `MessageFn` | - |
-| `Default value` code | `number` |  ExtError.CODES.ASSERT |
-| `Optional` data | `any` | - |
+Name | Type | Default value |
+------ | ------ | ------ |
+`test` | `Falsy` | `T` | - |
+`message` | string | `MessageFn` | - |
+`code` | number |  ExtError.CODES.ASSERT |
+`data?` | any | - |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

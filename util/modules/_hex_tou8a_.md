@@ -1,22 +1,28 @@
+> # External module: "hex/toU8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="hextou8a"></a>
+* [hexToU8a](_hex_tou8a_.md#hextou8a)
 
-##  hexToU8a
+## Functions
 
-▸ **hexToU8a**(_value?: *`string` \| `null`*, bitLength?: *`number`*): `Uint8Array`
+###  hexToU8a
 
-*Defined in [hex/toU8a.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/hex/toU8a.ts#L24)*
+▸ **hexToU8a**(`_value?`: string | null, `bitLength`: number): *`Uint8Array`*
 
-*__name__*: hexToU8a
+*Defined in [hex/toU8a.ts:24](url)*
 
-*__summary__*: Creates a Buffer object from a hex string.
+**`name`** hexToU8a
 
-*__description__*: `null` inputs returns an empty `Uint8Array` result. Hex input values return the actual bytes value converted to a Uint8Array. Anything that is not a hex string (including the `0x` prefix) throws an error.
+**`summary`** Creates a Buffer object from a hex string.
 
-*__example__*:   
+**`description`** 
+`null` inputs returns an empty `Uint8Array` result. Hex input values return the actual bytes value converted to a Uint8Array. Anything that is not a hex string (including the `0x` prefix) throws an error.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { hexToU8a } from '@polkadot/util';
@@ -27,12 +33,11 @@ hexToU8a('0x80001f', 32); // Uint8Array([0x00, 0x80, 0x00, 0x1f])
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Optional` _value | `string` \| `null` | - |
-| `Default value` bitLength | `number` |  -1 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`_value?` | string | null | - |
+`bitLength` | number |  -1 |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

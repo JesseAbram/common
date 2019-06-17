@@ -1,11 +1,8 @@
-
-@polkadot/db
-============
+# @polkadot/db
 
 This is an implementation of a basic sync in-memory and on-disk database with overlays. Memory is currently used by polkadot-js/client
 
-Usage
------
+## Usage
 
 Installation -
 
@@ -22,8 +19,6 @@ import MemoryDb from '@polkadot/db/Memory';
 import TransactionDb from '@polkadot/db/engines/TransactionDb';
 ```
 
-Utilities
----------
+## Utilities
 
 [Utilities](SUMMARY.md)
-

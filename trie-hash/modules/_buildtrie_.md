@@ -1,25 +1,28 @@
+> # External module: "buildTrie"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="buildtrie"></a>
+* [buildTrie](_buildtrie_.md#buildtrie)
 
-##  buildTrie
+## Functions
 
-▸ **buildTrie**(input: *`Array`<[`Uint8Array`, `Uint8Array`]>*, cursor?: *`number`*, codec?: *`Codec`*, stream?: *`any`*): `Uint8Array`
+###  buildTrie
 
-*Defined in [buildTrie.ts:77](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-hash/src/buildTrie.ts#L77)*
+▸ **buildTrie**(`input`: `Array<[Uint8Array, Uint8Array]>`, `cursor`: number, `codec`: `Codec`, `stream`: any): *`Uint8Array`*
+
+*Defined in [buildTrie.ts:77](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| input | `Array`<[`Uint8Array`, `Uint8Array`]> | - |
-| `Default value` cursor | `number` | 0 |
-| `Default value` codec | `Codec` |  DEFAULT_CODEC |
-| `Default value` stream | `any` |  DEFAULT_STREAM |
+Name | Type | Default value |
+------ | ------ | ------ |
+`input` | `Array<[Uint8Array, Uint8Array]>` | - |
+`cursor` | number | 0 |
+`codec` | `Codec` |  DEFAULT_CODEC |
+`stream` | any |  DEFAULT_STREAM |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

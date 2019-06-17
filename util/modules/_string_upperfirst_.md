@@ -1,22 +1,28 @@
+> # External module: "string/upperFirst"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="stringupperfirst"></a>
+* [stringUpperFirst](_string_upperfirst_.md#stringupperfirst)
 
-##  stringUpperFirst
+## Functions
 
-▸ **stringUpperFirst**(value?: *`string` \| `null`*): `string`
+###  stringUpperFirst
 
-*Defined in [string/upperFirst.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/string/upperFirst.ts#L19)*
+▸ **stringUpperFirst**(`value?`: string | null): *string*
 
-*__name__*: stringUpperFirst
+*Defined in [string/upperFirst.ts:19](url)*
 
-*__summary__*: Lowercase the first letter of a string
+**`name`** stringUpperFirst
 
-*__description__*: Lowercase the first letter of a string
+**`summary`** Lowercase the first letter of a string
 
-*__example__*:   
+**`description`** 
+Lowercase the first letter of a string
+
+**`example`** 
+<BR>
 
 ```javascript
 import { stringUpperFirst } from '@polkadot/util';
@@ -26,11 +32,10 @@ stringUpperFirst('abc'); // => 'Abc'
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `string` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | string | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

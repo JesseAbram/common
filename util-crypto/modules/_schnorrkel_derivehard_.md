@@ -1,23 +1,26 @@
+> # External module: "schnorrkel/deriveHard"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="derivehard"></a>
+* [deriveHard](_schnorrkel_derivehard_.md#derivehard)
 
-##  deriveHard
+## Functions
 
-▸ **deriveHard**(keypair: *[Keypair](_types_.md#keypair)*, chainCode: *`Uint8Array`*): [Keypair](_types_.md#keypair)
+###  deriveHard
 
-*Defined in [schnorrkel/deriveHard.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/schnorrkel/deriveHard.ts#L14)*
+▸ **deriveHard**(`keypair`: [Keypair](_types_.md#keypair), `chainCode`: `Uint8Array`): *[Keypair](_types_.md#keypair)*
+
+*Defined in [schnorrkel/deriveHard.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| keypair | [Keypair](_types_.md#keypair) |
-| chainCode | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`keypair` | [Keypair](_types_.md#keypair) |
+`chainCode` | `Uint8Array` |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

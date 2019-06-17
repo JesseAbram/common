@@ -1,22 +1,28 @@
+> # External module: "is/u8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isu8a"></a>
+* [isU8a](_is_u8a_.md#isu8a)
 
-##  isU8a
+## Functions
 
-▸ **isU8a**(value?: *`any`*): `boolean`
+###  isU8a
 
-*Defined in [is/u8a.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/u8a.ts#L21)*
+▸ **isU8a**(`value?`: any): *boolean*
 
-*__name__*: isU8a
+*Defined in [is/u8a.ts:21](url)*
 
-*__summary__*: Tests for a `Uint8Array` object instance.
+**`name`** isU8a
 
-*__description__*: Checks to see if the input object is an instance of `Uint8Array`.
+**`summary`** Tests for a `Uint8Array` object instance.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input object is an instance of `Uint8Array`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isUint8Array } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isU8a', isU8a([])); // => false
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `any` |
+Name | Type |
+------ | ------ |
+`value?` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "nacl/keypair/fromString"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="naclkeypairfromstring"></a>
+* [naclKeypairFromString](_nacl_keypair_fromstring_.md#naclkeypairfromstring)
 
-##  naclKeypairFromString
+## Functions
 
-▸ **naclKeypairFromString**(value: *`string`*): [Keypair](_types_.md#keypair)
+###  naclKeypairFromString
 
-*Defined in [nacl/keypair/fromString.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/keypair/fromString.ts#L26)*
+▸ **naclKeypairFromString**(`value`: string): *[Keypair](_types_.md#keypair)*
 
-*__name__*: naclKeypairFromString
+*Defined in [nacl/keypair/fromString.ts:26](url)*
 
-*__summary__*: Creates a new public/secret keypair from a string.
+**`name`** naclKeypairFromString
 
-*__description__*: Returns a object containing a `publicKey` & `secretKey` generated from the supplied string. The string is hashed and the value used as the input seed.
+**`summary`** Creates a new public/secret keypair from a string.
 
-*__example__*:   
+**`description`** 
+Returns a object containing a `publicKey` & `secretKey` generated from the supplied string. The string is hashed and the value used as the input seed.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclKeypairFromString } from '@polkadot/util-crypto';
@@ -26,11 +32,10 @@ naclKeypairFromString('test'); // => { secretKey: [...], publicKey: [...] }
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
+Name | Type |
+------ | ------ |
+`value` | string |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

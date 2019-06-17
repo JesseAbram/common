@@ -1,22 +1,28 @@
+> # External module: "nacl/verify"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="naclverify"></a>
+* [naclVerify](_nacl_verify_.md#naclverify)
 
-##  naclVerify
+## Functions
 
-▸ **naclVerify**(message: *`Uint8Array` \| `string`*, signature: *`Uint8Array` \| `string`*, publicKey: *`Uint8Array` \| `string`*): `boolean`
+###  naclVerify
 
-*Defined in [nacl/verify.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/verify.ts#L23)*
+▸ **naclVerify**(`message`: `Uint8Array` | string, `signature`: `Uint8Array` | string, `publicKey`: `Uint8Array` | string): *boolean*
 
-*__name__*: naclSign
+*Defined in [nacl/verify.ts:23](url)*
 
-*__summary__*: Verifies the signature on the supplied message.
+**`name`** naclSign
 
-*__description__*: Verifies the `signature` on `message` with the supplied `plublicKey`. Returns `true` on sucess, `false` otherwise.
+**`summary`** Verifies the signature on the supplied message.
 
-*__example__*:   
+**`description`** 
+Verifies the `signature` on `message` with the supplied `plublicKey`. Returns `true` on sucess, `false` otherwise.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclVerify } from '@polkadot/util-crypto';
@@ -26,13 +32,12 @@ naclVerify([...], [...], [...]); // => true/false
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| message | `Uint8Array` \| `string` |
-| signature | `Uint8Array` \| `string` |
-| publicKey | `Uint8Array` \| `string` |
+Name | Type |
+------ | ------ |
+`message` | `Uint8Array` | string |
+`signature` | `Uint8Array` | string |
+`publicKey` | `Uint8Array` | string |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

@@ -1,23 +1,26 @@
+> # External module: "key/hdkdSr25519"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="keyhdkdsr25519"></a>
+* [keyHdkdSr25519](_key_hdkdsr25519_.md#keyhdkdsr25519)
 
-##  keyHdkdSr25519
+## Functions
 
-▸ **keyHdkdSr25519**(keypair: *[Keypair](_types_.md#keypair)*, __namedParameters: *`object`*): [Keypair](_types_.md#keypair)
+###  keyHdkdSr25519
 
-*Defined in [key/hdkdSr25519.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/hdkdSr25519.ts#L11)*
+▸ **keyHdkdSr25519**(`keypair`: [Keypair](_types_.md#keypair), `__namedParameters`: object): *[Keypair](_types_.md#keypair)*
+
+*Defined in [key/hdkdSr25519.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| keypair | [Keypair](_types_.md#keypair) |
-| __namedParameters | `object` |
+Name | Type |
+------ | ------ |
+`keypair` | [Keypair](_types_.md#keypair) |
+`__namedParameters` | object |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

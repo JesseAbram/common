@@ -1,22 +1,28 @@
+> # External module: "is/hex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="ishex"></a>
+* [isHex](_is_hex_.md#ishex)
 
-##  isHex
+## Functions
 
-▸ **isHex**(value: *`any`*, bitLength?: *`number`*, ignoreLength?: *`boolean`*): `boolean`
+###  isHex
 
-*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/hex.ts#L24)*
+▸ **isHex**(`value`: any, `bitLength`: number, `ignoreLength`: boolean): *boolean*
 
-*__name__*: isHex
+*Defined in [is/hex.ts:24](url)*
 
-*__summary__*: Tests for a hex string.
+**`name`** isHex
 
-*__description__*: Checks to see if the input value is a `0x` prefixed hex string. Optionally (`bitLength` !== -1) checks to see if the bitLength is correct.
+**`summary`** Tests for a hex string.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a `0x` prefixed hex string. Optionally (`bitLength` !== -1) checks to see if the bitLength is correct.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isHex } from '@polkadot/util';
@@ -27,13 +33,12 @@ isHex('0x1234', 8); // => false
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| value | `any` | - |
-| `Default value` bitLength | `number` |  -1 |
-| `Default value` ignoreLength | `boolean` | false |
+Name | Type | Default value |
+------ | ------ | ------ |
+`value` | any | - |
+`bitLength` | number |  -1 |
+`ignoreLength` | boolean | false |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

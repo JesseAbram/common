@@ -1,37 +1,38 @@
+> # Interface: Compact
 
+## Hierarchy
 
-# Hierarchy
+* **Compact**
 
-**Compact**
+### Index
 
-# Properties
+#### Properties
 
-<a id="tobn"></a>
+* [toBn](_format_types_.compact.md#tobn)
+* [unwrap](_format_types_.compact.md#unwrap)
 
-##  toBn
+## Properties
 
-**● toBn**: *`function`*
+###  toBn
 
-*Defined in [format/types.ts:8](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/types.ts#L8)*
+● **toBn**: *function*
 
-#### Type declaration
-▸(): `BN`
+*Defined in [format/types.ts:8](url)*
 
-**Returns:** `BN`
+#### Type declaration:
 
-___
-<a id="unwrap"></a>
-
-##  unwrap
-
-**● unwrap**: *`function`*
-
-*Defined in [format/types.ts:9](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/types.ts#L9)*
-
-#### Type declaration
-▸(): `BN` \| `Date`
-
-**Returns:** `BN` \| `Date`
+▸ (): *`BN`*
 
 ___
 
+###  unwrap
+
+● **unwrap**: *function*
+
+*Defined in [format/types.ts:9](url)*
+
+#### Type declaration:
+
+▸ (): *`BN` | `Date`*
+
+___

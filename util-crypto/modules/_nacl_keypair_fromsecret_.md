@@ -1,22 +1,28 @@
+> # External module: "nacl/keypair/fromSecret"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="naclkeypairfromsecret"></a>
+* [naclKeypairFromSecret](_nacl_keypair_fromsecret_.md#naclkeypairfromsecret)
 
-##  naclKeypairFromSecret
+## Functions
 
-▸ **naclKeypairFromSecret**(secret: *`Uint8Array`*): [Keypair](_types_.md#keypair)
+###  naclKeypairFromSecret
 
-*Defined in [nacl/keypair/fromSecret.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/keypair/fromSecret.ts#L23)*
+▸ **naclKeypairFromSecret**(`secret`: `Uint8Array`): *[Keypair](_types_.md#keypair)*
 
-*__name__*: naclKeypairFromSecret
+*Defined in [nacl/keypair/fromSecret.ts:23](url)*
 
-*__summary__*: Creates a new public/secret keypair from a secret.
+**`name`** naclKeypairFromSecret
 
-*__description__*: Returns a object containing a `publicKey` & `secretKey` generated from the supplied secret.
+**`summary`** Creates a new public/secret keypair from a secret.
 
-*__example__*:   
+**`description`** 
+Returns a object containing a `publicKey` & `secretKey` generated from the supplied secret.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclKeypairFromSecret } from '@polkadot/util-crypto';
@@ -26,11 +32,10 @@ naclKeypairFromSecret(...); // => { secretKey: [...], publicKey: [...] }
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| secret | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`secret` | `Uint8Array` |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

@@ -1,20 +1,25 @@
+> # External module: "bn/max"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="max"></a>
+* [max](_bn_max_.md#max)
 
-##  max
+## Functions
 
-▸ **max**(...items: *`BN`[]*): `BN`
+###  max
 
-*Defined in [bn/max.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/bn/max.ts#L22)*
+▸ **max**(...`items`: `BN`[]): *`BN`*
 
-*__name__*: max
+*Defined in [bn/max.ts:22](url)*
 
-*__summary__*: Finds and returns the highest value in an array of BNs.
+**`name`** max
 
-*__example__*:   
+**`summary`** Finds and returns the highest value in an array of BNs.
+
+**`example`** 
+<BR>
 
 ```javascript
 import BN from 'bn.js';
@@ -25,11 +30,10 @@ max([new BN(1), new BN(3), new BN(2)]).toString(); // => '3'
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` items | `BN`[] |
+Name | Type |
+------ | ------ |
+`...items` | `BN`[] |
 
-**Returns:** `BN`
+**Returns:** *`BN`*
 
 ___
-

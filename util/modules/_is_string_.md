@@ -1,22 +1,28 @@
+> # External module: "is/string"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isstring"></a>
+* [isString](_is_string_.md#isstring)
 
-##  isString
+## Functions
 
-▸ **isString**(value: *`any`*): `boolean`
+###  isString
 
-*Defined in [is/string.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/string.ts#L19)*
+▸ **isString**(`value`: any): *boolean*
 
-*__name__*: isString
+*Defined in [is/string.ts:19](url)*
 
-*__summary__*: Tests for a string.
+**`name`** isString
 
-*__description__*: Checks to see if the input value is a JavaScript string.
+**`summary`** Tests for a string.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a JavaScript string.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isString } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isString', isString('test')); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

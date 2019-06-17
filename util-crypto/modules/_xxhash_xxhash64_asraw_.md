@@ -1,22 +1,28 @@
+> # External module: "xxhash/xxhash64/asRaw"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="xxhash64asraw"></a>
+* [xxhash64AsRaw](_xxhash_xxhash64_asraw_.md#xxhash64asraw)
 
-##  xxhash64AsRaw
+## Functions
 
-▸ **xxhash64AsRaw**(data: *`Buffer` \| `Uint8Array` \| `string`*, seed: *`number`*): `string`
+###  xxhash64AsRaw
 
-*Defined in [xxhash/xxhash64/asRaw.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/xxhash/xxhash64/asRaw.ts#L21)*
+▸ **xxhash64AsRaw**(`data`: `Buffer` | `Uint8Array` | string, `seed`: number): *string*
 
-*__name__*: xxhash64AsRaw
+*Defined in [xxhash/xxhash64/asRaw.ts:21](url)*
 
-*__summary__*: Creates a xxhash non-prefixed hex from the input.
+**`name`** xxhash64AsRaw
 
-*__description__*: From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a non-prefixed hex string.
+**`summary`** Creates a xxhash non-prefixed hex from the input.
 
-*__example__*:   
+**`description`** 
+From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a non-prefixed hex string.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { xxhash64AsRaw } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ xxhash64AsRaw('abcd', 0xabcd)); // => e29f70f8b8c96df7
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| data | `Buffer` \| `Uint8Array` \| `string` |
-| seed | `number` |
+Name | Type |
+------ | ------ |
+`data` | `Buffer` | `Uint8Array` | string |
+`seed` | number |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

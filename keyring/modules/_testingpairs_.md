@@ -1,23 +1,26 @@
+> # External module: "testingPairs"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="testkeyringpairs"></a>
+* [testKeyringPairs](_testingpairs_.md#testkeyringpairs)
 
-##  testKeyringPairs
+## Functions
 
-▸ **testKeyringPairs**(options?: *[KeyringOptions](_types_.md#keyringoptions)*, isDerived?: *`boolean`*): `TestKeyringMap`
+###  testKeyringPairs
 
-*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/testingPairs.ts#L14)*
+▸ **testKeyringPairs**(`options?`: [KeyringOptions](_types_.md#keyringoptions), `isDerived`: boolean): *`TestKeyringMap`*
+
+*Defined in [testingPairs.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| `Optional` options | [KeyringOptions](_types_.md#keyringoptions) | - |
-| `Default value` isDerived | `boolean` | true |
+Name | Type | Default value |
+------ | ------ | ------ |
+`options?` | [KeyringOptions](_types_.md#keyringoptions) | - |
+`isDerived` | boolean | true |
 
-**Returns:** `TestKeyringMap`
+**Returns:** *`TestKeyringMap`*
 
 ___
-

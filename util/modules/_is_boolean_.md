@@ -1,22 +1,28 @@
+> # External module: "is/boolean"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isboolean"></a>
+* [isBoolean](_is_boolean_.md#isboolean)
 
-##  isBoolean
+## Functions
 
-▸ **isBoolean**(value: *`any`*): `boolean`
+###  isBoolean
 
-*Defined in [is/boolean.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/boolean.ts#L19)*
+▸ **isBoolean**(`value`: any): *boolean*
 
-*__name__*: isBoolean
+*Defined in [is/boolean.ts:19](url)*
 
-*__summary__*: Tests for a boolean value.
+**`name`** isBoolean
 
-*__description__*: Checks to see if the input value is a JavaScript boolean.
+**`summary`** Tests for a boolean value.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a JavaScript boolean.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isBoolean } from '@polkadot/util';
@@ -26,11 +32,10 @@ isBoolean(false); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

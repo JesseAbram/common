@@ -1,28 +1,31 @@
+> # Class: Checkpoint
 
+## Hierarchy
 
-# Hierarchy
+* **Checkpoint**
 
-**Checkpoint**
+  * [Impl](_impl_.impl.md)
 
-↳  [Impl](_impl_.impl.md)
+### Index
 
-# Constructors
+#### Constructors
 
-<a id="constructor"></a>
+* [constructor](_checkpoint_.checkpoint.md#constructor)
 
-##  constructor
+## Constructors
 
-⊕ **new Checkpoint**(rootHash: *`Uint8Array`*): [Checkpoint](_checkpoint_.checkpoint.md)
+###  constructor
 
-*Defined in [Checkpoint.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/Checkpoint.ts#L7)*
+\+ **new Checkpoint**(`rootHash`: `Uint8Array`): *[Checkpoint](_checkpoint_.checkpoint.md)*
+
+*Defined in [Checkpoint.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| rootHash | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`rootHash` | `Uint8Array` |
 
-**Returns:** [Checkpoint](_checkpoint_.checkpoint.md)
+**Returns:** *[Checkpoint](_checkpoint_.checkpoint.md)*
 
 ___
-

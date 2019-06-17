@@ -1,217 +1,223 @@
+> # Class: TransactionDb
 
+## Hierarchy
 
-# Hierarchy
+* **TransactionDb**
 
-**TransactionDb**
+  * [Memory](_memory_.memory.md)
 
-↳  [Memory](_memory_.memory.md)
-
-# Implements
+## Implements
 
 * [TxDb](../interfaces/_types_.txdb.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_engines_transactiondb_.transactiondb.md#constructor)
 
-⊕ **new TransactionDb**(backing: *[BaseDb](../interfaces/_types_.basedb.md)*): [TransactionDb](_engines_transactiondb_.transactiondb.md)
+#### Methods
 
-*Defined in [engines/TransactionDb.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L19)*
+* [close](_engines_transactiondb_.transactiondb.md#close)
+* [del](_engines_transactiondb_.transactiondb.md#del)
+* [drop](_engines_transactiondb_.transactiondb.md#drop)
+* [empty](_engines_transactiondb_.transactiondb.md#empty)
+* [get](_engines_transactiondb_.transactiondb.md#get)
+* [maintain](_engines_transactiondb_.transactiondb.md#maintain)
+* [open](_engines_transactiondb_.transactiondb.md#open)
+* [put](_engines_transactiondb_.transactiondb.md#put)
+* [rename](_engines_transactiondb_.transactiondb.md#rename)
+* [size](_engines_transactiondb_.transactiondb.md#size)
+* [transaction](_engines_transactiondb_.transactiondb.md#transaction)
 
-**Parameters:**
+## Constructors
 
-| Name | Type |
-| ------ | ------ |
-| backing | [BaseDb](../interfaces/_types_.basedb.md) |
+###  constructor
 
-**Returns:** [TransactionDb](_engines_transactiondb_.transactiondb.md)
+\+ **new TransactionDb**(`backing`: [BaseDb](../interfaces/_types_.basedb.md)): *[TransactionDb](_engines_transactiondb_.transactiondb.md)*
 
-___
-
-# Methods
-
-<a id="close"></a>
-
-##  close
-
-▸ **close**(): `void`
-
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[close](../interfaces/_types_.txdb.md#close)*
-
-*Defined in [engines/TransactionDb.ts:48](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L48)*
-
-**Returns:** `void`
-
-___
-<a id="del"></a>
-
-##  del
-
-▸ **del**(key: *`Uint8Array`*): `void`
-
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[del](../interfaces/_types_.txdb.md#del)*
-
-*Defined in [engines/TransactionDb.ts:78](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L78)*
+*Defined in [engines/TransactionDb.ts:19](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`backing` | [BaseDb](../interfaces/_types_.basedb.md) |
 
-**Returns:** `void`
-
-___
-<a id="drop"></a>
-
-##  drop
-
-▸ **drop**(): `void`
-
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[drop](../interfaces/_types_.txdb.md#drop)*
-
-*Defined in [engines/TransactionDb.ts:56](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L56)*
-
-**Returns:** `void`
+**Returns:** *[TransactionDb](_engines_transactiondb_.transactiondb.md)*
 
 ___
-<a id="empty"></a>
 
-##  empty
+## Methods
 
-▸ **empty**(): `void`
+###  close
 
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[empty](../interfaces/_types_.txdb.md#empty)*
+▸ **close**(): *void*
 
-*Defined in [engines/TransactionDb.ts:60](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L60)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
 
-**Returns:** `void`
+*Defined in [engines/TransactionDb.ts:48](url)*
+
+**Returns:** *void*
 
 ___
-<a id="get"></a>
 
-##  get
+###  del
 
-▸ **get**(key: *`Uint8Array`*): `Uint8Array` \| `null`
+▸ **del**(`key`: `Uint8Array`): *void*
 
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[get](../interfaces/_types_.txdb.md#get)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
 
-*Defined in [engines/TransactionDb.ts:87](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L87)*
+*Defined in [engines/TransactionDb.ts:78](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
 
-**Returns:** `Uint8Array` \| `null`
+**Returns:** *void*
 
 ___
-<a id="maintain"></a>
 
-##  maintain
+###  drop
 
-▸ **maintain**(fn: *[ProgressCb](../modules/_types_.md#progresscb)*): `void`
+▸ **drop**(): *void*
 
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[maintain](../interfaces/_types_.txdb.md#maintain)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
 
-*Defined in [engines/TransactionDb.ts:68](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L68)*
+*Defined in [engines/TransactionDb.ts:56](url)*
+
+**Returns:** *void*
+
+___
+
+###  empty
+
+▸ **empty**(): *void*
+
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
+
+*Defined in [engines/TransactionDb.ts:60](url)*
+
+**Returns:** *void*
+
+___
+
+###  get
+
+▸ **get**(`key`: `Uint8Array`): *`Uint8Array` | null*
+
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
+
+*Defined in [engines/TransactionDb.ts:87](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| fn | [ProgressCb](../modules/_types_.md#progresscb) |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
 
-**Returns:** `void`
-
-___
-<a id="open"></a>
-
-##  open
-
-▸ **open**(): `void`
-
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[open](../interfaces/_types_.txdb.md#open)*
-
-*Defined in [engines/TransactionDb.ts:52](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L52)*
-
-**Returns:** `void`
+**Returns:** *`Uint8Array` | null*
 
 ___
-<a id="put"></a>
 
-##  put
+###  maintain
 
-▸ **put**(key: *`Uint8Array`*, value: *`Uint8Array`*): `void`
+▸ **maintain**(`fn`: [ProgressCb](../modules/_types_.md#progresscb)): *void*
 
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[put](../interfaces/_types_.txdb.md#put)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
 
-*Defined in [engines/TransactionDb.ts:101](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L101)*
+*Defined in [engines/TransactionDb.ts:68](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| key | `Uint8Array` |
-| value | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`fn` | [ProgressCb](../modules/_types_.md#progresscb) |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="rename"></a>
 
-##  rename
+###  open
 
-▸ **rename**(base: *`string`*, file: *`string`*): `void`
+▸ **open**(): *void*
 
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[rename](../interfaces/_types_.txdb.md#rename)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
 
-*Defined in [engines/TransactionDb.ts:64](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L64)*
+*Defined in [engines/TransactionDb.ts:52](url)*
+
+**Returns:** *void*
+
+___
+
+###  put
+
+▸ **put**(`key`: `Uint8Array`, `value`: `Uint8Array`): *void*
+
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
+
+*Defined in [engines/TransactionDb.ts:101](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| base | `string` |
-| file | `string` |
+Name | Type |
+------ | ------ |
+`key` | `Uint8Array` |
+`value` | `Uint8Array` |
 
-**Returns:** `void`
-
-___
-<a id="size"></a>
-
-##  size
-
-▸ **size**(): `number`
-
-*Implementation of [TxDb](../interfaces/_types_.txdb.md).[size](../interfaces/_types_.txdb.md#size)*
-
-*Defined in [engines/TransactionDb.ts:74](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L74)*
-
-**Returns:** `number`
+**Returns:** *void*
 
 ___
-<a id="transaction"></a>
 
-##  transaction
+###  rename
 
-▸ **transaction**<`T`>(fn: *`function`*): `T`
+▸ **rename**(`base`: string, `file`: string): *void*
 
-*Defined in [engines/TransactionDb.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/db/src/engines/TransactionDb.ts#L26)*
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
+
+*Defined in [engines/TransactionDb.ts:64](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`base` | string |
+`file` | string |
+
+**Returns:** *void*
+
+___
+
+###  size
+
+▸ **size**(): *number*
+
+*Implementation of [TxDb](../interfaces/_types_.txdb.md)*
+
+*Defined in [engines/TransactionDb.ts:74](url)*
+
+**Returns:** *number*
+
+___
+
+###  transaction
+
+▸ **transaction**<**T**>(`fn`: function): *`T`*
+
+*Defined in [engines/TransactionDb.ts:26](url)*
 
 **Type parameters:**
 
-#### T 
+■` T`
+
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| fn | `function` |
+■` fn`: *function*
 
-**Returns:** `T`
+▸ (): *`T`*
+
+**Returns:** *`T`*
 
 ___
-

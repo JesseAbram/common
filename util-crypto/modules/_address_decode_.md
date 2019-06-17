@@ -1,24 +1,27 @@
+> # External module: "address/decode"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decode"></a>
+* [decode](_address_decode_.md#decode)
 
-##  decode
+## Functions
 
-▸ **decode**(encoded: *`string` \| `Uint8Array`*, ignoreChecksum?: *`undefined` \| `false` \| `true`*, prefix?: *[Prefix](_address_types_.md#prefix)*): `Uint8Array`
+###  decode
 
-*Defined in [address/decode.ts:15](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/address/decode.ts#L15)*
+▸ **decode**(`encoded`: string | `Uint8Array`, `ignoreChecksum?`: undefined | false | true, `prefix`: [Prefix](_address_types_.md#prefix)): *`Uint8Array`*
+
+*Defined in [address/decode.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| encoded | `string` \| `Uint8Array` | - |
-| `Optional` ignoreChecksum | `undefined` \| `false` \| `true` | - |
-| `Default value` prefix | [Prefix](_address_types_.md#prefix) |  defaults.prefix |
+Name | Type | Default value |
+------ | ------ | ------ |
+`encoded` | string | `Uint8Array` | - |
+`ignoreChecksum?` | undefined | false | true | - |
+`prefix` | [Prefix](_address_types_.md#prefix) |  defaults.prefix |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

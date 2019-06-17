@@ -1,22 +1,28 @@
+> # External module: "is/error"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="iserror"></a>
+* [isError](_is_error_.md#iserror)
 
-##  isError
+## Functions
 
-▸ **isError**(value: *`any`*): `boolean`
+###  isError
 
-*Defined in [is/error.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/error.ts#L21)*
+▸ **isError**(`value`: any): *boolean*
 
-*__name__*: isError
+*Defined in [is/error.ts:21](url)*
 
-*__summary__*: Tests for a `Error` object instance.
+**`name`** isError
 
-*__description__*: Checks to see if the input object is an instance of `Error`.
+**`summary`** Tests for a `Error` object instance.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input object is an instance of `Error`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isError } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isError', isError(new Error('message'))); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

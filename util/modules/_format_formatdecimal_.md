@@ -1,22 +1,25 @@
+> # External module: "format/formatDecimal"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="formatdecimal"></a>
+* [formatDecimal](_format_formatdecimal_.md#formatdecimal)
 
-##  formatDecimal
+## Functions
 
-▸ **formatDecimal**(value: *`string`*): `string`
+###  formatDecimal
 
-*Defined in [format/formatDecimal.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/format/formatDecimal.ts#L7)*
+▸ **formatDecimal**(`value`: string): *string*
+
+*Defined in [format/formatDecimal.ts:7](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
+Name | Type |
+------ | ------ |
+`value` | string |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

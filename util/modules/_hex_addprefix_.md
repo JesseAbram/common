@@ -1,22 +1,28 @@
+> # External module: "hex/addPrefix"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="hexaddprefix"></a>
+* [hexAddPrefix](_hex_addprefix_.md#hexaddprefix)
 
-##  hexAddPrefix
+## Functions
 
-▸ **hexAddPrefix**(value?: *`string` \| `null`*): `string`
+###  hexAddPrefix
 
-*Defined in [hex/addPrefix.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/hex/addPrefix.ts#L21)*
+▸ **hexAddPrefix**(`value?`: string | null): *string*
 
-*__name__*: hexAddPrefix
+*Defined in [hex/addPrefix.ts:21](url)*
 
-*__summary__*: Adds the `0x` prefix to string values.
+**`name`** hexAddPrefix
 
-*__description__*: Returns a `0x` prefixed string from the input value. If the input is already prefixed, it is returned unchanged.
+**`summary`** Adds the `0x` prefix to string values.
 
-*__example__*:   
+**`description`** 
+Returns a `0x` prefixed string from the input value. If the input is already prefixed, it is returned unchanged.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { hexAddPrefix } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('With prefix', hexAddPrefix('0a0b12')); // => 0x0a0b12
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `string` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | string | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

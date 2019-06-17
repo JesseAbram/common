@@ -1,23 +1,26 @@
+> # External module: "stream/createBranch"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="createbranch"></a>
+* [createBranch](_stream_createbranch_.md#createbranch)
 
-##  createBranch
+## Functions
 
-▸ **createBranch**(value: *`Uint8Array` \| `null`*, hasChildren: *`Array`<`boolean`>*): `Uint8Array`
+###  createBranch
 
-*Defined in [stream/createBranch.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-codec/src/stream/createBranch.ts#L10)*
+▸ **createBranch**(`value`: `Uint8Array` | null, `hasChildren`: `Array<boolean>`): *`Uint8Array`*
+
+*Defined in [stream/createBranch.ts:10](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `Uint8Array` \| `null` |
-| hasChildren | `Array`<`boolean`> |
+Name | Type |
+------ | ------ |
+`value` | `Uint8Array` | null |
+`hasChildren` | `Array<boolean>` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

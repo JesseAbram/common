@@ -1,22 +1,28 @@
+> # External module: "is/number"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isnumber"></a>
+* [isNumber](_is_number_.md#isnumber)
 
-##  isNumber
+## Functions
 
-▸ **isNumber**(value: *`any`*): `boolean`
+###  isNumber
 
-*Defined in [is/number.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/number.ts#L19)*
+▸ **isNumber**(`value`: any): *boolean*
 
-*__name__*: isNumber
+*Defined in [is/number.ts:19](url)*
 
-*__summary__*: Tests for a JavaScript number.
+**`name`** isNumber
 
-*__description__*: Checks to see if the input value is a valid number.
+**`summary`** Tests for a JavaScript number.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a valid number.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isNumber } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isNumber', isNumber(1234)); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

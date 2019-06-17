@@ -1,16 +1,19 @@
+> # External module: "pair/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="pairinfo"></a>
+* [PairInfo](_pair_types_.md#pairinfo)
 
-##  PairInfo
+## Type aliases
 
-**Ƭ PairInfo**: *`object`*
+###  PairInfo
 
-*Defined in [pair/types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pair/types.ts#L5)*
+Ƭ **PairInfo**: *object*
 
-#### Type declaration
+*Defined in [pair/types.ts:5](url)*
+
+#### Type declaration:
 
 ___
-

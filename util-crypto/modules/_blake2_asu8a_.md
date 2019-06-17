@@ -1,22 +1,28 @@
+> # External module: "blake2/asU8a"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="blake2asu8a"></a>
+* [blake2AsU8a](_blake2_asu8a_.md#blake2asu8a)
 
-##  blake2AsU8a
+## Functions
 
-▸ **blake2AsU8a**(data: *`Uint8Array` \| `string`*, bitLength?: *`number`*, key?: *`Uint8Array` \| `null`*): `Uint8Array`
+###  blake2AsU8a
 
-*Defined in [blake2/asU8a.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/blake2/asU8a.ts#L23)*
+▸ **blake2AsU8a**(`data`: `Uint8Array` | string, `bitLength`: number, `key`: `Uint8Array` | null): *`Uint8Array`*
 
-*__name__*: blake2AsU8a
+*Defined in [blake2/asU8a.ts:23](url)*
 
-*__summary__*: Creates a blake2b u8a from the input.
+**`name`** blake2AsU8a
 
-*__description__*: From a `Uint8Array` input, create the blake2b and return the result as a u8a with the specified `bitLength`.
+**`summary`** Creates a blake2b u8a from the input.
 
-*__example__*:   
+**`description`** 
+From a `Uint8Array` input, create the blake2b and return the result as a u8a with the specified `bitLength`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { blake2AsU8a } from '@polkadot/util-crypto';
@@ -26,13 +32,12 @@ blake2AsU8a('abc'); // => [0xba, 0x80, 0xa53, 0xf98, 0x1c, 0x4d, 0x0d]
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| data | `Uint8Array` \| `string` | - |
-| `Default value` bitLength | `number` | 256 |
-| `Default value` key | `Uint8Array` \| `null` |  null |
+Name | Type | Default value |
+------ | ------ | ------ |
+`data` | `Uint8Array` | string | - |
+`bitLength` | number | 256 |
+`key` | `Uint8Array` | null |  null |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

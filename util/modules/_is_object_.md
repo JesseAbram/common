@@ -1,22 +1,28 @@
+> # External module: "is/object"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isobject"></a>
+* [isObject](_is_object_.md#isobject)
 
-##  isObject
+## Functions
 
-▸ **isObject**(value: *`any`*): `boolean`
+###  isObject
 
-*Defined in [is/object.ts:24](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/object.ts#L24)*
+▸ **isObject**(`value`: any): *boolean*
 
-*__name__*: isObject
+*Defined in [is/object.ts:24](url)*
 
-*__summary__*: Tests for an `object`.
+**`name`** isObject
 
-*__description__*: Checks to see if the input value is a JavaScript object.
+**`summary`** Tests for an `object`.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a JavaScript object.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isObject } from '@polkadot/util';
@@ -27,11 +33,10 @@ isObject('something'); // => false
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

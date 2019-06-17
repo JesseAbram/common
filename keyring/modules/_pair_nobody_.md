@@ -1,16 +1,19 @@
+> # External module: "pair/nobody"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="everybody"></a>
+* [everybody](_pair_nobody_.md#everybody)
 
-##  everybody
+## Functions
 
-▸ **everybody**(): [KeyringPair](../interfaces/_types_.keyringpair.md)
+###  everybody
 
-*Defined in [pair/nobody.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pair/nobody.ts#L26)*
+▸ **everybody**(): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+*Defined in [pair/nobody.ts:26](url)*
+
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-

@@ -1,36 +1,41 @@
+> # External module: "constants"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="constants"></a>
+* [Constants](_constants_.md#constants)
 
-##  Constants
+#### Functions
 
-**Ƭ Constants**: *`object`*
+* [default](_constants_.md#default)
 
-*Defined in [constants.ts:9](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/constants.ts#L9)*
+## Type aliases
 
-#### Type declaration
+###  Constants
+
+Ƭ **Constants**: *object*
+
+*Defined in [constants.ts:9](url)*
+
+#### Type declaration:
 
 ___
 
-# Functions
+## Functions
 
-<a id="default"></a>
+###  default
 
-##  default
+▸ **default**(`codec`: `Codec`): *object*
 
-▸ **default**(codec: *`Codec`*): `object`
-
-*Defined in [constants.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/constants.ts#L14)*
+*Defined in [constants.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| codec | `Codec` |
+Name | Type |
+------ | ------ |
+`codec` | `Codec` |
 
-**Returns:** `object`
+**Returns:** *object*
 
 ___
-

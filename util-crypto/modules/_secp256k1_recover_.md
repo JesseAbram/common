@@ -1,28 +1,31 @@
+> # External module: "secp256k1/recover"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="secp256k1recover"></a>
+* [secp256k1Recover](_secp256k1_recover_.md#secp256k1recover)
 
-##  secp256k1Recover
+## Functions
 
-▸ **secp256k1Recover**(message: *`Uint8Array`*, signature: *`Uint8Array`*, recovery: *`number`*): `Uint8Array`
+###  secp256k1Recover
 
-*Defined in [secp256k1/recover.ts:12](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/secp256k1/recover.ts#L12)*
+▸ **secp256k1Recover**(`message`: `Uint8Array`, `signature`: `Uint8Array`, `recovery`: number): *`Uint8Array`*
 
-*__name__*: secp256k1Recover
+*Defined in [secp256k1/recover.ts:12](url)*
 
-*__description__*: Recovers a publicKey from the supplied signature
+**`name`** secp256k1Recover
+
+**`description`** Recovers a publicKey from the supplied signature
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| message | `Uint8Array` |
-| signature | `Uint8Array` |
-| recovery | `number` |
+Name | Type |
+------ | ------ |
+`message` | `Uint8Array` |
+`signature` | `Uint8Array` |
+`recovery` | number |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

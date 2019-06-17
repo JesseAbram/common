@@ -1,22 +1,28 @@
+> # External module: "string/lowerFirst"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="stringlowerfirst"></a>
+* [stringLowerFirst](_string_lowerfirst_.md#stringlowerfirst)
 
-##  stringLowerFirst
+## Functions
 
-▸ **stringLowerFirst**(value?: *`string` \| `null`*): `string`
+###  stringLowerFirst
 
-*Defined in [string/lowerFirst.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/string/lowerFirst.ts#L19)*
+▸ **stringLowerFirst**(`value?`: string | null): *string*
 
-*__name__*: stringLowerFirst
+*Defined in [string/lowerFirst.ts:19](url)*
 
-*__summary__*: Lowercase the first letter of a string
+**`name`** stringLowerFirst
 
-*__description__*: Lowercase the first letter of a string
+**`summary`** Lowercase the first letter of a string
 
-*__example__*:   
+**`description`** 
+Lowercase the first letter of a string
+
+**`example`** 
+<BR>
 
 ```javascript
 import { stringLowerFirst } from '@polkadot/util';
@@ -26,11 +32,10 @@ stringLowerFirst('ABC'); // => 'aBC'
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `string` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | string | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

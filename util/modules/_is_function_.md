@@ -1,22 +1,28 @@
+> # External module: "is/function"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isfunction"></a>
+* [isFunction](_is_function_.md#isfunction)
 
-##  isFunction
+## Functions
 
-▸ **isFunction**(value: *`any`*): `boolean`
+###  isFunction
 
-*Defined in [is/function.ts:19](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/function.ts#L19)*
+▸ **isFunction**(`value`: any): *boolean*
 
-*__name__*: isFunction
+*Defined in [is/function.ts:19](url)*
 
-*__summary__*: Tests for a `function`.
+**`name`** isFunction
 
-*__description__*: Checks to see if the input value is a JavaScript function.
+**`summary`** Tests for a `function`.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a JavaScript function.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isFunction } from '@polkadot/util';
@@ -26,11 +32,10 @@ isFunction(() => false); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

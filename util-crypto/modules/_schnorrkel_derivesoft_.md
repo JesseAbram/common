@@ -1,23 +1,26 @@
+> # External module: "schnorrkel/deriveSoft"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="derivesoft"></a>
+* [deriveSoft](_schnorrkel_derivesoft_.md#derivesoft)
 
-##  deriveSoft
+## Functions
 
-▸ **deriveSoft**(keypair: *[Keypair](_types_.md#keypair)*, chainCode: *`Uint8Array`*): [Keypair](_types_.md#keypair)
+###  deriveSoft
 
-*Defined in [schnorrkel/deriveSoft.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/schnorrkel/deriveSoft.ts#L14)*
+▸ **deriveSoft**(`keypair`: [Keypair](_types_.md#keypair), `chainCode`: `Uint8Array`): *[Keypair](_types_.md#keypair)*
+
+*Defined in [schnorrkel/deriveSoft.ts:14](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| keypair | [Keypair](_types_.md#keypair) |
-| chainCode | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`keypair` | [Keypair](_types_.md#keypair) |
+`chainCode` | `Uint8Array` |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

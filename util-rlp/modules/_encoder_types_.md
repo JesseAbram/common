@@ -1,25 +1,27 @@
+> # External module: "encoder/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="encodefunc"></a>
+* [EncodeFunc](_encoder_types_.md#encodefunc)
 
-##  EncodeFunc
+## Type aliases
 
-**Ƭ EncodeFunc**: *`function`*
+###  EncodeFunc
 
-*Defined in [encoder/types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/encoder/types.ts#L5)*
+Ƭ **EncodeFunc**: *function*
 
-#### Type declaration
-▸(input: *`any`*): `Uint8Array`
+*Defined in [encoder/types.ts:5](url)*
+
+#### Type declaration:
+
+▸ (`input`: any): *`Uint8Array`*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| input | `any` |
-
-**Returns:** `Uint8Array`
+Name | Type |
+------ | ------ |
+`input` | any |
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "blake2/asHex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="blake2ashex"></a>
+* [blake2AsHex](_blake2_ashex_.md#blake2ashex)
 
-##  blake2AsHex
+## Functions
 
-▸ **blake2AsHex**(data: *`Uint8Array` \| `string`*, bitLength?: *`number`*): `string`
+###  blake2AsHex
 
-*Defined in [blake2/asHex.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/blake2/asHex.ts#L23)*
+▸ **blake2AsHex**(`data`: `Uint8Array` | string, `bitLength`: number): *string*
 
-*__name__*: blake2AsHex
+*Defined in [blake2/asHex.ts:23](url)*
 
-*__summary__*: Creates a blake2b hex from the input.
+**`name`** blake2AsHex
 
-*__description__*: From a `Uint8Array` input, create the blake2b and return the result as a hex string with the specified `bitLength`.
+**`summary`** Creates a blake2b hex from the input.
 
-*__example__*:   
+**`description`** 
+From a `Uint8Array` input, create the blake2b and return the result as a hex string with the specified `bitLength`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { blake2AsHex } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ blake2AsHex('abc'); // => 0xba80a53f981c4d0d
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| data | `Uint8Array` \| `string` | - |
-| `Default value` bitLength | `number` | 256 |
+Name | Type | Default value |
+------ | ------ | ------ |
+`data` | `Uint8Array` | string | - |
+`bitLength` | number | 256 |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

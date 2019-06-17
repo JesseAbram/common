@@ -1,22 +1,28 @@
+> # External module: "random/asNumber"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="randomasnumber"></a>
+* [randomAsNumber](_random_asnumber_.md#randomasnumber)
 
-##  randomAsNumber
+## Functions
 
-▸ **randomAsNumber**(): `number`
+###  randomAsNumber
 
-*Defined in [random/asNumber.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/random/asNumber.ts#L26)*
+▸ **randomAsNumber**(): *number*
 
-*__name__*: randomAsNumber
+*Defined in [random/asNumber.ts:26](url)*
 
-*__summary__*: Creates a random number from random bytes.
+**`name`** randomAsNumber
 
-*__description__*: Returns a random number generated from the secure bytes.
+**`summary`** Creates a random number from random bytes.
 
-*__example__*:   
+**`description`** 
+Returns a random number generated from the secure bytes.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { randomAsNumber } from '@polkadot/util-crypto';
@@ -24,7 +30,6 @@ import { randomAsNumber } from '@polkadot/util-crypto';
 randomAsNumber(); // => <random number>
 ```
 
-**Returns:** `number`
+**Returns:** *number*
 
 ___
-

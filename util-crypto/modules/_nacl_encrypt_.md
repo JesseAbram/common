@@ -1,22 +1,28 @@
+> # External module: "nacl/encrypt"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="naclencrypt"></a>
+* [naclEncrypt](_nacl_encrypt_.md#naclencrypt)
 
-##  naclEncrypt
+## Functions
 
-▸ **naclEncrypt**(message: *`Uint8Array`*, secret: *`Uint8Array`*, nonce?: *`Uint8Array`*): `Encrypted`
+###  naclEncrypt
 
-*Defined in [nacl/encrypt.ts:28](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/encrypt.ts#L28)*
+▸ **naclEncrypt**(`message`: `Uint8Array`, `secret`: `Uint8Array`, `nonce`: `Uint8Array`): *`Encrypted`*
 
-*__name__*: naclEncrypt
+*Defined in [nacl/encrypt.ts:28](url)*
 
-*__summary__*: Encrypts a message using the supplied secretKey and nonce
+**`name`** naclEncrypt
 
-*__description__*: Returns an encrypted message, using the `secretKey` and `nonce`. If the `nonce` was not supplied, a random value is generated.
+**`summary`** Encrypts a message using the supplied secretKey and nonce
 
-*__example__*:   
+**`description`** 
+Returns an encrypted message, using the `secretKey` and `nonce`. If the `nonce` was not supplied, a random value is generated.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { naclEncrypt } from '@polkadot/util-crypto';
@@ -26,13 +32,12 @@ naclEncrypt([...], [...]); // => [...]
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| message | `Uint8Array` | - |
-| secret | `Uint8Array` | - |
-| `Default value` nonce | `Uint8Array` |  randomAsU8a(24) |
+Name | Type | Default value |
+------ | ------ | ------ |
+`message` | `Uint8Array` | - |
+`secret` | `Uint8Array` | - |
+`nonce` | `Uint8Array` |  randomAsU8a(24) |
 
-**Returns:** `Encrypted`
+**Returns:** *`Encrypted`*
 
 ___
-

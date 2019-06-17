@@ -1,36 +1,38 @@
+> # External module: "decoder/types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="decodefunc"></a>
+* [DecodeFunc](_decoder_types_.md#decodefunc)
+* [DecodeOutput](_decoder_types_.md#decodeoutput)
 
-##  DecodeFunc
+## Type aliases
 
-**Ƭ DecodeFunc**: *`function`*
+###  DecodeFunc
 
-*Defined in [decoder/types.ts:10](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/decoder/types.ts#L10)*
+Ƭ **DecodeFunc**: *function*
 
-#### Type declaration
-▸(input: *`Uint8Array`*): [DecodeOutput](_decoder_types_.md#decodeoutput)
+*Defined in [decoder/types.ts:10](url)*
+
+#### Type declaration:
+
+▸ (`input`: `Uint8Array`): *[DecodeOutput](_decoder_types_.md#decodeoutput)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| input | `Uint8Array` |
-
-**Returns:** [DecodeOutput](_decoder_types_.md#decodeoutput)
-
-___
-<a id="decodeoutput"></a>
-
-##  DecodeOutput
-
-**Ƭ DecodeOutput**: *`object`*
-
-*Defined in [decoder/types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/util-rlp/src/decoder/types.ts#L5)*
-
-#### Type declaration
+Name | Type |
+------ | ------ |
+`input` | `Uint8Array` |
 
 ___
 
+###  DecodeOutput
+
+Ƭ **DecodeOutput**: *object*
+
+*Defined in [decoder/types.ts:5](url)*
+
+#### Type declaration:
+
+___

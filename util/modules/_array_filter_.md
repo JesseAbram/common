@@ -1,22 +1,28 @@
+> # External module: "array/filter"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="arrayfilter"></a>
+* [arrayFilter](_array_filter_.md#arrayfilter)
 
-##  arrayFilter
+## Functions
 
-▸ **arrayFilter**(array: *`Array`<`any`>*, allowNulls?: *`boolean`*): `Array`<`any`>
+###  arrayFilter
 
-*Defined in [array/filter.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/array/filter.ts#L23)*
+▸ **arrayFilter**(`array`: `Array<any>`, `allowNulls`: boolean): *`Array<any>`*
 
-*__name__*: arrayFilter
+*Defined in [array/filter.ts:23](url)*
 
-*__summary__*: Filters undefined and (optionally) null values from an array
+**`name`** arrayFilter
 
-*__description__*: Returns a new array with all `undefined` values removed. Optionally, when `allowNulls = false`, it removes the `null` values as well
+**`summary`** Filters undefined and (optionally) null values from an array
 
-*__example__*:   
+**`description`** 
+Returns a new array with all `undefined` values removed. Optionally, when `allowNulls = false`, it removes the `null` values as well
+
+**`example`** 
+<BR>
 
 ```javascript
 import { arrayFilter } from '@polkadot/util';
@@ -27,12 +33,11 @@ arrayFilter([0, void 0, true, null, false, ''], false); // [0, true, false, '']
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| array | `Array`<`any`> | - |
-| `Default value` allowNulls | `boolean` | true |
+Name | Type | Default value |
+------ | ------ | ------ |
+`array` | `Array<any>` | - |
+`allowNulls` | boolean | true |
 
-**Returns:** `Array`<`any`>
+**Returns:** *`Array<any>`*
 
 ___
-

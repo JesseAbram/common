@@ -1,89 +1,94 @@
+> # Class: Pairs
 
+## Hierarchy
 
-# Hierarchy
+* **Pairs**
 
-**Pairs**
-
-# Implements
+## Implements
 
 * [KeyringPairs](../interfaces/_types_.keyringpairs.md)
 
-# Constructors
+### Index
 
-<a id="constructor"></a>
+#### Constructors
 
-##  constructor
+* [constructor](_pairs_.pairs.md#constructor)
 
-⊕ **new Pairs**(): [Pairs](_pairs_.pairs.md)
+#### Methods
 
-*Defined in [pairs.ts:16](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pairs.ts#L16)*
+* [add](_pairs_.pairs.md#add)
+* [all](_pairs_.pairs.md#all)
+* [get](_pairs_.pairs.md#get)
+* [remove](_pairs_.pairs.md#remove)
 
-**Returns:** [Pairs](_pairs_.pairs.md)
+## Constructors
+
+###  constructor
+
+\+ **new Pairs**(): *[Pairs](_pairs_.pairs.md)*
+
+*Defined in [pairs.ts:16](url)*
+
+**Returns:** *[Pairs](_pairs_.pairs.md)*
 
 ___
 
-# Methods
+## Methods
 
-<a id="add"></a>
+###  add
 
-##  add
+▸ **add**(`pair`: [KeyringPair](../interfaces/_types_.keyringpair.md)): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-▸ **add**(pair: *[KeyringPair](../interfaces/_types_.keyringpair.md)*): [KeyringPair](../interfaces/_types_.keyringpair.md)
-
-*Defined in [pairs.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pairs.ts#L22)*
+*Defined in [pairs.ts:22](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| pair | [KeyringPair](../interfaces/_types_.keyringpair.md) |
+Name | Type |
+------ | ------ |
+`pair` | [KeyringPair](../interfaces/_types_.keyringpair.md) |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
-
-___
-<a id="all"></a>
-
-##  all
-
-▸ **all**(): `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
-
-*Defined in [pairs.ts:29](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pairs.ts#L29)*
-
-**Returns:** `Array`<[KeyringPair](../interfaces/_types_.keyringpair.md)>
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="get"></a>
 
-##  get
+###  all
 
-▸ **get**(address: *`string` \| `Uint8Array`*): [KeyringPair](../interfaces/_types_.keyringpair.md)
+▸ **all**(): *`Array<KeyringPair>`*
 
-*Defined in [pairs.ts:33](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pairs.ts#L33)*
+*Defined in [pairs.ts:29](url)*
+
+**Returns:** *`Array<KeyringPair>`*
+
+___
+
+###  get
+
+▸ **get**(`address`: string | `Uint8Array`): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
+
+*Defined in [pairs.ts:33](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`address` | string | `Uint8Array` |
 
-**Returns:** [KeyringPair](../interfaces/_types_.keyringpair.md)
+**Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
 ___
-<a id="remove"></a>
 
-##  remove
+###  remove
 
-▸ **remove**(address: *`string` \| `Uint8Array`*): `void`
+▸ **remove**(`address`: string | `Uint8Array`): *void*
 
-*Defined in [pairs.ts:48](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pairs.ts#L48)*
+*Defined in [pairs.ts:48](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| address | `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`address` | string | `Uint8Array` |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-

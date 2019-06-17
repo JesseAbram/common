@@ -1,56 +1,59 @@
+> # Class: Impl
 
+# @polkadot/trie-db
 
-@polkadot/trie-db
-=================
+## Overview
 
-Overview
---------
+**`name`** Trie
 
-*__name__*: Trie
+**`summary`** Re-implementation of a Patricia Trie
 
-*__summary__*: Re-implementation of a Patricia Trie
+**`example`** See [Polkadot-JS Common Trie-DB Examples](https://polkadot.js.org/api/common/examples/trie-db/)
 
-*__example__*: See [Polkadot-JS Common Trie-DB Examples](https://polkadot.js.org/api/common/examples/trie-db/)
+## Hierarchy
 
-# Hierarchy
+* [Checkpoint](_checkpoint_.checkpoint.md)
 
- [Checkpoint](_checkpoint_.checkpoint.md)
+  * **Impl**
 
-**↳ Impl**
+### Index
 
-# Constructors
+#### Constructors
 
-<a id="constructor"></a>
+* [constructor](_impl_.impl.md#constructor)
 
-##  constructor
+#### Properties
 
-⊕ **new Impl**(db: *`TxDb`*, rootHash?: *`Uint8Array`*, codec?: *`Codec`*): [Impl](_impl_.impl.md)
+* [db](_impl_.impl.md#db)
+
+## Constructors
+
+###  constructor
+
+\+ **new Impl**(`db`: `TxDb`, `rootHash?`: `Uint8Array`, `codec`: `Codec`): *[Impl](_impl_.impl.md)*
 
 *Overrides [Checkpoint](_checkpoint_.checkpoint.md).[constructor](_checkpoint_.checkpoint.md#constructor)*
 
-*Defined in [Impl.ts:36](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/Impl.ts#L36)*
+*Defined in [Impl.ts:36](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| db | `TxDb` | - |
-| `Optional` rootHash | `Uint8Array` | - |
-| `Default value` codec | `Codec` |  substrateCodec |
+Name | Type | Default value |
+------ | ------ | ------ |
+`db` | `TxDb` | - |
+`rootHash?` | `Uint8Array` | - |
+`codec` | `Codec` |  substrateCodec |
 
-**Returns:** [Impl](_impl_.impl.md)
-
-___
-
-# Properties
-
-<a id="db"></a>
-
-##  db
-
-**● db**: *`TxDb`*
-
-*Defined in [Impl.ts:34](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/Impl.ts#L34)*
+**Returns:** *[Impl](_impl_.impl.md)*
 
 ___
 
+## Properties
+
+###  db
+
+● **db**: *`TxDb`*
+
+*Defined in [Impl.ts:34](url)*
+
+___

@@ -1,23 +1,26 @@
+> # External module: "mnemonic/toMiniSecret"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="tominisecret"></a>
+* [toMiniSecret](_mnemonic_tominisecret_.md#tominisecret)
 
-##  toMiniSecret
+## Functions
 
-▸ **toMiniSecret**(mnemonic: *`string`*, password?: *`string`*): `Uint8Array`
+###  toMiniSecret
 
-*Defined in [mnemonic/toMiniSecret.ts:13](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/mnemonic/toMiniSecret.ts#L13)*
+▸ **toMiniSecret**(`mnemonic`: string, `password`: string): *`Uint8Array`*
+
+*Defined in [mnemonic/toMiniSecret.ts:13](url)*
 
 **Parameters:**
 
-| Name | Type | Default value |
-| ------ | ------ | ------ |
-| mnemonic | `string` | - |
-| `Default value` password | `string` | &quot;&quot; |
+Name | Type | Default value |
+------ | ------ | ------ |
+`mnemonic` | string | - |
+`password` | string | "" |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,23 +1,26 @@
+> # External module: "nacl/deriveHard"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="derivehard"></a>
+* [deriveHard](_nacl_derivehard_.md#derivehard)
 
-##  deriveHard
+## Functions
 
-▸ **deriveHard**(seed: *`Uint8Array`*, chainCode: *`Uint8Array`*): `Uint8Array`
+###  deriveHard
 
-*Defined in [nacl/deriveHard.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/nacl/deriveHard.ts#L11)*
+▸ **deriveHard**(`seed`: `Uint8Array`, `chainCode`: `Uint8Array`): *`Uint8Array`*
+
+*Defined in [nacl/deriveHard.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| seed | `Uint8Array` |
-| chainCode | `Uint8Array` |
+Name | Type |
+------ | ------ |
+`seed` | `Uint8Array` |
+`chainCode` | `Uint8Array` |
 
-**Returns:** `Uint8Array`
+**Returns:** *`Uint8Array`*
 
 ___
-

@@ -1,22 +1,28 @@
+> # External module: "promisify"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="promisify"></a>
+* [promisify](_promisify_.md#promisify)
 
-##  promisify
+## Functions
 
-▸ **promisify**(self: *`any`*, fn: *`Function`*, ...params: *`Array`<`any`>*): `Promise`<`any`>
+###  promisify
 
-*Defined in [promisify.ts:20](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/promisify.ts#L20)*
+▸ **promisify**(`self`: any, `fn`: `Function`, ...`params`: `Array<any>`): *`Promise<any>`*
 
-*__name__*: promisify
+*Defined in [promisify.ts:20](url)*
 
-*__summary__*: Wraps an async callback into a `Promise`
+**`name`** promisify
 
-*__description__*: Wraps the supplied async function `fn` that has a standard JS callback `(error: Error, result: any)` into a `Promise`, passing the supplied parameters. When `error` is set, the Promise is rejected, else the Promise resolves with the `result` value.
+**`summary`** Wraps an async callback into a `Promise`
 
-*__example__*:   
+**`description`** 
+Wraps the supplied async function `fn` that has a standard JS callback `(error: Error, result: any)` into a `Promise`, passing the supplied parameters. When `error` is set, the Promise is rejected, else the Promise resolves with the `result` value.
+
+**`example`** 
+<BR>
 
 ```javascript
 const { promisify } from '@polkadot/util';
@@ -27,13 +33,12 @@ await promisify(null, (cb) => cb(new Error('error!'))); // rejects with `error!`
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| self | `any` |
-| fn | `Function` |
-| `Rest` params | `Array`<`any`> |
+Name | Type |
+------ | ------ |
+`self` | any |
+`fn` | `Function` |
+`...params` | `Array<any>` |
 
-**Returns:** `Promise`<`any`>
+**Returns:** *`Promise<any>`*
 
 ___
-

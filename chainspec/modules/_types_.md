@@ -1,25 +1,28 @@
+> # External module: "types"
 
+### Index
 
-# Type aliases
+#### Type aliases
 
-<a id="chainspec"></a>
+* [Chainspec](_types_.md#chainspec)
+* [Telemetry](_types_.md#telemetry)
 
-##  Chainspec
+## Type aliases
 
-**Ƭ Chainspec**: *`object`*
+###  Chainspec
 
-*Defined in [types.ts:7](https://github.com/polkadot-js/common/blob/825a9de/packages/chainspec/src/types.ts#L7)*
+Ƭ **Chainspec**: *object*
 
-#### Type declaration
+*Defined in [types.ts:7](url)*
 
-___
-<a id="telemetry"></a>
-
-##  Telemetry
-
-**Ƭ Telemetry**: *[`string`, `number`]*
-
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/825a9de/packages/chainspec/src/types.ts#L5)*
+#### Type declaration:
 
 ___
 
+###  Telemetry
+
+Ƭ **Telemetry**: *[string, number]*
+
+*Defined in [types.ts:5](url)*
+
+___

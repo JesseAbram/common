@@ -1,22 +1,28 @@
+> # External module: "xxhash/xxhash64/asHex"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="xxhash64ashex"></a>
+* [xxhash64AsHex](_xxhash_xxhash64_ashex_.md#xxhash64ashex)
 
-##  xxhash64AsHex
+## Functions
 
-▸ **xxhash64AsHex**(data: *`Buffer` \| `Uint8Array` \| `string`*, seed: *`number`*): `string`
+###  xxhash64AsHex
 
-*Defined in [xxhash/xxhash64/asHex.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/xxhash/xxhash64/asHex.ts#L23)*
+▸ **xxhash64AsHex**(`data`: `Buffer` | `Uint8Array` | string, `seed`: number): *string*
 
-*__name__*: xxhash64AsHex
+*Defined in [xxhash/xxhash64/asHex.ts:23](url)*
 
-*__summary__*: Creates a xxhash hex from the input.
+**`name`** xxhash64AsHex
 
-*__description__*: From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a hex string.
+**`summary`** Creates a xxhash hex from the input.
 
-*__example__*:   
+**`description`** 
+From either a `string`, `Uint8Array` or a `Buffer` input, create the xxhash and return the result as a hex string.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { xxhash64AsHex } from '@polkadot/util-crypto';
@@ -26,12 +32,11 @@ xxhash64AsHex('abcd', 0xabcd)); // => 0xe29f70f8b8c96df7
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| data | `Buffer` \| `Uint8Array` \| `string` |
-| seed | `number` |
+Name | Type |
+------ | ------ |
+`data` | `Buffer` | `Uint8Array` | string |
+`seed` | number |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

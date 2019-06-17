@@ -1,20 +1,25 @@
+> # External module: "bn/min"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="min"></a>
+* [min](_bn_min_.md#min)
 
-##  min
+## Functions
 
-▸ **min**(...items: *`BN`[]*): `BN`
+###  min
 
-*Defined in [bn/min.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/bn/min.ts#L22)*
+▸ **min**(...`items`: `BN`[]): *`BN`*
 
-*__name__*: min
+*Defined in [bn/min.ts:22](url)*
 
-*__summary__*: Finds and returns the smallest value in an array of BNs.
+**`name`** min
 
-*__example__*:   
+**`summary`** Finds and returns the smallest value in an array of BNs.
+
+**`example`** 
+<BR>
 
 ```javascript
 import BN from 'bn.js';
@@ -25,11 +30,10 @@ min([new BN(1), new BN(3), new BN(2)]).toString(); // => '1'
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Rest` items | `BN`[] |
+Name | Type |
+------ | ------ |
+`...items` | `BN`[] |
 
-**Returns:** `BN`
+**Returns:** *`BN`*
 
 ___
-

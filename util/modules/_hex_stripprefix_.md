@@ -1,22 +1,28 @@
+> # External module: "hex/stripPrefix"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="hexstripprefix"></a>
+* [hexStripPrefix](_hex_stripprefix_.md#hexstripprefix)
 
-##  hexStripPrefix
+## Functions
 
-▸ **hexStripPrefix**(value?: *`string` \| `null`*): `string`
+###  hexStripPrefix
 
-*Defined in [hex/stripPrefix.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/hex/stripPrefix.ts#L23)*
+▸ **hexStripPrefix**(`value?`: string | null): *string*
 
-*__name__*: hexStripPrefix
+*Defined in [hex/stripPrefix.ts:23](url)*
 
-*__summary__*: Strips any leading `0x` prefix.
+**`name`** hexStripPrefix
 
-*__description__*: Tests for the existence of a `0x` prefix, and returns the value without the prefix. Un-prefixed values are returned as-is.
+**`summary`** Strips any leading `0x` prefix.
 
-*__example__*:   
+**`description`** 
+Tests for the existence of a `0x` prefix, and returns the value without the prefix. Un-prefixed values are returned as-is.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { hexStripPrefix } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('stripped', hexStripPrefix('0x1234')); // => 1234
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| `Optional` value | `string` \| `null` |
+Name | Type |
+------ | ------ |
+`value?` | string | null |
 
-**Returns:** `string`
+**Returns:** *string*
 
 ___
-

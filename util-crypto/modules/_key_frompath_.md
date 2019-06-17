@@ -1,24 +1,27 @@
+> # External module: "key/fromPath"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="keyfrompath"></a>
+* [keyFromPath](_key_frompath_.md#keyfrompath)
 
-##  keyFromPath
+## Functions
 
-▸ **keyFromPath**(pair: *[Keypair](_types_.md#keypair)*, path: *`Array`<[DeriveJunction](../classes/_key_derivejunction_.derivejunction.md)>*, type: *[KeypairType](_types_.md#keypairtype)*): [Keypair](_types_.md#keypair)
+###  keyFromPath
 
-*Defined in [key/fromPath.ts:11](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/fromPath.ts#L11)*
+▸ **keyFromPath**(`pair`: [Keypair](_types_.md#keypair), `path`: `Array<DeriveJunction>`, `type`: [KeypairType](_types_.md#keypairtype)): *[Keypair](_types_.md#keypair)*
+
+*Defined in [key/fromPath.ts:11](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| pair | [Keypair](_types_.md#keypair) |
-| path | `Array`<[DeriveJunction](../classes/_key_derivejunction_.derivejunction.md)> |
-| type | [KeypairType](_types_.md#keypairtype) |
+Name | Type |
+------ | ------ |
+`pair` | [Keypair](_types_.md#keypair) |
+`path` | `Array<DeriveJunction>` |
+`type` | [KeypairType](_types_.md#keypairtype) |
 
-**Returns:** [Keypair](_types_.md#keypair)
+**Returns:** *[Keypair](_types_.md#keypair)*
 
 ___
-

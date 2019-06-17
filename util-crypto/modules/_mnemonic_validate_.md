@@ -1,20 +1,25 @@
+> # External module: "mnemonic/validate"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="mnemonicvalidate"></a>
+* [mnemonicValidate](_mnemonic_validate_.md#mnemonicvalidate)
 
-##  mnemonicValidate
+## Functions
 
-▸ **mnemonicValidate**(mnemonic: *`string`*): `boolean`
+###  mnemonicValidate
 
-*Defined in [mnemonic/validate.ts:23](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/mnemonic/validate.ts#L23)*
+▸ **mnemonicValidate**(`mnemonic`: string): *boolean*
 
-*__name__*: mnemonicValidate
+*Defined in [mnemonic/validate.ts:23](url)*
 
-*__summary__*: Validates a mnemonic input using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
+**`name`** mnemonicValidate
 
-*__example__*:   
+**`summary`** Validates a mnemonic input using [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
+
+**`example`** 
+<BR>
 
 ```javascript
 import { mnemonicGenerate, mnemonicValidate } from '@polkadot/util-crypto';
@@ -25,11 +30,10 @@ const isValidMnemonic = mnemonicValidate(mnemonic); // => boolean
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| mnemonic | `string` |
+Name | Type |
+------ | ------ |
+`mnemonic` | string |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

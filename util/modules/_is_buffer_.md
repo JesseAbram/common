@@ -1,22 +1,28 @@
+> # External module: "is/buffer"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isbuffer"></a>
+* [isBuffer](_is_buffer_.md#isbuffer)
 
-##  isBuffer
+## Functions
 
-▸ **isBuffer**(value: *`any`*): `boolean`
+###  isBuffer
 
-*Defined in [is/buffer.ts:21](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/buffer.ts#L21)*
+▸ **isBuffer**(`value`: any): *boolean*
 
-*__name__*: isBuffer
+*Defined in [is/buffer.ts:21](url)*
 
-*__summary__*: Tests for a `Buffer` object instance.
+**`name`** isBuffer
 
-*__description__*: Checks to see if the input object is an instance of `Buffer`.
+**`summary`** Tests for a `Buffer` object instance.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input object is an instance of `Buffer`.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isBuffer } from '@polkadot/util';
@@ -26,11 +32,10 @@ console.log('isBuffer', isBuffer(Buffer.from([]))); // => true
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

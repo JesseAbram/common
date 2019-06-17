@@ -1,118 +1,123 @@
+> # Class: DeriveJunction
 
+## Hierarchy
 
-# Hierarchy
+* **DeriveJunction**
 
-**DeriveJunction**
+### Index
 
-# Accessors
+#### Accessors
 
-<a id="chaincode"></a>
+* [chainCode](_key_derivejunction_.derivejunction.md#chaincode)
+* [isHard](_key_derivejunction_.derivejunction.md#ishard)
+* [isSoft](_key_derivejunction_.derivejunction.md#issoft)
 
-##  chainCode
+#### Methods
 
-**get chainCode**(): `Uint8Array`
+* [hard](_key_derivejunction_.derivejunction.md#hard)
+* [harden](_key_derivejunction_.derivejunction.md#harden)
+* [soft](_key_derivejunction_.derivejunction.md#soft)
+* [soften](_key_derivejunction_.derivejunction.md#soften)
+* [from](_key_derivejunction_.derivejunction.md#static-from)
 
-*Defined in [key/DeriveJunction.ts:39](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L39)*
+## Accessors
 
-**Returns:** `Uint8Array`
+###  chainCode
 
-___
-<a id="ishard"></a>
+● **get chainCode**(): *`Uint8Array`*
 
-##  isHard
+*Defined in [key/DeriveJunction.ts:39](url)*
 
-**get isHard**(): `boolean`
-
-*Defined in [key/DeriveJunction.ts:43](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L43)*
-
-**Returns:** `boolean`
-
-___
-<a id="issoft"></a>
-
-##  isSoft
-
-**get isSoft**(): `boolean`
-
-*Defined in [key/DeriveJunction.ts:47](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L47)*
-
-**Returns:** `boolean`
+**Returns:** *`Uint8Array`*
 
 ___
 
-# Methods
+###  isHard
 
-<a id="hard"></a>
+● **get isHard**(): *boolean*
 
-##  hard
+*Defined in [key/DeriveJunction.ts:43](url)*
 
-▸ **hard**(value: *`number` \| `BN` \| `string` \| `Uint8Array`*): [DeriveJunction](_key_derivejunction_.derivejunction.md)
+**Returns:** *boolean*
 
-*Defined in [key/DeriveJunction.ts:51](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L51)*
+___
+
+###  isSoft
+
+● **get isSoft**(): *boolean*
+
+*Defined in [key/DeriveJunction.ts:47](url)*
+
+**Returns:** *boolean*
+
+___
+
+## Methods
+
+###  hard
+
+▸ **hard**(`value`: number | `BN` | string | `Uint8Array`): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
+
+*Defined in [key/DeriveJunction.ts:51](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `number` \| `BN` \| `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`value` | number | `BN` | string | `Uint8Array` |
 
-**Returns:** [DeriveJunction](_key_derivejunction_.derivejunction.md)
-
-___
-<a id="harden"></a>
-
-##  harden
-
-▸ **harden**(): [DeriveJunction](_key_derivejunction_.derivejunction.md)
-
-*Defined in [key/DeriveJunction.ts:55](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L55)*
-
-**Returns:** [DeriveJunction](_key_derivejunction_.derivejunction.md)
+**Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
 ___
-<a id="soft"></a>
 
-##  soft
+###  harden
 
-▸ **soft**(value: *`number` \| `BN` \| `string` \| `Uint8Array`*): [DeriveJunction](_key_derivejunction_.derivejunction.md)
+▸ **harden**(): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:61](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L61)*
+*Defined in [key/DeriveJunction.ts:55](url)*
+
+**Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
+
+___
+
+###  soft
+
+▸ **soft**(`value`: number | `BN` | string | `Uint8Array`): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
+
+*Defined in [key/DeriveJunction.ts:61](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `number` \| `BN` \| `string` \| `Uint8Array` |
+Name | Type |
+------ | ------ |
+`value` | number | `BN` | string | `Uint8Array` |
 
-**Returns:** [DeriveJunction](_key_derivejunction_.derivejunction.md)
-
-___
-<a id="soften"></a>
-
-##  soften
-
-▸ **soften**(): [DeriveJunction](_key_derivejunction_.derivejunction.md)
-
-*Defined in [key/DeriveJunction.ts:80](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L80)*
-
-**Returns:** [DeriveJunction](_key_derivejunction_.derivejunction.md)
+**Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
 ___
-<a id="from"></a>
 
-## `<Static>` from
+###  soften
 
-▸ **from**(value: *`string`*): [DeriveJunction](_key_derivejunction_.derivejunction.md)
+▸ **soften**(): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:22](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/key/DeriveJunction.ts#L22)*
+*Defined in [key/DeriveJunction.ts:80](url)*
+
+**Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
+
+___
+
+### `Static` from
+
+▸ **from**(`value`: string): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
+
+*Defined in [key/DeriveJunction.ts:22](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
+Name | Type |
+------ | ------ |
+`value` | string |
 
-**Returns:** [DeriveJunction](_key_derivejunction_.derivejunction.md)
+**Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
 ___
-

@@ -1,32 +1,39 @@
+> # External module: "is/jsonObject"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isjsonobject"></a>
+* [isJsonObject](_is_jsonobject_.md#isjsonobject)
 
-##  isJsonObject
+## Functions
 
-▸ **isJsonObject**(value: *`any`*): `boolean`
+###  isJsonObject
 
-*Defined in [is/jsonObject.ts:34](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/jsonObject.ts#L34)*
+▸ **isJsonObject**(`value`: any): *boolean*
 
-*__name__*: isJsonObject
+*Defined in [is/jsonObject.ts:34](url)*
 
-*__summary__*: Tests for a valid JSON `object`.
+**`name`** isJsonObject
 
-*__description__*: Checks to see if the input value is a valid JSON object. It returns false if the input is JSON parsable, but not an Javascript object.
+**`summary`** Tests for a valid JSON `object`.
 
-*__example__*:   
+**`description`** 
+Checks to see if the input value is a valid JSON object.
+It returns false if the input is JSON parsable, but not an Javascript object.
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isJsonObject } from '@polkadot/util';
 
 isJsonObject({}); // => true
 isJsonObject({
- "Test": "1234",
- "NestedTest": {
-  "Test": "5678"
- }
+"Test": "1234",
+"NestedTest": {
+"Test": "5678"
+}
 }); // => true
 isJsonObject(1234); // JSON parsable, but not an object =>  false
 isJsonObject(null); // JSON parsable, but not an object => false
@@ -35,11 +42,10 @@ isJsonObject('not an object'); // => false
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `any` |
+Name | Type |
+------ | ------ |
+`value` | any |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

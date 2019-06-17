@@ -1,11 +1,8 @@
-
-@polkadot/keyring
-=================
+# @polkadot/keyring
 
 Key management of user accounts including generation and retrieval of keyring pairs from a variety of input combinations.
 
-Usage
------
+## Usage
 
 Installation -
 
@@ -19,8 +16,6 @@ Classes and Functions can be imported as follows:
 import Keyring from '@polkadot/keyring';
 ```
 
-Utilities
----------
+## Utilities
 
 [Utilities](SUMMARY.md)
-

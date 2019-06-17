@@ -1,58 +1,61 @@
+> # External module: "util/node"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="decodenode"></a>
+* [decodeNode](_util_node_.md#decodenode)
+* [encodeNode](_util_node_.md#encodenode)
+* [getNodeType](_util_node_.md#getnodetype)
 
-##  decodeNode
+## Functions
 
-▸ **decodeNode**(codec: *`Codec`*, encoded: *`Uint8Array` \| [Node](_types_.md#node)*): [Node](_types_.md#node)
+###  decodeNode
 
-*Defined in [util/node.ts:30](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/node.ts#L30)*
+▸ **decodeNode**(`codec`: `Codec`, `encoded`: `Uint8Array` | [Node](_types_.md#node)): *[Node](_types_.md#node)*
 
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| codec | `Codec` |
-| encoded | `Uint8Array` \| [Node](_types_.md#node) |
-
-**Returns:** [Node](_types_.md#node)
-
-___
-<a id="encodenode"></a>
-
-##  encodeNode
-
-▸ **encodeNode**(codec: *`Codec`*, node: *[Node](_types_.md#node)*): `Uint8Array`
-
-*Defined in [util/node.ts:46](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/node.ts#L46)*
+*Defined in [util/node.ts:30](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| codec | `Codec` |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`codec` | `Codec` |
+`encoded` | `Uint8Array` | [Node](_types_.md#node) |
 
-**Returns:** `Uint8Array`
+**Returns:** *[Node](_types_.md#node)*
 
 ___
-<a id="getnodetype"></a>
 
-##  getNodeType
+###  encodeNode
 
-▸ **getNodeType**(node: *[Node](_types_.md#node)*): [NodeType](../enums/_types_.nodetype.md)
+▸ **encodeNode**(`codec`: `Codec`, `node`: [Node](_types_.md#node)): *`Uint8Array`*
 
-*Defined in [util/node.ts:13](https://github.com/polkadot-js/common/blob/825a9de/packages/trie-db/src/util/node.ts#L13)*
+*Defined in [util/node.ts:46](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| node | [Node](_types_.md#node) |
+Name | Type |
+------ | ------ |
+`codec` | `Codec` |
+`node` | [Node](_types_.md#node) |
 
-**Returns:** [NodeType](../enums/_types_.nodetype.md)
+**Returns:** *`Uint8Array`*
 
 ___
 
+###  getNodeType
+
+▸ **getNodeType**(`node`: [Node](_types_.md#node)): *[NodeType](../enums/_types_.nodetype.md)*
+
+*Defined in [util/node.ts:13](url)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`node` | [Node](_types_.md#node) |
+
+**Returns:** *[NodeType](../enums/_types_.nodetype.md)*
+
+___

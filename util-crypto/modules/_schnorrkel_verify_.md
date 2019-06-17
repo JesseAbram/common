@@ -1,28 +1,31 @@
+> # External module: "schnorrkel/verify"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="schnorrkelverify"></a>
+* [schnorrkelVerify](_schnorrkel_verify_.md#schnorrkelverify)
 
-##  schnorrkelVerify
+## Functions
 
-▸ **schnorrkelVerify**(message: *`Uint8Array` \| `string`*, signature: *`Uint8Array` \| `string`*, publicKey: *`Uint8Array` \| `string`*): `boolean`
+###  schnorrkelVerify
 
-*Defined in [schnorrkel/verify.ts:14](https://github.com/polkadot-js/common/blob/825a9de/packages/util-crypto/src/schnorrkel/verify.ts#L14)*
+▸ **schnorrkelVerify**(`message`: `Uint8Array` | string, `signature`: `Uint8Array` | string, `publicKey`: `Uint8Array` | string): *boolean*
 
-*__name__*: schnorrkelVerify
+*Defined in [schnorrkel/verify.ts:14](url)*
 
-*__description__*: Verifies the signature of `message`, using the supplied pair
+**`name`** schnorrkelVerify
+
+**`description`** Verifies the signature of `message`, using the supplied pair
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| message | `Uint8Array` \| `string` |
-| signature | `Uint8Array` \| `string` |
-| publicKey | `Uint8Array` \| `string` |
+Name | Type |
+------ | ------ |
+`message` | `Uint8Array` | string |
+`signature` | `Uint8Array` | string |
+`publicKey` | `Uint8Array` | string |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

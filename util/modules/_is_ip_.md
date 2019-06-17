@@ -1,22 +1,28 @@
+> # External module: "is/ip"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="isip"></a>
+* [isIp](_is_ip_.md#isip)
 
-##  isIp
+## Functions
 
-▸ **isIp**(value: *`string`*, type?: *`IpTypes`*): `boolean`
+###  isIp
 
-*Defined in [is/ip.ts:26](https://github.com/polkadot-js/common/blob/825a9de/packages/util/src/is/ip.ts#L26)*
+▸ **isIp**(`value`: string, `type?`: `IpTypes`): *boolean*
 
-*__name__*: isIp
+*Defined in [is/ip.ts:26](url)*
 
-*__summary__*: Tests if the value is a valid IP address
+**`name`** isIp
 
-*__description__*: Checks to see if the value is a valid IP address. Optionally check for either v4/v6
+**`summary`** Tests if the value is a valid IP address
 
-*__example__*:   
+**`description`** 
+Checks to see if the value is a valid IP address. Optionally check for either v4/v6
+
+**`example`** 
+<BR>
 
 ```javascript
 import { isIp } from '@polkadot/util';
@@ -29,12 +35,11 @@ isIp('1:2:3:4:5:6:7:8', 'v4'); // => false
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| value | `string` |
-| `Optional` type | `IpTypes` |
+Name | Type |
+------ | ------ |
+`value` | string |
+`type?` | `IpTypes` |
 
-**Returns:** `boolean`
+**Returns:** *boolean*
 
 ___
-

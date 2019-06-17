@@ -1,11 +1,8 @@
-
-@polkadot/trie-hash
-===================
+# @polkadot/trie-hash
 
 Calculate ordered and unordered [Trie hashes](https://github.com/ethereum/wiki/wiki/Patricia-Tree) from inputs.
 
-Usage
------
+## Usage
 
 Installation -
 
@@ -19,8 +16,6 @@ Functions can be imported as follows:
 import { trieRoot } from '@polkadot/trie-hash';
 ```
 
-Utilities
----------
+## Utilities
 
 [Utilities](SUMMARY.md)
-

@@ -1,25 +1,28 @@
+> # External module: "pair/toJson"
 
+### Index
 
-# Functions
+#### Functions
 
-<a id="tojson"></a>
+* [toJson](_pair_tojson_.md#tojson)
 
-##  toJson
+## Functions
 
-▸ **toJson**(type: *`KeypairType`*, __namedParameters: *`object`*, encoded: *`Uint8Array`*, isEncrypted: *`boolean`*): [KeyringPair$Json](_types_.md#keyringpair_json)
+###  toJson
 
-*Defined in [pair/toJson.ts:15](https://github.com/polkadot-js/common/blob/825a9de/packages/keyring/src/pair/toJson.ts#L15)*
+▸ **toJson**(`type`: `KeypairType`, `__namedParameters`: object, `encoded`: `Uint8Array`, `isEncrypted`: boolean): *[KeyringPair$Json](_types_.md#keyringpair$json)*
+
+*Defined in [pair/toJson.ts:15](url)*
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| type | `KeypairType` |
-| __namedParameters | `object` |
-| encoded | `Uint8Array` |
-| isEncrypted | `boolean` |
+Name | Type |
+------ | ------ |
+`type` | `KeypairType` |
+`__namedParameters` | object |
+`encoded` | `Uint8Array` |
+`isEncrypted` | boolean |
 
-**Returns:** [KeyringPair$Json](_types_.md#keyringpair_json)
+**Returns:** *[KeyringPair$Json](_types_.md#keyringpair$json)*
 
 ___
-
