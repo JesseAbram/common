@@ -12,13 +12,13 @@
 
 ▸ **createValue**(`value`: null | `Uint8Array`): *`Uint8Array`*
 
-*Defined in [stream/createValue.ts:9](url)*
+*Defined in [stream/createValue.ts:9](https://github.com/polkadot-js/common/blob/0021731/packages/trie-codec/src/stream/createValue.ts#L9)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | null | `Uint8Array` |
+`value` | null \| `Uint8Array` |
 
 **Returns:** *`Uint8Array`*
 

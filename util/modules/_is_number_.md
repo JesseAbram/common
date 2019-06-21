@@ -12,7 +12,7 @@
 
 ▸ **isNumber**(`value`: any): *boolean*
 
-*Defined in [is/number.ts:19](url)*
+*Defined in [is/number.ts:19](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/number.ts#L19)*
 
 **`name`** isNumber
 

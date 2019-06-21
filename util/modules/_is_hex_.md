@@ -12,7 +12,7 @@
 
 ▸ **isHex**(`value`: any, `bitLength`: number, `ignoreLength`: boolean): *boolean*
 
-*Defined in [is/hex.ts:24](url)*
+*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/hex.ts#L24)*
 
 **`name`** isHex
 
@@ -33,7 +33,7 @@ isHex('0x1234', 8); // => false
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `value` | any | - |
 `bitLength` | number |  -1 |

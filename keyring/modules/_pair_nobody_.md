@@ -12,7 +12,7 @@
 
 ▸ **everybody**(): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Defined in [pair/nobody.ts:26](url)*
+*Defined in [pair/nobody.ts:26](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/pair/nobody.ts#L26)*
 
 **Returns:** *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 

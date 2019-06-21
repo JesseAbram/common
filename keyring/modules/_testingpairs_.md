@@ -12,11 +12,11 @@
 
 ▸ **testKeyringPairs**(`options?`: [KeyringOptions](_types_.md#keyringoptions), `isDerived`: boolean): *`TestKeyringMap`*
 
-*Defined in [testingPairs.ts:14](url)*
+*Defined in [testingPairs.ts:14](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/testingPairs.ts#L14)*
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `options?` | [KeyringOptions](_types_.md#keyringoptions) | - |
 `isDerived` | boolean | true |

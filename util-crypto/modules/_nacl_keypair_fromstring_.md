@@ -12,7 +12,7 @@
 
 ▸ **naclKeypairFromString**(`value`: string): *[Keypair](_types_.md#keypair)*
 
-*Defined in [nacl/keypair/fromString.ts:26](url)*
+*Defined in [nacl/keypair/fromString.ts:26](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/nacl/keypair/fromString.ts#L26)*
 
 **`name`** naclKeypairFromString
 

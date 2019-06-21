@@ -17,7 +17,7 @@
 
 ● **isLe**? : *undefined | false | true*
 
-*Defined in [types.ts:26](url)*
+*Defined in [types.ts:26](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L26)*
 
 ___
 
@@ -25,6 +25,6 @@ ___
 
 ● **isNegative**? : *undefined | false | true*
 
-*Defined in [types.ts:27](url)*
+*Defined in [types.ts:27](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L27)*
 
 ___

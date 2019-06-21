@@ -12,7 +12,7 @@
 
 ▸ **testKeyring**(`options`: [KeyringOptions](_types_.md#keyringoptions), `isDerived`: boolean): *[KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [testing.ts:65](url)*
+*Defined in [testing.ts:65](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/testing.ts#L65)*
 
 **`name`** testKeyring
 
@@ -23,7 +23,7 @@ are available on the dev chain and each test account is initialised with DOT fun
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `options` | [KeyringOptions](_types_.md#keyringoptions) |  {} |
 `isDerived` | boolean | true |

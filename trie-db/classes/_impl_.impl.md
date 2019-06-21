@@ -34,11 +34,11 @@
 
 *Overrides [Checkpoint](_checkpoint_.checkpoint.md).[constructor](_checkpoint_.checkpoint.md#constructor)*
 
-*Defined in [Impl.ts:36](url)*
+*Defined in [Impl.ts:36](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/Impl.ts#L36)*
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `db` | `TxDb` | - |
 `rootHash?` | `Uint8Array` | - |
@@ -54,6 +54,6 @@ ___
 
 ● **db**: *`TxDb`*
 
-*Defined in [Impl.ts:34](url)*
+*Defined in [Impl.ts:34](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/Impl.ts#L34)*
 
 ___

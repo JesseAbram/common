@@ -23,7 +23,7 @@
 
 ● **add**: *function*
 
-*Defined in [types.ts:49](url)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L49)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ ___
 
 ● **all**: *function*
 
-*Defined in [types.ts:50](url)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L50)*
 
 #### Type declaration:
 
@@ -53,7 +53,7 @@ ___
 
 ● **get**: *function*
 
-*Defined in [types.ts:51](url)*
+*Defined in [types.ts:51](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L51)*
 
 #### Type declaration:
 
@@ -63,7 +63,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
+`address` | string \| `Uint8Array` |
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 ● **remove**: *function*
 
-*Defined in [types.ts:52](url)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L52)*
 
 #### Type declaration:
 
@@ -81,6 +81,6 @@ ___
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
+`address` | string \| `Uint8Array` |
 
 ___

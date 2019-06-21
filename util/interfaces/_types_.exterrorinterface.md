@@ -23,7 +23,7 @@
 
 ● **code**: *number*
 
-*Defined in [types.ts:8](url)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L8)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 ● **data**: *any*
 
-*Defined in [types.ts:9](url)*
+*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L9)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 ● **message**: *string*
 
-*Defined in [types.ts:10](url)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L10)*
 
 ___
 
@@ -47,6 +47,6 @@ ___
 
 ● **stack**: *string*
 
-*Defined in [types.ts:11](url)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L11)*
 
 ___

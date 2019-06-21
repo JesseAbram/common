@@ -12,7 +12,7 @@
 
 ▸ **arrayFilter**(`array`: `Array<any>`, `allowNulls`: boolean): *`Array<any>`*
 
-*Defined in [array/filter.ts:23](url)*
+*Defined in [array/filter.ts:23](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/array/filter.ts#L23)*
 
 **`name`** arrayFilter
 
@@ -33,7 +33,7 @@ arrayFilter([0, void 0, true, null, false, ''], false); // [0, true, false, '']
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `array` | `Array<any>` | - |
 `allowNulls` | boolean | true |

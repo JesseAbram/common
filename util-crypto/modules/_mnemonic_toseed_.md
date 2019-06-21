@@ -12,7 +12,7 @@
 
 ▸ **toSeed**(`mnemonic`: string, `password`: string): *`Uint8Array`*
 
-*Defined in [mnemonic/toSeed.ts:26](url)*
+*Defined in [mnemonic/toSeed.ts:26](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/mnemonic/toSeed.ts#L26)*
 
 **`name`** toSeed
 
@@ -34,7 +34,7 @@ console.log(`Seed generated from mnemonic: ${mnemonicToSeed(mnemonic)}`); => u8a
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `mnemonic` | string | - |
 `password` | string | "" |

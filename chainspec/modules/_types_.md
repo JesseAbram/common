@@ -13,7 +13,7 @@
 
 Ƭ **Chainspec**: *object*
 
-*Defined in [types.ts:7](url)*
+*Defined in [types.ts:7](https://github.com/polkadot-js/common/blob/0021731/packages/chainspec/src/types.ts#L7)*
 
 #### Type declaration:
 
@@ -23,6 +23,6 @@ ___
 
 Ƭ **Telemetry**: *[string, number]*
 
-*Defined in [types.ts:5](url)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/0021731/packages/chainspec/src/types.ts#L5)*
 
 ___

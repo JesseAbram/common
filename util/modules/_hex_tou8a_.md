@@ -12,7 +12,7 @@
 
 ▸ **hexToU8a**(`_value?`: string | null, `bitLength`: number): *`Uint8Array`*
 
-*Defined in [hex/toU8a.ts:24](url)*
+*Defined in [hex/toU8a.ts:24](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/hex/toU8a.ts#L24)*
 
 **`name`** hexToU8a
 
@@ -33,9 +33,9 @@ hexToU8a('0x80001f', 32); // Uint8Array([0x00, 0x80, 0x00, 0x1f])
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
-`_value?` | string | null | - |
+`_value?` | string \| null | - |
 `bitLength` | number |  -1 |
 
 **Returns:** *`Uint8Array`*

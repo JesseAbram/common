@@ -19,7 +19,7 @@
 
 Ƭ **BaseDbOptions**: *object*
 
-*Defined in [types.ts:13](url)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/common/blob/0021731/packages/db/src/types.ts#L13)*
 
 #### Type declaration:
 
@@ -29,7 +29,7 @@ ___
 
 Ƭ **ProgressCb**: *function*
 
-*Defined in [types.ts:11](url)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/0021731/packages/db/src/types.ts#L11)*
 
 #### Type declaration:
 
@@ -47,7 +47,7 @@ ___
 
 Ƭ **ProgressValue**: *object*
 
-*Defined in [types.ts:5](url)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/0021731/packages/db/src/types.ts#L5)*
 
 #### Type declaration:
 

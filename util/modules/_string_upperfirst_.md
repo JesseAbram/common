@@ -12,7 +12,7 @@
 
 ▸ **stringUpperFirst**(`value?`: string | null): *string*
 
-*Defined in [string/upperFirst.ts:19](url)*
+*Defined in [string/upperFirst.ts:19](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/string/upperFirst.ts#L19)*
 
 **`name`** stringUpperFirst
 
@@ -34,7 +34,7 @@ stringUpperFirst('abc'); // => 'Abc'
 
 Name | Type |
 ------ | ------ |
-`value?` | string | null |
+`value?` | string \| null |
 
 **Returns:** *string*
 

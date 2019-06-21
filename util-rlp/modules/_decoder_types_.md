@@ -13,7 +13,7 @@
 
 Ƭ **DecodeFunc**: *function*
 
-*Defined in [decoder/types.ts:10](url)*
+*Defined in [decoder/types.ts:10](https://github.com/polkadot-js/common/blob/0021731/packages/util-rlp/src/decoder/types.ts#L10)*
 
 #### Type declaration:
 
@@ -31,7 +31,7 @@ ___
 
 Ƭ **DecodeOutput**: *object*
 
-*Defined in [decoder/types.ts:5](url)*
+*Defined in [decoder/types.ts:5](https://github.com/polkadot-js/common/blob/0021731/packages/util-rlp/src/decoder/types.ts#L5)*
 
 #### Type declaration:
 

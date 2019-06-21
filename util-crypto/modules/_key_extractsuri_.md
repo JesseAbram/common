@@ -12,7 +12,7 @@
 
 ▸ **keyExtract**(`suri`: string): *`ExtractResult`*
 
-*Defined in [key/extractSuri.ts:21](url)*
+*Defined in [key/extractSuri.ts:21](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/extractSuri.ts#L21)*
 
 **`description`** Extracts the phrase, path and password from a SURI format for specifying secret keys `<secret>/<soft-key>//<hard-key>///<password>` (the `///password` may be omitted, and `/<soft-key>` and `//<hard-key>` maybe repeated and mixed).
 

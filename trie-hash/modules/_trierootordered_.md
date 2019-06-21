@@ -12,7 +12,7 @@
 
 ▸ **trieRootOrdered**(`input`: `Array<Uint8Array>`, `codec`: `Codec`): *`Uint8Array`*
 
-*Defined in [trieRootOrdered.ts:30](url)*
+*Defined in [trieRootOrdered.ts:30](https://github.com/polkadot-js/common/blob/0021731/packages/trie-hash/src/trieRootOrdered.ts#L30)*
 
 **`name`** trieRootOrdered
 
@@ -36,7 +36,7 @@ stringToU8a('reindeer')
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `input` | `Array<Uint8Array>` | - |
 `codec` | `Codec` |  DEFAULT_CODEC |

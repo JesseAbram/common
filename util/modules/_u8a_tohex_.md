@@ -12,7 +12,7 @@
 
 ▸ **u8aToHex**(`value?`: `Uint8Array` | null, `bitLength`: number, `isPrefixed`: boolean): *string*
 
-*Defined in [u8a/toHex.ts:21](url)*
+*Defined in [u8a/toHex.ts:21](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/u8a/toHex.ts#L21)*
 
 **`name`** u8aToHex
 
@@ -32,9 +32,9 @@ u8aToHex(new Uint8Array([0x68, 0x65, 0x6c, 0x6c, 0xf])); // 0x68656c0f
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
-`value?` | `Uint8Array` | null | - |
+`value?` | `Uint8Array` \| null | - |
 `bitLength` | number |  -1 |
 `isPrefixed` | boolean | true |
 

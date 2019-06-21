@@ -12,11 +12,11 @@
 
 ▸ **buildTrie**(`input`: `Array<[Uint8Array, Uint8Array]>`, `cursor`: number, `codec`: `Codec`, `stream`: any): *`Uint8Array`*
 
-*Defined in [buildTrie.ts:77](url)*
+*Defined in [buildTrie.ts:77](https://github.com/polkadot-js/common/blob/0021731/packages/trie-hash/src/buildTrie.ts#L77)*
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `input` | `Array<[Uint8Array, Uint8Array]>` | - |
 `cursor` | number | 0 |

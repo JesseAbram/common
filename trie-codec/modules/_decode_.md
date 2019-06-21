@@ -12,13 +12,13 @@
 
 ▸ **decode**(`input`: null | `Uint8Array`): *`Uint8Array` | null | `Array<null | Uint8Array | [Uint8Array, Uint8Array]>`*
 
-*Defined in [decode.ts:76](url)*
+*Defined in [decode.ts:75](https://github.com/polkadot-js/common/blob/0021731/packages/trie-codec/src/decode.ts#L75)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`input` | null | `Uint8Array` |
+`input` | null \| `Uint8Array` |
 
 **Returns:** *`Uint8Array` | null | `Array<null | Uint8Array | [Uint8Array, Uint8Array]>`*
 

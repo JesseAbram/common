@@ -12,7 +12,7 @@
 
 ▸ **trieRoot**(`input`: `Array<TriePair>`, `codec`: `Codec`): *`Uint8Array`*
 
-*Defined in [trieRoot.ts:29](url)*
+*Defined in [trieRoot.ts:29](https://github.com/polkadot-js/common/blob/0021731/packages/trie-hash/src/trieRoot.ts#L29)*
 
 **`name`** trieRoot
 
@@ -36,7 +36,7 @@ v: stringToU8a('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `input` | `Array<TriePair>` | - |
 `codec` | `Codec` |  DEFAULT_CODEC |

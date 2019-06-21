@@ -12,7 +12,7 @@
 
 ▸ **isString**(`value`: any): *boolean*
 
-*Defined in [is/string.ts:19](url)*
+*Defined in [is/string.ts:19](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/string.ts#L19)*
 
 **`name`** isString
 

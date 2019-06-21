@@ -12,7 +12,7 @@
 
 ▸ **compactToU8a**(`_value`: `BN` | number): *`Uint8Array`*
 
-*Defined in [compact/toU8a.ts:27](url)*
+*Defined in [compact/toU8a.ts:27](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/compact/toU8a.ts#L27)*
 
 **`name`** compactToU8a
 
@@ -31,7 +31,7 @@ console.log(compactToU8a(511, 32)); // Uint8Array([0b11111101, 0b00000111])
 
 Name | Type |
 ------ | ------ |
-`_value` | `BN` | number |
+`_value` | `BN` \| number |
 
 **Returns:** *`Uint8Array`*
 

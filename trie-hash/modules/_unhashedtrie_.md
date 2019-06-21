@@ -12,11 +12,11 @@
 
 ▸ **unhashedTrie**(`input`: `Array<TriePair>`, `codec`: `Codec`): *`Uint8Array`*
 
-*Defined in [unhashedTrie.ts:14](url)*
+*Defined in [unhashedTrie.ts:14](https://github.com/polkadot-js/common/blob/0021731/packages/trie-hash/src/unhashedTrie.ts#L14)*
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
 `input` | `Array<TriePair>` | - |
 `codec` | `Codec` |  DEFAULT_CODEC |

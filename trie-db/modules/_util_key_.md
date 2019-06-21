@@ -17,7 +17,7 @@
 
 ▸ **computeExtensionKey**(`nibbles`: `Uint8Array`): *[EncodedPath](_types_.md#encodedpath)*
 
-*Defined in [util/key.ts:36](url)*
+*Defined in [util/key.ts:36](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L36)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **computeLeafKey**(`nibbles`: `Uint8Array`): *[EncodedPath](_types_.md#encodedpath)*
 
-*Defined in [util/key.ts:40](url)*
+*Defined in [util/key.ts:40](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L40)*
 
 **Parameters:**
 
@@ -49,7 +49,7 @@ ___
 
 ▸ **consumeCommonPrefix**(`left`: `Uint8Array`, `right`: `Uint8Array`): *[`Uint8Array`, `Uint8Array`, `Uint8Array`]*
 
-*Defined in [util/key.ts:56](url)*
+*Defined in [util/key.ts:56](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L56)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **getCommonPrefixLength**(`left`: `Uint8Array`, `right`: `Uint8Array`): *number*
 
-*Defined in [util/key.ts:46](url)*
+*Defined in [util/key.ts:46](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L46)*
 
 **Parameters:**
 
@@ -83,14 +83,14 @@ ___
 
 ▸ **keyEquals**(`key`: `Uint8Array` | null, `test`: `Uint8Array` | null): *boolean*
 
-*Defined in [util/key.ts:10](url)*
+*Defined in [util/key.ts:10](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L10)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`key` | `Uint8Array` | null |
-`test` | `Uint8Array` | null |
+`key` | `Uint8Array` \| null |
+`test` | `Uint8Array` \| null |
 
 **Returns:** *boolean*
 
@@ -100,14 +100,14 @@ ___
 
 ▸ **keyStartsWith**(`key`: `Uint8Array` | null, `partial`: `Uint8Array` | null): *boolean*
 
-*Defined in [util/key.ts:20](url)*
+*Defined in [util/key.ts:20](https://github.com/polkadot-js/common/blob/0021731/packages/trie-db/src/util/key.ts#L20)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`key` | `Uint8Array` | null |
-`partial` | `Uint8Array` | null |
+`key` | `Uint8Array` \| null |
+`partial` | `Uint8Array` \| null |
 
 **Returns:** *boolean*
 

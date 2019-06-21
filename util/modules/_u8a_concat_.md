@@ -12,7 +12,7 @@
 
 ▸ **u8aConcat**(...`_list`: `Array<Uint8Array | string>`): *`Uint8Array`*
 
-*Defined in [u8a/concat.ts:24](url)*
+*Defined in [u8a/concat.ts:24](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/u8a/concat.ts#L24)*
 
 **`name`** u8aConcat
 
@@ -37,7 +37,7 @@ new Uint8Array([4, 5, 6])
 
 Name | Type |
 ------ | ------ |
-`..._list` | `Array<Uint8Array | string>` |
+`..._list` | `Array<Uint8Array \| string>` |
 
 **Returns:** *`Uint8Array`*
 

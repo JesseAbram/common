@@ -40,7 +40,7 @@
 
 ● **pairs**: *`Array<KeyringPair>`*
 
-*Defined in [types.ts:56](url)*
+*Defined in [types.ts:56](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L56)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 ● **publicKeys**: *`Array<Uint8Array>`*
 
-*Defined in [types.ts:57](url)*
+*Defined in [types.ts:57](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L57)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 ● **type**: *`KeypairType`*
 
-*Defined in [types.ts:58](url)*
+*Defined in [types.ts:58](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L58)*
 
 ___
 
@@ -66,17 +66,17 @@ ___
 
 ▸ **addFromAddress**(`address`: string | `Uint8Array`, `meta?`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `encoded?`: `Uint8Array` | null, `type?`: `KeypairType`, `ignoreChecksum?`: undefined | false | true): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:65](url)*
+*Defined in [types.ts:65](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L65)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
+`address` | string \| `Uint8Array` |
 `meta?` | [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta) |
-`encoded?` | `Uint8Array` | null |
+`encoded?` | `Uint8Array` \| null |
 `type?` | `KeypairType` |
-`ignoreChecksum?` | undefined | false | true |
+`ignoreChecksum?` | undefined \| false \| true |
 
 **Returns:** *[KeyringPair](_types_.keyringpair.md)*
 
@@ -86,14 +86,14 @@ ___
 
 ▸ **addFromJson**(`pair`: [KeyringPair$Json](../modules/_types_.md#keyringpair$json), `ignoreChecksum?`: undefined | false | true): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:66](url)*
+*Defined in [types.ts:66](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L66)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `pair` | [KeyringPair$Json](../modules/_types_.md#keyringpair$json) |
-`ignoreChecksum?` | undefined | false | true |
+`ignoreChecksum?` | undefined \| false \| true |
 
 **Returns:** *[KeyringPair](_types_.keyringpair.md)*
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **addFromMnemonic**(`mnemonic`: string, `meta?`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type?`: `KeypairType`): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:67](url)*
+*Defined in [types.ts:67](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L67)*
 
 **Parameters:**
 
@@ -121,7 +121,7 @@ ___
 
 ▸ **addFromSeed**(`seed`: `Uint8Array`, `meta?`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type?`: `KeypairType`): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:68](url)*
+*Defined in [types.ts:68](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L68)*
 
 **Parameters:**
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **addFromUri**(`suri`: string, `meta?`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type?`: `KeypairType`): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:69](url)*
+*Defined in [types.ts:69](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L69)*
 
 **Parameters:**
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **addPair**(`pair`: [KeyringPair](_types_.keyringpair.md)): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:64](url)*
+*Defined in [types.ts:64](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L64)*
 
 **Parameters:**
 
@@ -173,7 +173,7 @@ ___
 
 ▸ **createFromUri**(`suri`: string, `meta?`: [KeyringPair$Meta](../modules/_types_.md#keyringpair$meta), `type?`: `KeypairType`): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:70](url)*
+*Defined in [types.ts:70](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L70)*
 
 **Parameters:**
 
@@ -191,14 +191,14 @@ ___
 
 ▸ **decodeAddress**(`encoded`: string | `Uint8Array`, `ignoreChecksum?`: undefined | false | true): *`Uint8Array`*
 
-*Defined in [types.ts:60](url)*
+*Defined in [types.ts:60](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L60)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`encoded` | string | `Uint8Array` |
-`ignoreChecksum?` | undefined | false | true |
+`encoded` | string \| `Uint8Array` |
+`ignoreChecksum?` | undefined \| false \| true |
 
 **Returns:** *`Uint8Array`*
 
@@ -208,13 +208,13 @@ ___
 
 ▸ **encodeAddress**(`key`: `Uint8Array` | string): *string*
 
-*Defined in [types.ts:61](url)*
+*Defined in [types.ts:61](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L61)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`key` | `Uint8Array` | string |
+`key` | `Uint8Array` \| string |
 
 **Returns:** *string*
 
@@ -224,13 +224,13 @@ ___
 
 ▸ **getPair**(`address`: string | `Uint8Array`): *[KeyringPair](_types_.keyringpair.md)*
 
-*Defined in [types.ts:71](url)*
+*Defined in [types.ts:71](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L71)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
+`address` | string \| `Uint8Array` |
 
 **Returns:** *[KeyringPair](_types_.keyringpair.md)*
 
@@ -240,7 +240,7 @@ ___
 
 ▸ **getPairs**(): *`Array<KeyringPair>`*
 
-*Defined in [types.ts:72](url)*
+*Defined in [types.ts:72](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L72)*
 
 **Returns:** *`Array<KeyringPair>`*
 
@@ -250,7 +250,7 @@ ___
 
 ▸ **getPublicKeys**(): *`Array<Uint8Array>`*
 
-*Defined in [types.ts:73](url)*
+*Defined in [types.ts:73](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L73)*
 
 **Returns:** *`Array<Uint8Array>`*
 
@@ -260,13 +260,13 @@ ___
 
 ▸ **removePair**(`address`: string | `Uint8Array`): *void*
 
-*Defined in [types.ts:74](url)*
+*Defined in [types.ts:74](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L74)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
+`address` | string \| `Uint8Array` |
 
 **Returns:** *void*
 
@@ -276,7 +276,7 @@ ___
 
 ▸ **setAddressPrefix**(`prefix`: `Prefix`): *void*
 
-*Defined in [types.ts:62](url)*
+*Defined in [types.ts:62](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L62)*
 
 **Parameters:**
 
@@ -292,14 +292,14 @@ ___
 
 ▸ **toJson**(`address`: string | `Uint8Array`, `passphrase?`: undefined | string): *[KeyringPair$Json](../modules/_types_.md#keyringpair$json)*
 
-*Defined in [types.ts:75](url)*
+*Defined in [types.ts:75](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L75)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`address` | string | `Uint8Array` |
-`passphrase?` | undefined | string |
+`address` | string \| `Uint8Array` |
+`passphrase?` | undefined \| string |
 
 **Returns:** *[KeyringPair$Json](../modules/_types_.md#keyringpair$json)*
 

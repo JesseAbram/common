@@ -12,14 +12,14 @@
 
 ▸ **formatElapsed**(`now?`: `Date` | null, `value?`: `BN` | [Compact](../interfaces/_format_types_.compact.md) | `Date` | number | null): *string*
 
-*Defined in [format/formatElapsed.ts:23](url)*
+*Defined in [format/formatElapsed.ts:23](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/format/formatElapsed.ts#L23)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`now?` | `Date` | null |
-`value?` | `BN` | [Compact](../interfaces/_format_types_.compact.md) | `Date` | number | null |
+`now?` | `Date` \| null |
+`value?` | `BN` \| [Compact](../interfaces/_format_types_.compact.md) \| `Date` \| number \| null |
 
 **Returns:** *string*
 

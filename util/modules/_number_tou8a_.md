@@ -12,7 +12,7 @@
 
 ▸ **numberToU8a**(`value?`: number | null, `bitLength`: number): *`Uint8Array`*
 
-*Defined in [number/toU8a.ts:22](url)*
+*Defined in [number/toU8a.ts:22](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/number/toU8a.ts#L22)*
 
 **`name`** numberToU8a
 
@@ -32,9 +32,9 @@ numberToU8a(0x1234); // => [0x12, 0x34]
 
 **Parameters:**
 
-Name | Type | Default value |
+Name | Type | Default |
 ------ | ------ | ------ |
-`value?` | number | null | - |
+`value?` | number \| null | - |
 `bitLength` | number |  -1 |
 
 **Returns:** *`Uint8Array`*

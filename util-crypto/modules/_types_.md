@@ -14,7 +14,7 @@
 
 Ƭ **Keypair**: *object*
 
-*Defined in [types.ts:5](url)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/types.ts#L5)*
 
 #### Type declaration:
 
@@ -22,9 +22,9 @@ ___
 
 ###  KeypairType
 
-Ƭ **KeypairType**: *ed25519 | sr25519*
+Ƭ **KeypairType**: *"ed25519" | "sr25519"*
 
-*Defined in [types.ts:15](url)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/types.ts#L15)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 Ƭ **Seedpair**: *object*
 
-*Defined in [types.ts:10](url)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/types.ts#L10)*
 
 #### Type declaration:
 
