@@ -64,7 +64,7 @@ an account may be obtained using `toJson` accompanied by the account passphrase.
 
 \+ **new Keyring**(`options`: [KeyringOptions](../modules/_types_.md#keyringoptions)): *[Keyring](_keyring_.keyring.md)*
 
-*Defined in [keyring.ts:33](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L33)*
+*Defined in [keyring.ts:33](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L33)*
 
 **Parameters:**
 
@@ -74,47 +74,43 @@ Name | Type | Default |
 
 **Returns:** *[Keyring](_keyring_.keyring.md)*
 
-___
-
 ## Properties
 
 ###  decodeAddress
 
-● **decodeAddress**: *`decode`* =  decodeAddress
+• **decodeAddress**: *`decode`* =  decodeAddress
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[decodeAddress](../interfaces/_types_.keyringinstance.md#decodeaddress)*
 
-*Defined in [keyring.ts:46](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L46)*
+*Defined in [keyring.ts:46](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L46)*
 
 ___
 
 ###  encodeAddress
 
-● **encodeAddress**: *`encode`* =  encodeAddress
+• **encodeAddress**: *`encode`* =  encodeAddress
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[encodeAddress](../interfaces/_types_.keyringinstance.md#encodeaddress)*
 
-*Defined in [keyring.ts:47](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L47)*
+*Defined in [keyring.ts:47](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L47)*
 
 ___
 
 ###  setAddressPrefix
 
-● **setAddressPrefix**: *`setPrefix`* =  setAddressPrefix
+• **setAddressPrefix**: *`setPrefix`* =  setAddressPrefix
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md).[setAddressPrefix](../interfaces/_types_.keyringinstance.md#setaddressprefix)*
 
-*Defined in [keyring.ts:48](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L48)*
-
-___
+*Defined in [keyring.ts:48](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L48)*
 
 ## Accessors
 
 ###  pairs
 
-● **get pairs**(): *`Array<KeyringPair>`*
+• **get pairs**(): *`Array<KeyringPair>`*
 
-*Defined in [keyring.ts:53](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L53)*
+*Defined in [keyring.ts:53](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L53)*
 
 **`description`** retrieve the pairs (alias for getPairs)
 
@@ -124,9 +120,9 @@ ___
 
 ###  publicKeys
 
-● **get publicKeys**(): *`Array<Uint8Array>`*
+• **get publicKeys**(): *`Array<Uint8Array>`*
 
-*Defined in [keyring.ts:60](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L60)*
+*Defined in [keyring.ts:60](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L60)*
 
 **`description`** retrieve the publicKeys (alias for getPublicKeys)
 
@@ -136,15 +132,13 @@ ___
 
 ###  type
 
-● **get type**(): *`KeypairType`*
+• **get type**(): *`KeypairType`*
 
-*Defined in [keyring.ts:67](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L67)*
+*Defined in [keyring.ts:67](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L67)*
 
 **`description`** Returns the type of the keyring, either ed25519 of sr25519
 
 **Returns:** *`KeypairType`*
-
-___
 
 ## Methods
 
@@ -154,7 +148,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:87](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L87)*
+*Defined in [keyring.ts:87](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L87)*
 
 **`name`** addFromAddress
 
@@ -183,7 +177,7 @@ ___
 
 ▸ **addFromJson**(`__namedParameters`: object, `ignoreChecksum?`: undefined | false | true): *[KeyringPair](../interfaces/_types_.keyringpair.md)*
 
-*Defined in [keyring.ts:100](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L100)*
+*Defined in [keyring.ts:100](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L100)*
 
 **`name`** addFromJson
 
@@ -210,7 +204,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:116](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L116)*
+*Defined in [keyring.ts:116](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L116)*
 
 **`name`** addFromMnemonic
 
@@ -239,7 +233,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:127](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L127)*
+*Defined in [keyring.ts:127](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L127)*
 
 **`name`** addFromSeed
 
@@ -267,7 +261,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:140](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L140)*
+*Defined in [keyring.ts:140](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L140)*
 
 **`name`** addFromUri
 
@@ -293,7 +287,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:75](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L75)*
+*Defined in [keyring.ts:75](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L75)*
 
 **`name`** addPair
 
@@ -315,7 +309,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:151](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L151)*
+*Defined in [keyring.ts:151](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L151)*
 
 **`name`** createFromUri
 
@@ -341,7 +335,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:192](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L192)*
+*Defined in [keyring.ts:192](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L192)*
 
 **`name`** getPair
 
@@ -366,7 +360,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:201](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L201)*
+*Defined in [keyring.ts:201](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L201)*
 
 **`name`** getPairs
 
@@ -384,7 +378,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:210](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L210)*
+*Defined in [keyring.ts:210](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L210)*
 
 **`name`** getPublicKeys
 
@@ -402,7 +396,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:222](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L222)*
+*Defined in [keyring.ts:222](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L222)*
 
 **`name`** removePair
 
@@ -424,7 +418,7 @@ ___
 
 *Implementation of [KeyringInstance](../interfaces/_types_.keyringinstance.md)*
 
-*Defined in [keyring.ts:234](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/keyring.ts#L234)*
+*Defined in [keyring.ts:234](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/keyring.ts#L234)*
 
 **`name`** toJson
 
@@ -443,5 +437,3 @@ Name | Type |
 `passphrase?` | undefined \| string |
 
 **Returns:** *[KeyringPair$Json](../modules/_types_.md#keyringpair$json)*
-
-___

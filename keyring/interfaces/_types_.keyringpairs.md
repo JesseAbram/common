@@ -21,9 +21,9 @@
 
 ###  add
 
-● **add**: *function*
+• **add**: *function*
 
-*Defined in [types.ts:49](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L49)*
+*Defined in [types.ts:49](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/types.ts#L49)*
 
 #### Type declaration:
 
@@ -39,9 +39,9 @@ ___
 
 ###  all
 
-● **all**: *function*
+• **all**: *function*
 
-*Defined in [types.ts:50](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L50)*
+*Defined in [types.ts:50](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/types.ts#L50)*
 
 #### Type declaration:
 
@@ -51,9 +51,9 @@ ___
 
 ###  get
 
-● **get**: *function*
+• **get**: *function*
 
-*Defined in [types.ts:51](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/types.ts#L51)*
 
 #### Type declaration:
 
@@ -69,9 +69,9 @@ ___
 
 ###  remove
 
-● **remove**: *function*
+• **remove**: *function*
 
-*Defined in [types.ts:52](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/types.ts#L52)*
 
 #### Type declaration:
 
@@ -82,5 +82,3 @@ ___
 Name | Type |
 ------ | ------ |
 `address` | string \| `Uint8Array` |
-
-___

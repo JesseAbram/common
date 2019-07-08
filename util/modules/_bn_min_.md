@@ -12,7 +12,7 @@
 
 ▸ **min**(...`items`: `BN`[]): *`BN`*
 
-*Defined in [bn/min.ts:22](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/bn/min.ts#L22)*
+*Defined in [bn/min.ts:22](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/bn/min.ts#L22)*
 
 **`name`** min
 
@@ -35,5 +35,3 @@ Name | Type |
 `...items` | `BN`[] |
 
 **Returns:** *`BN`*
-
-___

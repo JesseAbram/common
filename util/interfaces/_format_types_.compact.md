@@ -15,9 +15,9 @@
 
 ###  toBn
 
-● **toBn**: *function*
+• **toBn**: *function*
 
-*Defined in [format/types.ts:8](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/format/types.ts#L8)*
+*Defined in [format/types.ts:8](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/format/types.ts#L8)*
 
 #### Type declaration:
 
@@ -27,12 +27,10 @@ ___
 
 ###  unwrap
 
-● **unwrap**: *function*
+• **unwrap**: *function*
 
-*Defined in [format/types.ts:9](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/format/types.ts#L9)*
+*Defined in [format/types.ts:9](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/format/types.ts#L9)*
 
 #### Type declaration:
 
 ▸ (): *`BN` | `Date`*
-
-___

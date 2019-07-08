@@ -12,7 +12,7 @@
 
 ▸ **naclKeypairFromSeed**(`seed`: `Uint8Array`): *[Keypair](_types_.md#keypair)*
 
-*Defined in [nacl/keypair/fromSeed.ts:24](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/nacl/keypair/fromSeed.ts#L24)*
+*Defined in [nacl/keypair/fromSeed.ts:24](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/nacl/keypair/fromSeed.ts#L24)*
 
 **`name`** naclKeypairFromSeed
 
@@ -37,5 +37,3 @@ Name | Type |
 `seed` | `Uint8Array` |
 
 **Returns:** *[Keypair](_types_.md#keypair)*
-
-___

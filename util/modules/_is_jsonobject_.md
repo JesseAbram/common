@@ -12,7 +12,7 @@
 
 ▸ **isJsonObject**(`value`: any): *boolean*
 
-*Defined in [is/jsonObject.ts:34](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/jsonObject.ts#L34)*
+*Defined in [is/jsonObject.ts:34](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/is/jsonObject.ts#L34)*
 
 **`name`** isJsonObject
 
@@ -30,10 +30,10 @@ import { isJsonObject } from '@polkadot/util';
 
 isJsonObject({}); // => true
 isJsonObject({
-"Test": "1234",
-"NestedTest": {
-"Test": "5678"
-}
+ "Test": "1234",
+ "NestedTest": {
+  "Test": "5678"
+ }
 }); // => true
 isJsonObject(1234); // JSON parsable, but not an object =>  false
 isJsonObject(null); // JSON parsable, but not an object => false
@@ -47,5 +47,3 @@ Name | Type |
 `value` | any |
 
 **Returns:** *boolean*
-
-___

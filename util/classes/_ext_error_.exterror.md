@@ -51,7 +51,7 @@ throw new ExtError('some message', ExtError.CODES.METHOD_NOT_FOUND); // => error
 
 \+ **new ExtError**(`message`: string, `code`: number, `data?`: any): *[ExtError](_ext_error_.exterror.md)*
 
-*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L43)*
+*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L43)*
 
 **Parameters:**
 
@@ -63,102 +63,96 @@ Name | Type | Default |
 
 **Returns:** *[ExtError](_ext_error_.exterror.md)*
 
-___
-
 ## Properties
 
 ###  code
 
-● **code**: *number*
+• **code**: *number*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[code](../interfaces/_types_.exterrorinterface.md#code)*
 
-*Defined in [ext/error.ts:35](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L35)*
+*Defined in [ext/error.ts:35](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L35)*
 
 ___
 
 ###  data
 
-● **data**: *any*
+• **data**: *any*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[data](../interfaces/_types_.exterrorinterface.md#data)*
 
-*Defined in [ext/error.ts:37](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L37)*
+*Defined in [ext/error.ts:37](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L37)*
 
 ___
 
 ###  message
 
-● **message**: *string*
+• **message**: *string*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[message](../interfaces/_types_.exterrorinterface.md#message)*
 
 *Overrides void*
 
-*Defined in [ext/error.ts:39](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L39)*
+*Defined in [ext/error.ts:39](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L39)*
 
 ___
 
 ###  name
 
-● **name**: *string*
+• **name**: *string*
 
 *Overrides void*
 
-*Defined in [ext/error.ts:41](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L41)*
+*Defined in [ext/error.ts:41](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L41)*
 
 ___
 
 ###  stack
 
-● **stack**: *string*
+• **stack**: *string*
 
 *Implementation of [ExtErrorInterface](../interfaces/_types_.exterrorinterface.md).[stack](../interfaces/_types_.exterrorinterface.md#stack)*
 
 *Overrides void*
 
-*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L43)*
+*Defined in [ext/error.ts:43](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L43)*
 
 ___
 
 ### `Static` Error
 
-■ **Error**: *`ErrorConstructor`*
+▪ **Error**: *`ErrorConstructor`*
 
 Defined in /home/travis/build/polkadot-js/common/node_modules/typescript/lib/lib.es5.d.ts:984
-
-___
 
 ## Object literals
 
 ### `Static` CODES
 
-### ■ **CODES**: *object*
+### ▪ **CODES**: *object*
 
-*Defined in [ext/error.ts:60](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L60)*
+*Defined in [ext/error.ts:60](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L60)*
 
 ###  ASSERT
 
-● **ASSERT**: *number* =  -90009
+• **ASSERT**: *number* =  -90009
 
-*Defined in [ext/error.ts:61](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L61)*
+*Defined in [ext/error.ts:61](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L61)*
 
 ###  INVALID_JSONRPC
 
-● **INVALID_JSONRPC**: *number* =  -99998
+• **INVALID_JSONRPC**: *number* =  -99998
 
-*Defined in [ext/error.ts:63](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L63)*
+*Defined in [ext/error.ts:63](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L63)*
 
 ###  METHOD_NOT_FOUND
 
-● **METHOD_NOT_FOUND**: *number* =  -32601
+• **METHOD_NOT_FOUND**: *number* =  -32601
 
-*Defined in [ext/error.ts:64](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L64)*
+*Defined in [ext/error.ts:64](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L64)*
 
 ###  UNKNOWN
 
-● **UNKNOWN**: *number*
+• **UNKNOWN**: *number*
 
-*Defined in [ext/error.ts:62](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/ext/error.ts#L62)*
-
-___
+*Defined in [ext/error.ts:62](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/ext/error.ts#L62)*

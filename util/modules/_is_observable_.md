@@ -12,7 +12,7 @@
 
 ▸ **isObservable**(`value`: any): *boolean*
 
-*Defined in [is/observable.ts:26](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/observable.ts#L26)*
+*Defined in [is/observable.ts:26](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/is/observable.ts#L26)*
 
 **`name`** isBObservable
 
@@ -37,5 +37,3 @@ Name | Type |
 `value` | any |
 
 **Returns:** *boolean*
-
-___

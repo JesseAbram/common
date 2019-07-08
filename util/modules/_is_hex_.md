@@ -12,7 +12,7 @@
 
 ▸ **isHex**(`value`: any, `bitLength`: number, `ignoreLength`: boolean): *boolean*
 
-*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/is/hex.ts#L24)*
+*Defined in [is/hex.ts:24](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/is/hex.ts#L24)*
 
 **`name`** isHex
 
@@ -40,5 +40,3 @@ Name | Type | Default |
 `ignoreLength` | boolean | false |
 
 **Returns:** *boolean*
-
-___

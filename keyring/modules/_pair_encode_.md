@@ -12,7 +12,7 @@
 
 ▸ **encode**(`__namedParameters`: object, `passphrase?`: undefined | string): *`Uint8Array`*
 
-*Defined in [pair/encode.ts:12](https://github.com/polkadot-js/common/blob/0021731/packages/keyring/src/pair/encode.ts#L12)*
+*Defined in [pair/encode.ts:12](https://github.com/polkadot-js/common/blob/8a245f2/packages/keyring/src/pair/encode.ts#L12)*
 
 **Parameters:**
 
@@ -22,5 +22,3 @@ Name | Type |
 `passphrase?` | undefined \| string |
 
 **Returns:** *`Uint8Array`*
-
-___

@@ -24,9 +24,9 @@
 
 ###  chainCode
 
-● **get chainCode**(): *`Uint8Array`*
+• **get chainCode**(): *`Uint8Array`*
 
-*Defined in [key/DeriveJunction.ts:39](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L39)*
+*Defined in [key/DeriveJunction.ts:39](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L39)*
 
 **Returns:** *`Uint8Array`*
 
@@ -34,9 +34,9 @@ ___
 
 ###  isHard
 
-● **get isHard**(): *boolean*
+• **get isHard**(): *boolean*
 
-*Defined in [key/DeriveJunction.ts:43](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L43)*
+*Defined in [key/DeriveJunction.ts:43](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L43)*
 
 **Returns:** *boolean*
 
@@ -44,13 +44,11 @@ ___
 
 ###  isSoft
 
-● **get isSoft**(): *boolean*
+• **get isSoft**(): *boolean*
 
-*Defined in [key/DeriveJunction.ts:47](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L47)*
+*Defined in [key/DeriveJunction.ts:47](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L47)*
 
 **Returns:** *boolean*
-
-___
 
 ## Methods
 
@@ -58,7 +56,7 @@ ___
 
 ▸ **hard**(`value`: number | `BN` | string | `Uint8Array`): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:51](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L51)*
+*Defined in [key/DeriveJunction.ts:51](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L51)*
 
 **Parameters:**
 
@@ -74,7 +72,7 @@ ___
 
 ▸ **harden**(): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:55](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L55)*
+*Defined in [key/DeriveJunction.ts:55](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L55)*
 
 **Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
@@ -84,7 +82,7 @@ ___
 
 ▸ **soft**(`value`: number | `BN` | string | `Uint8Array`): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:61](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L61)*
+*Defined in [key/DeriveJunction.ts:61](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L61)*
 
 **Parameters:**
 
@@ -100,7 +98,7 @@ ___
 
 ▸ **soften**(): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:80](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L80)*
+*Defined in [key/DeriveJunction.ts:80](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L80)*
 
 **Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
@@ -110,7 +108,7 @@ ___
 
 ▸ **from**(`value`: string): *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
 
-*Defined in [key/DeriveJunction.ts:22](https://github.com/polkadot-js/common/blob/0021731/packages/util-crypto/src/key/DeriveJunction.ts#L22)*
+*Defined in [key/DeriveJunction.ts:22](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/key/DeriveJunction.ts#L22)*
 
 **Parameters:**
 
@@ -119,5 +117,3 @@ Name | Type |
 `value` | string |
 
 **Returns:** *[DeriveJunction](_key_derivejunction_.derivejunction.md)*
-
-___

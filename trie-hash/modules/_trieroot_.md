@@ -12,7 +12,7 @@
 
 ▸ **trieRoot**(`input`: `Array<TriePair>`, `codec`: `Codec`): *`Uint8Array`*
 
-*Defined in [trieRoot.ts:29](https://github.com/polkadot-js/common/blob/0021731/packages/trie-hash/src/trieRoot.ts#L29)*
+*Defined in [trieRoot.ts:29](https://github.com/polkadot-js/common/blob/8a245f2/packages/trie-hash/src/trieRoot.ts#L29)*
 
 **`name`** trieRoot
 
@@ -29,8 +29,8 @@ import { stringToU8a } from '@polkadot/util';
 import { trieRoot } from '@polkadot/trie-hash';
 
 trieRoot([{
-k: stringToU8a('A'),
-v: stringToU8a('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+  k: stringToU8a('A'),
+  v: stringToU8a('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 }]); // => 0xd23786fb4a010da3ce639d66d5e904a11dbc02746d1ce25029e53290cabf28ab
 ```
 
@@ -42,5 +42,3 @@ Name | Type | Default |
 `codec` | `Codec` |  DEFAULT_CODEC |
 
 **Returns:** *`Uint8Array`*
-
-___

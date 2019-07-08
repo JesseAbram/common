@@ -21,32 +21,30 @@
 
 ###  code
 
-● **code**: *number*
+• **code**: *number*
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/types.ts#L8)*
 
 ___
 
 ###  data
 
-● **data**: *any*
+• **data**: *any*
 
-*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/types.ts#L9)*
 
 ___
 
 ###  message
 
-● **message**: *string*
+• **message**: *string*
 
-*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/types.ts#L10)*
 
 ___
 
 ###  stack
 
-● **stack**: *string*
+• **stack**: *string*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/types.ts#L11)*
-
-___
+*Defined in [types.ts:11](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/types.ts#L11)*

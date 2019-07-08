@@ -12,7 +12,7 @@
 
 ▸ **assert**<**T**>(`test`: `Falsy` | `T`, `message`: string | `MessageFn`, `code`: number, `data?`: any): *boolean*
 
-*Defined in [assert.ts:28](https://github.com/polkadot-js/common/blob/0021731/packages/util/src/assert.ts#L28)*
+*Defined in [assert.ts:28](https://github.com/polkadot-js/common/blob/8a245f2/packages/util/src/assert.ts#L28)*
 
 **`name`** assert
 
@@ -34,7 +34,7 @@ assert(false, () => 'message'); // ExtError with 'message'
 
 **Type parameters:**
 
-■` T`
+▪ **T**
 
 **Parameters:**
 
@@ -46,5 +46,3 @@ Name | Type | Default |
 `data?` | any | - |
 
 **Returns:** *boolean*
-
-___
