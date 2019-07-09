@@ -12,7 +12,7 @@
 
 ▸ **mnemonicGenerate**(`numWords`: `WordCount`): *string*
 
-*Defined in [mnemonic/generate.ts:33](https://github.com/polkadot-js/common/blob/8a245f2/packages/util-crypto/src/mnemonic/generate.ts#L33)*
+*Defined in [mnemonic/generate.ts:33](https://github.com/polkadot-js/common/blob/5aea366/packages/util-crypto/src/mnemonic/generate.ts#L33)*
 
 **`name`** mnemonicGenerate
 
