@@ -22,7 +22,7 @@
 
 Ƭ **SiDef**: *object*
 
-*Defined in [format/si.ts:5](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/format/si.ts#L5)*
+*Defined in [format/si.ts:5](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/si.ts#L5)*
 
 #### Type declaration:
 
@@ -50,7 +50,7 @@
   { power: 24, value: 'Y', text: 'Yotta' }
 ]
 
-*Defined in [format/si.ts:13](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/format/si.ts#L13)*
+*Defined in [format/si.ts:13](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/si.ts#L13)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **SI_MID**: *`8`* = 8
 
-*Defined in [format/si.ts:11](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/format/si.ts#L11)*
+*Defined in [format/si.ts:11](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/si.ts#L11)*
 
 ## Functions
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **calcSi**(`text`: string, `decimals`: number): *[SiDef](_format_si_.md#sidef)*
 
-*Defined in [format/si.ts:33](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/format/si.ts#L33)*
+*Defined in [format/si.ts:33](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/si.ts#L33)*
 
 **Parameters:**
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **findSi**(`type`: string): *[SiDef](_format_si_.md#sidef)*
 
-*Defined in [format/si.ts:38](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/format/si.ts#L38)*
+*Defined in [format/si.ts:38](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/si.ts#L38)*
 
 **Parameters:**
 

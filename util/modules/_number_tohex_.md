@@ -12,7 +12,7 @@
 
 ▸ **numberToHex**(`value?`: number | null, `bitLength`: number): *string*
 
-*Defined in [number/toHex.ts:24](https://github.com/polkadot-js/common/blob/5aea366/packages/util/src/number/toHex.ts#L24)*
+*Defined in [number/toHex.ts:24](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/number/toHex.ts#L24)*
 
 **`name`** numberToHex
 

@@ -12,6 +12,6 @@
 
 Ƭ **PairInfo**: *object*
 
-*Defined in [pair/types.ts:5](https://github.com/polkadot-js/common/blob/5aea366/packages/keyring/src/pair/types.ts#L5)*
+*Defined in [pair/types.ts:5](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/pair/types.ts#L5)*
 
 #### Type declaration:
