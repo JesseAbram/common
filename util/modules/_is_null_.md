@@ -12,7 +12,7 @@
 
 ▸ **isNull**(`value?`: any): *boolean*
 
-*Defined in [is/null.ts:19](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/is/null.ts#L19)*
+*Defined in [is/null.ts:19](https://github.com/polkadot-js/common/blob/e5ab357/packages/util/src/is/null.ts#L19)*
 
 **`name`** isNull
 

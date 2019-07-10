@@ -22,7 +22,7 @@
 
 Ƭ **KeyringOptions**: *object*
 
-*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/polkadot-js/common/blob/e5ab357/packages/keyring/src/types.ts#L8)*
 
 #### Type declaration:
 
@@ -32,7 +32,7 @@ ___
 
 Ƭ **KeyringPair$Json**: *object*
 
-*Defined in [types.ts:25](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/types.ts#L25)*
+*Defined in [types.ts:25](https://github.com/polkadot-js/common/blob/e5ab357/packages/keyring/src/types.ts#L25)*
 
 #### Type declaration:
 
@@ -42,7 +42,7 @@ ___
 
 Ƭ **KeyringPair$JsonEncoding**: *object*
 
-*Defined in [types.ts:19](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/polkadot-js/common/blob/e5ab357/packages/keyring/src/types.ts#L19)*
 
 #### Type declaration:
 
@@ -52,7 +52,7 @@ ___
 
 Ƭ **KeyringPair$JsonVersion**: *"0" | "1" | "2"*
 
-*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/polkadot-js/common/blob/e5ab357/packages/keyring/src/types.ts#L17)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 Ƭ **KeyringPair$Meta**: *object*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/common/blob/0ec2dae/packages/keyring/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/common/blob/e5ab357/packages/keyring/src/types.ts#L13)*
 
 #### Type declaration:
 

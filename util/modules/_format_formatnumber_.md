@@ -12,7 +12,7 @@
 
 ▸ **formatNumber**(`_value?`: [Compact](../interfaces/_format_types_.compact.md) | `BN` | number | null): *string*
 
-*Defined in [format/formatNumber.ts:12](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/format/formatNumber.ts#L12)*
+*Defined in [format/formatNumber.ts:12](https://github.com/polkadot-js/common/blob/e5ab357/packages/util/src/format/formatNumber.ts#L12)*
 
 **Parameters:**
 

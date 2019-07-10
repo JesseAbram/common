@@ -12,6 +12,6 @@
 
 Ƭ **Codec**: *object*
 
-*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/0ec2dae/packages/trie-codec/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/polkadot-js/common/blob/e5ab357/packages/trie-codec/src/types.ts#L5)*
 
 #### Type declaration:

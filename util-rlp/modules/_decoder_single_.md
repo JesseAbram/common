@@ -12,7 +12,7 @@
 
 ▸ **decodeSingle**(`decode`: [DecodeFunc](_decoder_types_.md#decodefunc), `input`: `Uint8Array`): *[DecodeOutput](_decoder_types_.md#decodeoutput)*
 
-*Defined in [decoder/single.ts:7](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util-rlp/src/decoder/single.ts#L7)*
+*Defined in [decoder/single.ts:7](https://github.com/polkadot-js/common/blob/e5ab357/packages/util-rlp/src/decoder/single.ts#L7)*
 
 **Parameters:**
 

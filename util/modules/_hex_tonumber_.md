@@ -12,7 +12,7 @@
 
 ▸ **hexToNumber**(`value?`: string | null): *number*
 
-*Defined in [hex/toNumber.ts:21](https://github.com/polkadot-js/common/blob/0ec2dae/packages/util/src/hex/toNumber.ts#L21)*
+*Defined in [hex/toNumber.ts:21](https://github.com/polkadot-js/common/blob/e5ab357/packages/util/src/hex/toNumber.ts#L21)*
 
 **`name`** hexToNumber
 
