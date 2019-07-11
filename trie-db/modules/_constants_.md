@@ -16,7 +16,7 @@
 
 Ƭ **Constants**: *object*
 
-*Defined in [constants.ts:9](https://github.com/polkadot-js/common/blob/e5ab357/packages/trie-db/src/constants.ts#L9)*
+*Defined in [constants.ts:9](https://github.com/polkadot-js/common/blob/fcdec01/packages/trie-db/src/constants.ts#L9)*
 
 #### Type declaration:
 
@@ -26,7 +26,7 @@
 
 ▸ **default**(`codec`: `Codec`): *[Constants](_constants_.md#constants)*
 
-*Defined in [constants.ts:14](https://github.com/polkadot-js/common/blob/e5ab357/packages/trie-db/src/constants.ts#L14)*
+*Defined in [constants.ts:14](https://github.com/polkadot-js/common/blob/fcdec01/packages/trie-db/src/constants.ts#L14)*
 
 **Parameters:**
 
